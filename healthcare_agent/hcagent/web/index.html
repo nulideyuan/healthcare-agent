@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Controlled Healthcare Agent</title>
+<style>
+:root {
+  --bg: #f5f6f8; --panel: #ffffff; --ink: #1c2330; --muted: #5d6779; --line: #dfe3ea;
+  --accent: #1f5fbf; --accent-soft: #e6eefb; --user: #1f5fbf; --user-ink: #fff;
+  --ok: #1d7a46; --ok-soft: #e3f4ea; --warn: #9a6400; --warn-soft: #fbf0d9;
+  --bad: #b3261e; --bad-soft: #fbe5e3; --info-soft: #eef1f5; --code: #f0f2f6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12161d; --panel: #1a2029; --ink: #e5e9f0; --muted: #98a2b3; --line: #2c3441;
+    --accent: #7aa7f0; --accent-soft: #1f2d45; --user: #2f5fa8; --user-ink: #fff;
+    --ok: #6fcf97; --ok-soft: #173325; --warn: #f2c063; --warn-soft: #3a2f16;
+    --bad: #f28b82; --bad-soft: #3d1f1d; --info-soft: #222a35; --code: #151a22;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+header { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; padding: 10px 16px;
+  background: var(--panel); border-bottom: 1px solid var(--line); }
+header h1 { font-size: 16px; margin: 0; font-weight: 650; }
+.spacer { flex: 1; }
+select, button, textarea { font: inherit; color: inherit; }
+select { background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; }
+button { cursor: pointer; border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 5px 10px; }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+button:disabled { opacity: .5; cursor: default; }
+.badge { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 12px; background: var(--info-soft); color: var(--muted); white-space: nowrap; }
+.badge.ok { background: var(--ok-soft); color: var(--ok); }
+.badge.warn { background: var(--warn-soft); color: var(--warn); }
+.badge.bad { background: var(--bad-soft); color: var(--bad); }
+.badge.acc { background: var(--accent-soft); color: var(--accent); }
+main { display: grid; grid-template-columns: 240px minmax(0, 1fr) minmax(0, 1fr); gap: 16px; padding: 16px; height: calc(100vh - 56px); }
+#sidebar { padding: 10px 8px; gap: 2px; overflow-y: auto; }
+#sidebar .new { width: 100%; text-align: left; margin-bottom: 8px; font-weight: 600; }
+.group { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); padding: 10px 8px 4px; }
+.chat-item { display: flex; align-items: center; gap: 2px; border-radius: 6px; padding: 0 2px 0 8px; cursor: pointer; }
+.chat-item:hover { background: var(--info-soft); }
+.chat-item.on { background: var(--accent-soft); color: var(--accent); }
+.chat-item .t { flex: 1; min-width: 0; padding: 6px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.chat-item input { flex: 1; min-width: 0; font: inherit; color: inherit; background: var(--panel); border: 1px solid var(--accent); border-radius: 4px; padding: 3px 5px; margin: 2px 0; }
+.chat-item .act { border: none; background: none; padding: 2px 5px; color: var(--muted); font-size: 12px; visibility: hidden; }
+.chat-item:hover .act, .chat-item.on .act { visibility: visible; }
+.chat-item .act:hover { color: var(--ink); }
+.side-note { color: var(--muted); font-size: 12px; padding: 8px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; display: flex; flex-direction: column; min-height: 0; }
+.panel h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 0; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+#chat { flex: 1; overflow-y: auto; padding: 14px; display: flex; flex-direction: column; gap: 12px; }
+.msg { max-width: 92%; padding: 9px 12px; border-radius: 10px; }
+.msg.user { align-self: flex-end; background: var(--user); color: var(--user-ink); }
+.msg.bot { align-self: flex-start; background: var(--info-soft); border: 2px solid transparent; cursor: pointer; }
+.msg.bot.selected { border-color: var(--accent); }
+.msg.bot ul { margin: 4px 0; padding-left: 18px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.empty { color: var(--muted); margin: auto; text-align: center; max-width: 360px; }
+.composer { border-top: 1px solid var(--line); padding: 10px; display: flex; flex-direction: column; gap: 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-size: 12px; padding: 3px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); border: none; }
+.row { display: flex; gap: 8px; }
+textarea { flex: 1; resize: none; height: 44px; border: 1px solid var(--line); border-radius: 8px; padding: 10px; background: var(--panel); }
+#trace { flex: 1; overflow-y: auto; padding: 4px 14px 14px; }
+.sec { margin-top: 14px; }
+.sec h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 0 0 6px; }
+.pipe { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.pipe .st { font-size: 12px; padding: 2px 8px; border-radius: 6px; background: var(--info-soft); color: var(--muted); }
+.pipe .st.on { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.pipe .arrow { color: var(--muted); font-size: 11px; }
+.kv { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 3px 10px; }
+.kv div:nth-child(odd) { color: var(--muted); }
+.item { padding: 6px 8px; border-radius: 6px; background: var(--info-soft); margin-bottom: 4px; overflow-wrap: anywhere; }
+.item.critical { background: var(--bad-soft); }
+.item.warning { background: var(--warn-soft); }
+code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; }
+pre { background: var(--code); padding: 10px; border-radius: 6px; overflow-x: auto; font-size: 11px; max-height: 420px; }
+details summary { cursor: pointer; color: var(--muted); font-size: 12px; }
+.tabs { display: flex; gap: 2px; padding: 0 10px; border-bottom: 1px solid var(--line); }
+.tab { border: none; border-bottom: 2px solid transparent; border-radius: 0; background: none; padding: 9px 10px; color: var(--muted); font-size: 13px; }
+.tab.on { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+.tree { border-left: 2px solid var(--line); margin-left: 6px; padding-left: 12px; }
+.node { margin: 8px 0; }
+.node-h { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-weight: 600; }
+.leaf { font-size: 12px; padding: 4px 8px; border-radius: 6px; background: var(--info-soft); margin: 3px 0; overflow-wrap: anywhere; }
+.leaf.stale { opacity: .55; }
+.muted { color: var(--muted); font-weight: 400; font-size: 12px; }
+.note { font-size: 12px; color: var(--muted); padding: 6px 16px; }
+@media (max-width: 1100px) {
+  main { grid-template-columns: 200px minmax(0, 1fr); }
+  main > .panel:last-child { grid-column: 1 / -1; min-height: 60vh; }
+}
+@media (max-width: 860px) {
+  main { grid-template-columns: 1fr; height: auto; }
+  #sidebar { max-height: 30vh; }
+  main > .panel:last-child { grid-column: auto; }
+  #chat { min-height: 50vh; max-height: 65vh; }
+  #trace { max-height: none; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Controlled Healthcare Agent</h1>
+  <label>Signed in as <select id="user"></select></label>
+  <span id="scope" class="badge"></span>
+  <span class="spacer"></span>
+  <span id="clock" class="badge"></span>
+  <span id="llm" class="badge"></span>
+  <button id="forget" title="Delete all stored conversation memory for this user">Forget my history</button>
+</header>
+<main>
+  <nav class="panel" id="sidebar" aria-label="Chats">
+    <button class="new" id="reset">+ New chat</button>
+    <div id="chats"></div>
+  </nav>
+  <section class="panel">
+    <h2 id="chat-title">New chat</h2>
+    <div id="chat"><div class="empty">Ask a question, or pick an example below. Switching user starts a new conversation.</div></div>
+    <div class="composer">
+      <div class="chips" id="examples"></div>
+      <div class="row">
+        <textarea id="input" placeholder="Ask about a patient, the ED, or bed capacity…"></textarea>
+        <button class="primary" id="send">Send</button>
+      </div>
+    </div>
+  </section>
+  <section class="panel">
+    <div class="tabs">
+      <button class="tab on" data-tab="trace">Pipeline trace <span id="trace-id" class="mono"></span></button>
+      <button class="tab" data-tab="memory">Memory tree</button>
+    </div>
+    <div id="trace"><p class="empty" style="margin-top:40px">Select an answer to see how it was produced.</p></div>
+    <div id="memory" style="display:none;flex:1;overflow-y:auto;padding:4px 14px 14px"><p class="empty" style="margin-top:40px">The memory tree fills in as you ask questions.</p></div>
+  </section>
+</main>
+<div class="note">Synthetic data for research only. Not for patient care.</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let info = null, sessionId = null, busy = false, memoryView = null, chats = [];
+const states = [];
+
+function md(text) {
+  const lines = esc(text).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").split("\n");
+  let out = "", inList = false;
+  for (const l of lines) {
+    const m = l.match(/^\s*[-*•]\s+(.*)/);
+    if (m) { if (!inList) { out += "<ul>"; inList = true; } out += `<li>${m[1]}</li>`; continue; }
+    if (inList) { out += "</ul>"; inList = false; }
+    out += l.trim() ? `<div>${l}</div>` : "<div style='height:6px'></div>";
+  }
+  return out + (inList ? "</ul>" : "");
+}
+
+function currentUser() { return info.users.find((u) => u.user_id === $("user").value); }
+
+function renderHeader() {
+  const u = currentUser();
+  $("scope").textContent = u.role === "patient" ? `own record only (${u.scope[0]})`
+    : u.role === "operations" ? "no patient-identifiable data"
+    : u.scope ? (u.scope.length > 5 ? `care team: ${u.scope.length} patients` : `care team: ${u.scope.join(", ")}`) : "all patients";
+  const examples = info.examples_by_user[u.user_id] || info.examples[u.role];
+  $("examples").innerHTML = examples.map((q) => `<button class="chip">${esc(q)}</button>`).join("");
+  [...$("examples").children].forEach((b) => b.onclick = () => { $("input").value = b.textContent; send(); });
+}
+
+// The session ID is kept per user in this browser so a refresh resumes the stored conversation.
+const storeKey = () => "hc_session_" + $("user").value;
+function rememberSession(id) {
+  try { id ? localStorage.setItem(storeKey(), id) : localStorage.removeItem(storeKey()); } catch (e) { /* storage unavailable */ }
+}
+function storedSession() {
+  try { return localStorage.getItem(storeKey()); } catch (e) { return null; }
+}
+
+// Chat list: every stored session of the signed-in user, newest first, grouped by last activity.
+async function loadChats() {
+  if (!info.persistent_memory) { $("chats").innerHTML = '<div class="side-note">Chat history needs the persistent memory store.</div>'; return; }
+  const r = await fetch("/api/sessions?user_id=" + encodeURIComponent($("user").value));
+  chats = r.ok ? await r.json() : [];
+  renderChats();
+}
+
+function chatGroup(iso) {
+  const d = new Date(iso), now = new Date();
+  const days = Math.floor((new Date(now.toDateString()) - new Date(d.toDateString())) / 864e5);
+  return days <= 0 ? "Today" : days === 1 ? "Yesterday" : days < 7 ? "Previous 7 days" : days < 30 ? "Previous 30 days" : "Older";
+}
+
+function renderChats() {
+  if (!chats.length) { $("chats").innerHTML = '<div class="side-note">No chats yet.</div>'; return; }
+  let html = "", group = null;
+  for (const c of chats) {
+    const g = chatGroup(c.updated_at);
+    if (g !== group) { html += `<div class="group">${g}</div>`; group = g; }
+    html += `<div class="chat-item ${c.session_id === sessionId ? "on" : ""}" data-id="${esc(c.session_id)}"
+      title="${esc(c.title)} · ${c.turn_count} turn${c.turn_count === 1 ? "" : "s"}${c.patients ? " · " + esc(c.patients) : ""}">
+      <span class="t">${esc(c.title)}</span>
+      <button class="act" data-act="rename" title="Rename" aria-label="Rename">✎</button>
+      <button class="act" data-act="delete" title="Delete" aria-label="Delete">✕</button></div>`;
+  }
+  $("chats").innerHTML = html;
+  $("chats").querySelectorAll(".chat-item").forEach((el) => {
+    const id = el.dataset.id;
+    el.onclick = (e) => {
+      const act = e.target.dataset?.act;
+      if (act === "rename") return renameChat(el, id);
+      if (act === "delete") return deleteChat(id);
+      if (e.target.tagName !== "INPUT" && id !== sessionId) openChat(id);
+    };
+  });
+}
+
+function setTitle(t) { $("chat-title").textContent = t || "New chat"; }
+
+function renameChat(el, id) {
+  const c = chats.find((x) => x.session_id === id);
+  const span = el.querySelector(".t");
+  const input = document.createElement("input");
+  input.value = c.title;
+  span.replaceWith(input); input.focus(); input.select();
+  let done = false;
+  const finish = async (save) => {
+    if (done) return; done = true;
+    const title = input.value.trim();
+    if (save && title && title !== c.title) {
+      await fetch("/api/session/" + encodeURIComponent(id), { method: "PATCH", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ user_id: $("user").value, title }) });
+      if (id === sessionId) setTitle(title);
+    }
+    loadChats();
+  };
+  input.onkeydown = (e) => { if (e.key === "Enter") finish(true); if (e.key === "Escape") finish(false); };
+  input.onblur = () => finish(true);
+}
+
+async function deleteChat(id) {
+  const c = chats.find((x) => x.session_id === id);
+  if (!confirm(`Delete "${c.title}"? This removes the chat and its stored memory.`)) return;
+  await fetch(`/api/session/${encodeURIComponent(id)}?user_id=${encodeURIComponent($("user").value)}`, { method: "DELETE" });
+  if (id === sessionId) { rememberSession(null); sessionId = null; newConversation(false); }
+  loadChats();
+}
+
+async function openChat(sid) {
+  if (busy) return;
+  if (sessionId && sessionId !== sid) fetch("/api/reset?session_id=" + encodeURIComponent(sessionId), { method: "POST" });
+  const r = await fetch(`/api/session/${encodeURIComponent(sid)}?user_id=${encodeURIComponent($("user").value)}`);
+  if (!r.ok) { rememberSession(null); newConversation(false); return loadChats(); }
+  const data = await r.json();
+  sessionId = data.session_id; rememberSession(sessionId); setTitle(data.title);
+  memoryView = data.memory; renderMemory(); renderChats();
+  $("trace").innerHTML = '<p class="empty" style="margin-top:40px">Select an answer to see how it was produced.</p>';
+  $("trace-id").textContent = "";
+  $("chat").innerHTML = "";
+  if (!data.history.length) { $("chat").innerHTML = '<div class="empty">Ask a question, or pick an example below.</div>'; return; }
+  const note = document.createElement("div");
+  note.className = "empty"; note.style.margin = "0 auto";
+  note.textContent = `${data.history.length} earlier turn${data.history.length === 1 ? "" : "s"}. Earlier answers are shown without their traces.`;
+  $("chat").appendChild(note);
+  for (const turn of data.history) {
+    addMessage("user", esc(turn.question));
+    addMessage("bot", md(turn.answer) + `<div class="meta"><span class="badge ${ROUTE_CLASS[turn.route] || ""}">${esc(turn.route)}</span><span class="badge">from memory · ${esc(turn.asked_at.slice(0, 16).replace("T", " "))}</span></div>`);
+  }
+}
+
+async function resumeConversation() {
+  await loadChats();
+  const sid = storedSession();
+  sid ? openChat(sid) : newConversation(false);
+}
+
+function newConversation(explicit = true) {
+  if (busy && explicit) return;
+  if (sessionId && explicit) fetch("/api/reset?session_id=" + encodeURIComponent(sessionId), { method: "POST" });
+  if (explicit) rememberSession(null);
+  sessionId = null; memoryView = null; renderMemory(); setTitle(null); renderChats();
+  $("chat").innerHTML = '<div class="empty">New conversation as ' + esc(currentUser().name) + ".</div>";
+  $("trace").innerHTML = '<p class="empty" style="margin-top:40px">Select an answer to see how it was produced.</p>';
+  $("trace-id").textContent = "";
+}
+
+const AGENT_NAMES = { glucose_prediction: "Glucose Prediction Agent", patient_context: "Patient Context Agent" };
+const ROUTE_CLASS = { deterministic: "ok", denied: "bad", clarify: "warn", unsupported: "warn", not_found: "warn", llm_fallback: "acc", general_llm: "acc" };
+
+function addMessage(role, html, idx) {
+  $("chat").querySelector(".empty")?.remove();
+  const div = document.createElement("div");
+  div.className = "msg " + role;
+  div.innerHTML = html;
+  if (idx !== undefined) div.onclick = () => select(idx, div);
+  $("chat").appendChild(div);
+  $("chat").scrollTop = $("chat").scrollHeight;
+  return div;
+}
+
+function botMeta(s) {
+  const g = s.grounding;
+  const tools = s.tool_calls.length;
+  let html = `<span class="badge ${ROUTE_CLASS[s.route] || ""}">${esc(s.route)}</span>`;
+  html += `<span class="badge">${tools} tool call${tools === 1 ? "" : "s"}</span>`;
+  for (const a of s.agents || []) html += `<span class="badge acc">${esc(AGENT_NAMES[a] || a)}</span>`;
+  html += `<span class="badge">${s.answer_source === "llm" ? "LLM explanation" : "deterministic answer"}</span>`;
+  if (g && g.numbers_checked) {
+    const ok = g.unsupported_numbers.length === 0;
+    html += `<span class="badge ${ok ? "ok" : "warn"}">grounded ${g.numbers_supported}/${g.numbers_checked}</span>`;
+  }
+  return `<div class="meta">${html}</div>`;
+}
+
+function select(idx, el) {
+  document.querySelectorAll(".msg.bot.selected").forEach((e) => e.classList.remove("selected"));
+  el.classList.add("selected");
+  renderTrace(states[idx]);
+}
+
+function sec(title, body) { return body ? `<div class="sec"><h3>${title}</h3>${body}</div>` : ""; }
+
+function renderTrace(s) {
+  $("trace-id").textContent = s.request_id;
+  const t = s.timings_ms || {};
+  const stages = ["interpret", "policy", "route", "tools", "validate", "llm", "guard"];
+  const deterministicEnd = ["denied", "clarify", "not_found", "unsupported"].includes(s.route);
+  let pipe = stages.map((st) => `<span class="st ${st in t ? "on" : ""}">${st}</span>`).join('<span class="arrow">→</span>');
+  if (deterministicEnd) pipe += '<span class="arrow">→</span><span class="st on">respond</span>';
+
+  const p = s.parsed || {};
+  const req = `<div class="kv">
+    <div>Intents</div><div>${(p.intents || []).map((i) => `<span class="badge acc">${esc(i)}</span>`).join(" ")} <span class="badge">${esc(p.parser)}</span></div>
+    <div>Target patient</div><div class="mono">${esc(s.target_patient_id || "—")}</div>
+    <div>Route</div><div><span class="badge ${ROUTE_CLASS[s.route] || ""}">${esc(s.route)}</span> ${esc(s.route_reason)}</div>
+    ${(s.agents || []).length ? `<div>Agents</div><div>${s.agents.map((a) => `<span class="badge acc">${esc(AGENT_NAMES[a] || a)}</span> <span class="mono">${esc((s.agent_tasks[a] || []).join(", "))}</span>`).join("<br>")}</div>` : ""}
+    ${p.as_of ? `<div>Replay time</div><div class="mono">${esc(p.as_of)}</div>` : ""}
+    <div>LLM may call</div><div class="mono">${esc((s.llm_allowed_tools || []).join(", ") || "no tools")}</div>
+    ${s.unsupported?.length ? `<div>Not available</div><div>${esc(s.unsupported.join("; "))}</div>` : ""}
+    <div>Simulated now</div><div class="mono">${esc(s.clock)}</div>
+  </div>`;
+
+  const perms = s.permissions.map((d) => `<div class="item ${d.allowed ? "" : "critical"}">
+    <span class="badge ${d.allowed ? "ok" : "bad"}">${d.allowed ? "ALLOW" : "DENY"}</span>
+    <span class="mono">${esc(d.rule)}</span> · ${esc(d.tool || "request")}${d.patient_id ? ` · ${esc(d.patient_id)}` : ""}<br>${esc(d.reason)}</div>`).join("");
+
+  const calls = s.tool_calls.map((c) => {
+    const cls = c.status === "ok" ? "ok" : c.status === "cached" ? "acc" : c.status === "error" ? "warn" : "bad";
+    return `<div class="item"><span class="badge">${esc(c.caller)}</span> <span class="badge ${cls}">${esc(c.status)}${c.error_code ? " " + esc(c.error_code) : ""}</span>
+      <span class="mono">${esc(c.tool)}(${esc(JSON.stringify(c.args))})</span></div>`;
+  }).join("");
+
+  const order = ["context", "clinical", "operational", "data_quality"];
+  const findings = order.map((cat) => {
+    const fs = s.findings.filter((f) => f.category === cat);
+    if (!fs.length) return "";
+    return `<div style="margin:6px 0 2px;color:var(--muted);font-size:12px">${cat.replace("_", " ")}</div>` +
+      fs.map((f) => `<div class="item ${f.severity}"><span class="mono">${esc(f.code)}</span> — ${esc(f.message)}</div>`).join("");
+  }).join("");
+
+  const sources = s.sources.map((r) => `<div class="item mono">${r.from_memory ? '<span class="badge acc">memory</span> ' : ""}${esc(r.source)} @ ${esc(r.data_timestamp || "n/a")} · ${esc(r.record_ids.slice(0, 6).join(", "))}${r.record_ids.length > 6 ? ` … (+${r.record_ids.length - 6})` : ""}</div>`).join("");
+
+  const g = s.grounding;
+  const grounding = g ? `<div class="kv">
+    <div>Numbers/dates</div><div>${g.numbers_supported} of ${g.numbers_checked} found in evidence</div>
+    <div>Unsupported</div><div class="mono">${esc(g.unsupported_numbers.join(", ") || "none")}</div>
+    <div>Foreign IDs</div><div class="mono">${esc(g.foreign_patient_ids.join(", ") || "none")}${g.blocked ? ' <span class="badge bad">answer blocked</span>' : ""}</div>
+  </div>` : "";
+
+  const timing = Object.entries(t).map(([k, v]) => `${k} ${v} ms`).join(" · ");
+  const errors = (s.errors || []).map((e) => `<div class="item warning mono">${esc(e)}</div>`).join("");
+
+  $("trace").innerHTML =
+    sec("Pipeline", `<div class="pipe">${pipe}</div>`) +
+    sec("Request", req) +
+    sec("Memory context given to the LLM", (s.conversation || []).length
+      ? s.conversation.map((t) => `<div class="item">turn ${t.turn_no}${t.patient_id ? " · " + esc(t.patient_id) : ""}: ${esc(t.question)}</div>`).join("")
+      : "") +
+    sec("Permission checks", perms) +
+    sec("Tool calls", calls) +
+    sec("Deterministic findings", findings) +
+    sec("Provenance", sources) +
+    sec("Grounding check", grounding) +
+    sec("Errors", errors) +
+    sec("Timing", `<div class="mono">${esc(timing)} · LLM runs ${s.llm_calls}</div>`) +
+    `<div class="sec"><details><summary>Full shared state (JSON)</summary><pre>${esc(JSON.stringify(s, null, 2))}</pre></details></div>`;
+}
+
+
+function renderMemory() {
+  const m = memoryView;
+  if (!m) { $("memory").innerHTML = '<p class="empty" style="margin-top:40px">The memory tree fills in as you ask questions.</p>'; return; }
+  const fact = (f) => `<div class="leaf ${f.fresh ? "" : "stale"}"><span class="badge ${f.fresh ? "ok" : ""}">${f.fresh ? "reusable" : "expired"}</span>
+    <span class="mono">${esc(f.tool)}</span> · ${esc(f.source)} @ ${esc(f.data_timestamp || "n/a")} · from ${esc(f.request_id)} · ${f.age_s}s / TTL ${f.ttl_s}s</div>`;
+  const turn = (t) => `<div class="leaf">turn ${t.turn_no}: ${esc(t.question)} <span class="badge ${ROUTE_CLASS[t.route] || ""}">${esc(t.route)}</span>
+    ${t.cached_tools.length ? `<span class="badge acc">reused: ${esc(t.cached_tools.join(", "))}</span>` : ""}</div>`;
+  const branch = (title, b, extra = "") => `<div class="node"><div class="node-h">${title} ${extra}</div><div class="tree">
+    ${(b.facts || []).length ? `<div class="muted">facts</div>${b.facts.map(fact).join("")}` : ""}
+    ${b.turns.length ? `<div class="muted">turns</div>${b.turns.map(turn).join("")}` : '<div class="muted">no turns</div>'}</div></div>`;
+  const patients = m.patients.map((p) => branch(`patient <span class="mono">${esc(p.patient_id)}</span>`, p,
+    (p.patient_id === m.focus_patient_id ? '<span class="badge acc">focus</span>' : "") +
+    (p.patient_id === m.previous_patient_id ? '<span class="badge">previous</span>' : ""))).join("");
+  $("memory").innerHTML = `
+    <div class="sec"><div class="kv">
+      <div>Session</div><div class="mono">${esc(m.session_id)}</div>
+      <div>User</div><div>${esc(m.user_id)} (${esc(m.role)})</div>
+      <div>Turns</div><div>${m.turn_count}</div>
+      <div>Focus</div><div class="mono">${esc(m.focus_patient_id || "—")}</div>
+      <div>Previous</div><div class="mono">${esc(m.previous_patient_id || "—")}</div>
+    </div></div>
+    <div class="sec"><h3>Patients (access granted only)</h3>${patients || '<div class="muted">none yet</div>'}</div>
+    <div class="sec"><h3>Operational</h3>${branch("ED and beds", m.operational)}</div>
+    <div class="sec"><h3>General / denied / not found</h3>${branch("other turns", m.general)}</div>
+    <p class="muted">The LLM only sees turns from the target patient's branch. Facts are reused only for identical, re-authorised calls within their TTL.</p>`;
+}
+
+async function send() {
+  const text = $("input").value.trim();
+  if (!text || busy) return;
+  busy = true; $("send").disabled = true; $("input").value = "";
+  addMessage("user", esc(text));
+  const pending = addMessage("bot", '<span style="color:var(--muted)">Working…</span>');
+  try {
+    const r = await fetch("/api/ask", { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ user_id: $("user").value, session_id: sessionId, message: text }) });
+    if (!r.ok) throw new Error(await r.text());
+    const data = await r.json();
+    const firstTurn = sessionId !== data.session_id;
+    sessionId = data.session_id; rememberSession(sessionId); setTitle(data.title);
+    memoryView = data.memory; renderMemory();
+    loadChats();
+    if (firstTurn && info.llm) setTimeout(async () => {
+      await loadChats();
+      const c = chats.find((x) => x.session_id === sessionId);
+      if (c) setTitle(c.title);
+    }, 4000);
+    const idx = states.push(data.state) - 1;
+    pending.innerHTML = md(data.answer) + botMeta(data.state);
+    pending.onclick = () => select(idx, pending);
+    select(idx, pending);
+  } catch (e) {
+    pending.innerHTML = `<span style="color:var(--bad)">Request failed: ${esc(e.message)}</span>`;
+  } finally {
+    busy = false; $("send").disabled = false; $("input").focus();
+  }
+}
+
+async function init() {
+  info = await (await fetch("/api/info")).json();
+  const groups = { clinician: "Clinicians", operations: "Operations", patient: "Patients" };
+  $("user").innerHTML = Object.entries(groups).map(([role, label]) =>
+    `<optgroup label="${label}">` + info.users.filter((u) => u.role === role)
+      .map((u) => `<option value="${esc(u.user_id)}">${esc(u.name)} · ${esc(u.user_id)}</option>`).join("") + "</optgroup>").join("");
+  $("clock").textContent = "Hospital now: " + info.clock + (info.diabetes ? " · Diabetes cohort: end of each recording" : "");
+  $("llm").textContent = info.llm ? "LLM on" : "LLM off (deterministic)";
+  $("llm").className = "badge " + (info.llm ? "ok" : "warn");
+  renderHeader();
+  resumeConversation();
+  $("user").onchange = () => { renderHeader(); resumeConversation(); };
+  $("reset").onclick = () => newConversation(true);
+  $("forget").onclick = async () => {
+    if (!confirm("Delete all stored conversation memory for " + currentUser().name + "?")) return;
+    const r = await (await fetch("/api/forget?user_id=" + encodeURIComponent($("user").value), { method: "POST" })).json();
+    rememberSession(null); sessionId = null; newConversation(false); loadChats();
+    addMessage("bot", `<span style="color:var(--muted)">Deleted ${r.deleted_sessions} stored conversation(s).</span>`);
+  };
+  if (!info.persistent_memory) $("forget").style.display = "none";
+  document.querySelectorAll(".tab").forEach((b) => b.onclick = () => {
+    document.querySelectorAll(".tab").forEach((x) => x.classList.toggle("on", x === b));
+    $("trace").style.display = b.dataset.tab === "trace" ? "" : "none";
+    $("memory").style.display = b.dataset.tab === "memory" ? "block" : "none";
+  });
+  $("send").onclick = send;
+  $("input").addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); } });
+}
+init();
+</script>
+</body>
+</html>

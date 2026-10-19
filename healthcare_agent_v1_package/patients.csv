@@ -1,0 +1,501 @@
+patient_id,age,sex,height_m,weight_kg,blood_group,chronic_conditions
+P0001,60,Female,1.6,79.1,O+,Hypertension
+P0002,26,Male,1.79,81.2,AB+,None
+P0003,36,Female,1.75,95.1,B+,Chronic Kidney Disease
+P0004,63,Female,1.61,75.0,A+,None
+P0005,72,Male,1.78,82.5,O+,Atrial Fibrillation|Chronic Kidney Disease
+P0006,45,Female,1.65,81.0,A+,None
+P0007,62,Female,1.71,111.5,AB+,Type 2 Diabetes
+P0008,36,Female,1.73,98.4,AB+,None
+P0009,36,Male,1.71,88.8,AB+,Chronic Kidney Disease
+P0010,29,Male,1.82,78.0,O-,Type 2 Diabetes
+P0011,58,Female,1.75,86.2,B+,None
+P0012,55,Male,1.8,98.1,A-,Asthma
+P0013,44,Male,1.73,76.5,B+,None
+P0014,35,Female,1.76,56.5,A-,Heart Failure
+P0015,66,Female,1.74,94.2,A+,None
+P0016,44,Male,1.85,89.0,A+,Hypertension
+P0017,34,Male,1.82,91.9,A-,COPD
+P0018,57,Male,1.83,85.0,O+,Hypertension
+P0019,46,Male,1.75,63.6,A+,Hypertension
+P0020,54,Male,1.82,97.1,A+,Type 2 Diabetes
+P0021,45,Male,1.77,57.1,A-,None
+P0022,26,Female,1.6,74.4,A+,Hypertension
+P0023,81,Female,1.65,83.9,AB+,Hypertension|Atrial Fibrillation|Type 2 Diabetes
+P0024,18,Male,1.81,92.5,A+,None
+P0025,23,Female,1.69,69.3,A+,Heart Failure
+P0026,87,Male,1.76,67.1,O-,COPD|Type 2 Diabetes|Hypertension
+P0027,84,Male,1.68,66.8,A-,Type 2 Diabetes|COPD
+P0028,49,Female,1.56,52.9,A-,Hypertension
+P0029,95,Male,2.01,117.8,AB+,Hypertension|Type 2 Diabetes|COPD
+P0030,41,Male,1.77,102.0,A+,Hypertension
+P0031,32,Female,1.55,58.8,AB+,Heart Failure
+P0032,91,Female,1.69,91.7,AB-,Hypertension|COPD|Type 2 Diabetes
+P0033,36,Male,1.85,76.3,O-,Hypertension
+P0034,50,Female,1.68,66.6,A-,None
+P0035,44,Female,1.58,50.8,AB+,Asthma
+P0036,57,Female,1.67,79.4,A-,Asthma
+P0037,45,Male,1.87,102.2,O-,Hypertension
+P0038,28,Female,1.57,87.7,AB+,Hypertension
+P0039,45,Male,1.9,76.7,AB+,Asthma
+P0040,45,Male,1.78,82.9,B-,None
+P0041,83,Male,1.79,97.2,B+,None
+P0042,52,Male,1.71,60.4,B+,None
+P0043,46,Female,1.75,61.6,O-,None
+P0044,43,Male,1.75,98.7,B-,Atrial Fibrillation
+P0045,50,Male,1.72,76.4,AB+,Heart Failure
+P0046,31,Female,1.69,80.5,AB-,COPD
+P0047,36,Female,1.66,53.4,O+,Hypertension
+P0048,79,Female,1.62,61.9,B+,None
+P0049,50,Female,1.6,62.1,B-,Type 2 Diabetes
+P0050,52,Female,1.54,45.9,B-,None
+P0051,26,Male,1.69,104.4,AB-,None
+P0052,29,Male,1.75,88.1,O+,Type 2 Diabetes
+P0053,48,Female,1.74,88.6,O-,Hypertension
+P0054,25,Male,1.76,79.3,A+,None
+P0055,42,Male,1.82,106.9,B-,Type 2 Diabetes
+P0056,55,Female,1.68,65.6,AB-,None
+P0057,51,Female,1.85,120.4,O-,Hypertension
+P0058,30,Female,1.78,89.9,A+,Hypertension
+P0059,73,Male,1.82,70.3,AB+,Asthma|Heart Failure
+P0060,47,Female,1.67,71.6,A-,Chronic Kidney Disease
+P0061,18,Female,1.66,76.9,O+,None
+P0062,46,Male,1.64,77.2,AB-,None
+P0063,21,Female,1.75,77.5,A+,Heart Failure
+P0064,46,Male,1.88,106.1,O-,Type 2 Diabetes
+P0065,63,Female,1.82,97.0,O+,COPD
+P0066,55,Female,1.62,84.4,A+,None
+P0067,70,Female,1.66,91.2,AB-,None
+P0068,92,Female,1.74,57.0,B+,None
+P0069,29,Female,1.64,93.8,AB-,Asthma
+P0070,32,Female,1.68,58.3,O-,None
+P0071,60,Male,1.87,105.5,AB+,COPD
+P0072,55,Female,1.71,103.5,O-,Atrial Fibrillation
+P0073,66,Male,1.65,94.4,A-,Type 2 Diabetes|Asthma
+P0074,71,Male,1.87,98.7,AB-,Hypertension|Type 2 Diabetes
+P0075,50,Female,1.67,80.9,AB+,Type 2 Diabetes
+P0076,51,Female,1.8,75.0,A+,Asthma
+P0077,71,Male,1.78,107.4,O+,Atrial Fibrillation|Hypertension
+P0078,95,Female,1.66,46.8,AB+,Hypertension|Type 2 Diabetes
+P0079,20,Female,1.58,46.6,A+,Type 2 Diabetes
+P0080,65,Female,1.7,56.8,AB+,Chronic Kidney Disease
+P0081,44,Female,1.72,90.7,O+,Heart Failure
+P0082,56,Male,1.84,95.4,A+,None
+P0083,39,Female,1.67,78.2,O-,None
+P0084,45,Male,1.82,84.9,AB+,None
+P0085,71,Female,1.52,46.8,AB-,None
+P0086,18,Female,1.63,82.1,AB-,Asthma
+P0087,76,Male,1.89,95.2,AB+,None
+P0088,51,Female,1.79,88.0,A+,Hypertension
+P0089,22,Male,1.71,73.5,A-,Atrial Fibrillation
+P0090,24,Male,1.81,70.7,B-,None
+P0091,51,Male,1.63,84.6,O+,None
+P0092,42,Female,1.59,59.7,O+,Heart Failure
+P0093,60,Male,1.81,111.0,A-,COPD
+P0094,76,Female,1.65,89.3,AB+,None
+P0095,51,Female,1.71,108.6,AB+,None
+P0096,55,Male,1.79,104.4,B+,Heart Failure
+P0097,53,Male,1.81,74.3,B+,None
+P0098,18,Male,1.69,70.3,AB-,Type 2 Diabetes
+P0099,77,Female,1.6,73.7,A+,Heart Failure|Hypertension
+P0100,46,Male,1.87,73.7,A+,Type 2 Diabetes
+P0101,58,Female,1.79,88.0,O+,COPD
+P0102,50,Female,1.62,76.7,AB+,COPD
+P0103,66,Female,1.73,97.7,B-,None
+P0104,47,Male,1.82,84.1,AB-,Asthma
+P0105,46,Female,1.52,44.4,B-,Hypertension
+P0106,38,Female,1.56,41.4,B+,Atrial Fibrillation
+P0107,63,Male,1.74,89.1,O+,Type 2 Diabetes
+P0108,56,Male,1.77,97.5,O-,Hypertension
+P0109,39,Male,1.85,121.4,O-,Chronic Kidney Disease
+P0110,82,Male,1.76,106.2,AB-,Asthma|Type 2 Diabetes|Hypertension
+P0111,34,Female,1.64,78.9,AB+,None
+P0112,67,Male,1.74,99.8,AB+,Hypertension|Chronic Kidney Disease
+P0113,59,Female,1.67,71.6,O+,Hypertension
+P0114,32,Male,1.84,103.1,O+,COPD
+P0115,60,Female,1.84,89.9,AB-,COPD
+P0116,32,Female,1.58,55.9,O+,Atrial Fibrillation
+P0117,55,Female,1.62,83.1,B+,None
+P0118,50,Female,1.63,79.3,A+,COPD
+P0119,52,Female,1.7,64.5,B-,Atrial Fibrillation
+P0120,82,Female,1.78,81.4,AB+,Atrial Fibrillation|Asthma
+P0121,31,Female,1.74,113.2,A+,COPD
+P0122,58,Male,1.91,75.3,A-,Asthma
+P0123,19,Male,1.68,70.0,AB+,Atrial Fibrillation
+P0124,59,Male,1.64,79.8,AB+,Hypertension
+P0125,40,Male,1.73,89.2,B-,Hypertension
+P0126,18,Female,1.72,64.0,O-,Asthma
+P0127,63,Male,1.72,60.1,A-,Hypertension
+P0128,41,Female,1.8,80.1,O+,None
+P0129,59,Male,1.73,88.1,A+,Chronic Kidney Disease
+P0130,82,Female,1.6,43.5,AB+,Hypertension|COPD
+P0131,47,Male,1.76,80.6,B+,None
+P0132,66,Male,1.82,63.7,A+,Atrial Fibrillation|Hypertension
+P0133,46,Female,1.67,84.2,A-,Asthma
+P0134,18,Male,1.79,80.0,B+,Hypertension
+P0135,89,Male,1.69,85.8,O-,None
+P0136,35,Female,1.69,95.1,O-,Atrial Fibrillation
+P0137,53,Female,1.61,65.4,B+,Hypertension
+P0138,20,Male,1.82,80.4,A+,COPD
+P0139,59,Female,1.62,52.9,B+,Hypertension
+P0140,95,Male,1.81,95.1,O-,Type 2 Diabetes|Atrial Fibrillation|Heart Failure
+P0141,44,Female,1.64,83.7,A-,None
+P0142,44,Female,1.65,78.0,O-,Hypertension
+P0143,18,Male,1.71,67.1,O-,None
+P0144,33,Female,1.61,67.3,A+,Hypertension
+P0145,32,Male,1.78,102.8,O-,Hypertension
+P0146,65,Female,1.66,83.7,O+,None
+P0147,68,Male,1.7,77.8,B+,COPD|Type 2 Diabetes
+P0148,68,Male,1.75,66.4,B+,None
+P0149,77,Male,1.6,49.2,B-,Hypertension|Type 2 Diabetes
+P0150,70,Female,1.59,53.5,A+,Hypertension|Type 2 Diabetes
+P0151,59,Female,1.69,88.7,B+,None
+P0152,19,Female,1.5,72.5,A-,COPD
+P0153,18,Female,1.69,90.9,B-,Hypertension
+P0154,46,Female,1.61,70.1,O+,Type 2 Diabetes
+P0155,95,Male,1.92,121.3,A-,Asthma|COPD|Hypertension
+P0156,67,Female,1.74,91.8,A-,None
+P0157,18,Female,1.69,68.9,AB+,Asthma
+P0158,90,Female,1.79,90.8,A-,Hypertension|Heart Failure|COPD
+P0159,26,Male,1.78,84.2,B+,COPD
+P0160,54,Female,1.7,78.7,B+,Heart Failure
+P0161,50,Female,1.62,53.8,B-,Heart Failure
+P0162,18,Female,1.67,89.7,B+,None
+P0163,75,Male,1.78,71.6,B-,Type 2 Diabetes|Heart Failure
+P0164,81,Female,1.77,82.4,O-,COPD|Hypertension|Asthma
+P0165,59,Female,1.64,63.8,A+,Type 2 Diabetes
+P0166,59,Male,1.8,68.3,O+,None
+P0167,84,Male,1.69,48.6,AB+,Type 2 Diabetes|COPD
+P0168,79,Female,1.48,63.7,AB-,Hypertension|Atrial Fibrillation
+P0169,38,Male,1.71,74.0,O-,None
+P0170,92,Female,1.65,100.5,AB+,Chronic Kidney Disease|Type 2 Diabetes
+P0171,61,Female,1.93,117.1,AB+,COPD
+P0172,46,Male,1.74,96.0,A-,Type 2 Diabetes
+P0173,54,Male,1.81,95.7,A+,Atrial Fibrillation
+P0174,33,Male,1.66,73.6,A-,Hypertension
+P0175,71,Male,1.67,69.4,A-,Hypertension|Heart Failure
+P0176,69,Female,1.69,49.0,A+,None
+P0177,53,Male,1.76,82.0,B+,Atrial Fibrillation
+P0178,73,Male,1.69,59.7,O+,None
+P0179,60,Female,1.78,78.4,B-,None
+P0180,18,Male,1.71,70.5,A-,None
+P0181,54,Male,1.76,100.5,A+,Asthma
+P0182,64,Male,1.66,80.0,AB+,Asthma
+P0183,87,Male,1.73,112.9,O+,Hypertension|Chronic Kidney Disease|COPD
+P0184,65,Male,1.73,96.2,O+,Chronic Kidney Disease
+P0185,33,Female,1.72,100.9,A-,None
+P0186,47,Male,1.71,80.8,A+,COPD
+P0187,93,Male,1.77,91.3,A-,Hypertension|Atrial Fibrillation|COPD
+P0188,88,Female,1.7,86.9,O-,None
+P0189,52,Male,1.86,109.0,B-,Type 2 Diabetes
+P0190,64,Male,1.88,100.7,B-,Hypertension
+P0191,18,Male,1.81,55.7,B+,Hypertension
+P0192,64,Female,1.59,58.9,B-,Asthma
+P0193,95,Male,1.78,92.3,B+,None
+P0194,56,Male,1.7,76.4,B-,None
+P0195,25,Female,1.66,63.8,O-,Hypertension
+P0196,48,Male,1.77,88.2,AB+,Type 2 Diabetes
+P0197,32,Male,1.87,86.9,A-,Type 2 Diabetes
+P0198,63,Male,1.66,77.7,AB-,Chronic Kidney Disease
+P0199,67,Male,1.67,80.1,AB+,Atrial Fibrillation|COPD
+P0200,43,Male,1.85,118.7,B+,Asthma
+P0201,51,Female,1.71,90.6,O-,Atrial Fibrillation
+P0202,71,Male,1.78,73.5,A+,Type 2 Diabetes|Hypertension
+P0203,61,Female,1.73,75.0,O-,Hypertension
+P0204,28,Female,1.8,79.0,AB+,Hypertension
+P0205,32,Female,1.68,72.2,O+,None
+P0206,67,Female,1.71,83.8,AB+,None
+P0207,66,Male,1.61,65.1,A+,Hypertension|Heart Failure
+P0208,75,Male,1.88,99.2,B-,Hypertension|Type 2 Diabetes
+P0209,53,Female,1.76,74.7,B-,Chronic Kidney Disease
+P0210,33,Male,1.86,106.0,B-,Type 2 Diabetes
+P0211,35,Female,1.64,80.2,B+,Atrial Fibrillation
+P0212,27,Female,1.66,76.0,A+,Type 2 Diabetes
+P0213,84,Male,1.79,93.4,AB+,None
+P0214,63,Female,1.67,96.4,AB-,Chronic Kidney Disease
+P0215,40,Female,1.68,60.5,AB+,Chronic Kidney Disease
+P0216,52,Female,1.66,58.4,AB-,Atrial Fibrillation
+P0217,34,Female,1.7,97.9,AB-,Atrial Fibrillation
+P0218,84,Male,1.8,84.9,AB-,Chronic Kidney Disease|Heart Failure|Hypertension
+P0219,21,Male,1.83,85.6,AB-,COPD
+P0220,70,Female,1.69,67.4,AB-,COPD|Hypertension
+P0221,64,Male,1.86,115.8,O-,Type 2 Diabetes
+P0222,66,Female,1.72,63.0,O-,Chronic Kidney Disease|Type 2 Diabetes
+P0223,71,Male,1.9,92.4,AB+,Chronic Kidney Disease|Hypertension
+P0224,55,Male,1.87,87.8,AB-,Hypertension
+P0225,63,Female,1.68,65.2,O-,Hypertension
+P0226,48,Female,1.82,87.7,O-,None
+P0227,18,Male,1.71,75.0,A-,Hypertension
+P0228,50,Female,1.78,86.6,B+,COPD
+P0229,54,Female,1.82,56.3,AB+,None
+P0230,42,Male,1.78,96.9,B+,None
+P0231,45,Female,1.76,100.2,A+,Atrial Fibrillation
+P0232,59,Male,1.74,92.7,B-,Chronic Kidney Disease
+P0233,84,Male,1.58,49.0,AB-,None
+P0234,46,Male,1.76,59.4,O+,COPD
+P0235,95,Female,1.82,82.3,B-,None
+P0236,29,Male,1.63,70.1,O+,Asthma
+P0237,20,Male,1.72,82.2,AB-,None
+P0238,62,Female,1.57,77.5,A-,Hypertension
+P0239,53,Male,1.67,70.7,B-,Hypertension
+P0240,51,Male,1.9,116.4,AB+,Hypertension
+P0241,94,Male,1.94,77.6,AB+,Hypertension|Type 2 Diabetes|COPD
+P0242,51,Male,1.73,70.3,B-,Hypertension
+P0243,95,Male,1.8,102.4,O+,None
+P0244,50,Male,1.72,50.3,A-,None
+P0245,18,Male,1.6,53.2,B+,Asthma
+P0246,81,Male,1.81,101.8,B+,None
+P0247,65,Female,1.74,72.7,B-,Asthma
+P0248,42,Female,1.59,52.7,A+,Atrial Fibrillation
+P0249,55,Male,1.81,75.0,B+,None
+P0250,65,Male,1.83,117.4,B+,COPD
+P0251,89,Female,1.64,87.2,O-,Atrial Fibrillation|Type 2 Diabetes
+P0252,21,Male,1.86,120.7,A-,Heart Failure
+P0253,38,Female,1.63,82.4,AB-,Hypertension
+P0254,43,Male,1.86,95.2,A-,None
+P0255,44,Male,1.78,83.6,O-,Atrial Fibrillation
+P0256,67,Male,1.83,117.2,O-,Type 2 Diabetes|Atrial Fibrillation
+P0257,40,Female,1.68,67.4,AB-,COPD
+P0258,49,Female,1.78,53.9,O+,Type 2 Diabetes
+P0259,55,Male,1.8,65.1,AB+,Type 2 Diabetes
+P0260,71,Female,1.69,70.6,O+,COPD|Atrial Fibrillation
+P0261,20,Female,1.63,55.7,AB+,Chronic Kidney Disease
+P0262,18,Female,1.73,92.5,O+,Atrial Fibrillation
+P0263,33,Female,1.78,53.9,AB+,Hypertension
+P0264,70,Female,1.63,77.3,AB-,Chronic Kidney Disease|Hypertension
+P0265,61,Female,1.56,80.8,AB+,None
+P0266,42,Male,1.78,59.8,O-,None
+P0267,74,Male,1.8,60.7,B+,None
+P0268,69,Female,1.53,50.1,B+,Type 2 Diabetes|Asthma
+P0269,93,Male,1.82,100.8,A+,Type 2 Diabetes|Hypertension
+P0270,42,Female,1.6,99.9,O-,None
+P0271,38,Male,1.85,90.5,B-,None
+P0272,65,Female,1.58,72.0,A+,Hypertension
+P0273,46,Female,1.64,66.9,A+,Type 2 Diabetes
+P0274,73,Male,1.64,84.7,A+,None
+P0275,61,Female,1.59,85.7,A-,Asthma
+P0276,22,Male,1.85,99.6,A-,Hypertension
+P0277,61,Female,1.72,82.6,A-,Atrial Fibrillation
+P0278,79,Female,1.48,55.5,B-,Type 2 Diabetes|Hypertension
+P0279,31,Male,1.81,72.9,A+,Heart Failure
+P0280,42,Male,1.82,57.2,A-,Hypertension
+P0281,50,Male,1.83,65.9,B+,None
+P0282,47,Male,1.76,75.7,B+,None
+P0283,68,Male,1.8,98.5,AB-,Hypertension|Asthma
+P0284,95,Male,1.65,91.4,B-,Hypertension|Type 2 Diabetes|Atrial Fibrillation
+P0285,54,Male,1.76,80.3,A-,None
+P0286,83,Female,1.69,63.6,A+,Asthma|Hypertension|Atrial Fibrillation
+P0287,34,Male,1.71,54.1,AB-,COPD
+P0288,44,Female,1.48,44.9,AB-,Type 2 Diabetes
+P0289,61,Male,1.67,96.2,A-,Hypertension
+P0290,95,Female,1.8,82.3,AB-,Chronic Kidney Disease|Heart Failure|Asthma
+P0291,84,Male,1.77,122.1,B+,Heart Failure|Atrial Fibrillation|Type 2 Diabetes
+P0292,63,Male,1.86,94.1,AB+,Type 2 Diabetes
+P0293,24,Male,1.64,74.2,O-,None
+P0294,53,Male,1.6,66.6,O-,None
+P0295,95,Male,1.66,68.8,O+,None
+P0296,63,Female,1.73,82.6,A+,Asthma
+P0297,37,Female,1.75,60.8,B-,None
+P0298,57,Male,1.73,80.5,AB+,Asthma
+P0299,46,Male,1.69,81.9,AB-,Asthma
+P0300,29,Male,1.73,71.1,O+,Hypertension
+P0301,49,Female,1.72,50.3,O-,Type 2 Diabetes
+P0302,56,Female,1.69,85.3,B-,Type 2 Diabetes
+P0303,18,Female,1.7,67.3,O-,Heart Failure
+P0304,18,Male,1.68,48.0,AB-,Atrial Fibrillation
+P0305,45,Male,1.87,116.2,B-,None
+P0306,18,Male,1.83,100.1,A-,COPD
+P0307,29,Male,1.94,82.8,O-,Chronic Kidney Disease
+P0308,34,Male,1.9,92.6,O-,Type 2 Diabetes
+P0309,51,Female,1.79,82.6,A+,COPD
+P0310,65,Female,1.71,55.1,A-,None
+P0311,41,Female,1.65,54.0,B+,Hypertension
+P0312,70,Female,1.74,79.4,AB+,Hypertension|Heart Failure
+P0313,29,Male,1.7,68.5,O-,Hypertension
+P0314,69,Male,1.65,73.9,A+,Asthma|Type 2 Diabetes
+P0315,23,Female,1.58,67.8,O-,Atrial Fibrillation
+P0316,61,Female,1.78,83.0,A-,Hypertension
+P0317,51,Female,1.55,40.8,O-,None
+P0318,33,Female,1.64,53.2,B+,Heart Failure
+P0319,38,Male,1.81,96.2,O+,Atrial Fibrillation
+P0320,87,Female,1.59,67.5,O-,None
+P0321,80,Female,1.57,62.5,AB-,Hypertension|Asthma
+P0322,49,Female,1.65,77.6,O+,None
+P0323,53,Male,1.79,75.2,AB-,Hypertension
+P0324,18,Male,1.81,75.5,AB-,None
+P0325,54,Male,1.84,112.1,B+,Chronic Kidney Disease
+P0326,18,Female,1.81,94.8,O-,Type 2 Diabetes
+P0327,36,Male,1.79,86.2,A+,Atrial Fibrillation
+P0328,18,Female,1.76,83.8,B-,Asthma
+P0329,64,Male,1.59,76.8,A+,None
+P0330,55,Female,1.67,92.3,B+,Asthma
+P0331,43,Female,1.78,94.4,O-,COPD
+P0332,21,Female,1.71,52.2,AB+,Atrial Fibrillation
+P0333,95,Female,1.59,66.9,B-,Hypertension|Type 2 Diabetes
+P0334,54,Female,1.7,67.5,B-,Atrial Fibrillation
+P0335,56,Male,1.82,85.5,AB-,COPD
+P0336,61,Male,1.72,75.6,B-,None
+P0337,32,Male,1.74,101.1,O+,None
+P0338,67,Female,1.64,76.1,AB+,Atrial Fibrillation|Hypertension
+P0339,20,Female,1.57,59.7,O-,None
+P0340,62,Female,1.64,105.8,B+,None
+P0341,58,Female,1.59,61.8,B+,Asthma
+P0342,58,Female,1.83,82.5,B+,Hypertension
+P0343,50,Female,1.63,45.2,B-,Hypertension
+P0344,32,Male,1.79,76.8,AB-,Hypertension
+P0345,25,Male,1.86,68.3,O+,None
+P0346,94,Female,1.77,86.2,O-,Asthma|Heart Failure
+P0347,52,Male,1.78,82.0,AB-,Type 2 Diabetes
+P0348,73,Female,1.57,64.1,AB+,Hypertension|Type 2 Diabetes
+P0349,64,Male,1.68,86.1,AB+,Hypertension
+P0350,60,Male,1.74,95.8,A+,Atrial Fibrillation
+P0351,40,Female,1.63,86.9,B+,Heart Failure
+P0352,95,Male,1.7,79.1,B+,Heart Failure|Hypertension
+P0353,31,Female,1.67,57.7,O+,None
+P0354,34,Female,1.9,89.0,O-,Type 2 Diabetes
+P0355,89,Male,1.87,99.8,AB-,COPD|Asthma|Hypertension
+P0356,56,Female,1.49,48.6,AB-,Type 2 Diabetes
+P0357,77,Male,1.65,77.8,B-,None
+P0358,19,Male,1.78,90.1,AB-,Asthma
+P0359,47,Male,1.75,80.3,A+,Hypertension
+P0360,53,Female,1.72,75.2,B-,Asthma
+P0361,18,Male,1.82,89.4,O-,Chronic Kidney Disease
+P0362,18,Female,1.52,65.7,A+,None
+P0363,57,Female,1.64,81.9,O+,COPD
+P0364,48,Male,1.61,80.4,O+,None
+P0365,67,Female,1.61,79.1,AB-,Atrial Fibrillation|Asthma
+P0366,69,Male,1.78,67.1,O-,COPD|Heart Failure
+P0367,48,Female,1.8,72.3,B-,Hypertension
+P0368,72,Male,1.66,55.6,A+,None
+P0369,54,Male,1.69,71.4,A-,Hypertension
+P0370,58,Male,1.76,94.5,A-,None
+P0371,39,Male,1.77,101.6,A+,None
+P0372,24,Female,1.73,63.9,A-,None
+P0373,75,Male,1.8,90.1,AB-,None
+P0374,68,Male,1.75,86.4,B-,None
+P0375,42,Female,1.63,55.2,AB-,COPD
+P0376,69,Female,1.82,114.0,A-,None
+P0377,69,Male,1.89,88.0,A-,None
+P0378,18,Female,1.7,62.0,B-,Asthma
+P0379,65,Female,1.76,71.0,AB-,Hypertension
+P0380,48,Male,1.73,56.7,O+,Hypertension
+P0381,31,Female,1.64,87.6,A-,Hypertension
+P0382,67,Male,1.69,77.6,AB-,Atrial Fibrillation|Chronic Kidney Disease
+P0383,64,Female,1.72,50.3,AB+,Heart Failure
+P0384,41,Male,1.86,87.7,B+,Hypertension
+P0385,75,Male,1.63,87.3,AB-,Type 2 Diabetes|Atrial Fibrillation
+P0386,32,Male,1.85,105.4,A+,None
+P0387,45,Female,1.61,87.4,AB+,None
+P0388,87,Female,1.68,59.2,O-,None
+P0389,37,Female,1.58,68.6,B-,Atrial Fibrillation
+P0390,46,Female,1.54,54.8,AB+,Hypertension
+P0391,95,Female,1.68,79.8,AB-,COPD|Chronic Kidney Disease
+P0392,73,Female,1.58,63.7,B+,None
+P0393,57,Male,1.73,76.6,O-,None
+P0394,38,Male,1.82,93.5,B-,None
+P0395,44,Male,1.84,87.3,AB-,None
+P0396,56,Female,1.82,66.3,AB-,Hypertension
+P0397,58,Female,1.81,96.8,B-,Asthma
+P0398,54,Female,1.66,63.1,B+,None
+P0399,58,Female,1.62,59.9,O-,None
+P0400,62,Male,1.82,93.4,A-,Asthma
+P0401,62,Male,1.8,85.9,O+,Atrial Fibrillation
+P0402,44,Male,1.73,87.6,O-,None
+P0403,24,Male,1.87,92.7,B+,Chronic Kidney Disease
+P0404,67,Male,1.68,102.3,AB-,Hypertension|Atrial Fibrillation
+P0405,57,Male,1.78,74.7,A-,Atrial Fibrillation
+P0406,54,Male,1.72,81.9,AB-,Chronic Kidney Disease
+P0407,23,Male,1.83,56.9,AB+,COPD
+P0408,81,Female,1.64,81.8,B-,None
+P0409,56,Female,1.74,74.5,B-,None
+P0410,33,Female,1.7,91.9,A-,Asthma
+P0411,37,Male,1.67,60.9,B-,Hypertension
+P0412,56,Male,1.69,88.5,B+,Hypertension
+P0413,95,Male,1.81,98.4,O+,Asthma|Atrial Fibrillation
+P0414,90,Female,1.7,83.7,A-,Heart Failure|Hypertension|Atrial Fibrillation
+P0415,49,Female,1.65,53.6,AB-,None
+P0416,48,Female,1.68,57.3,AB-,Type 2 Diabetes
+P0417,18,Female,1.61,75.5,B+,None
+P0418,29,Male,1.79,103.5,B+,COPD
+P0419,44,Female,1.63,78.2,AB-,Chronic Kidney Disease
+P0420,56,Male,1.85,94.1,A-,Type 2 Diabetes
+P0421,37,Male,1.64,94.2,A+,Hypertension
+P0422,39,Male,1.84,86.5,B-,COPD
+P0423,32,Male,1.72,83.1,AB-,Hypertension
+P0424,73,Female,1.7,85.4,A+,Chronic Kidney Disease|Hypertension
+P0425,58,Female,1.74,90.5,O-,Type 2 Diabetes
+P0426,55,Female,1.68,79.0,A+,COPD
+P0427,62,Male,1.87,96.2,A+,Asthma
+P0428,60,Female,1.62,66.1,AB-,Hypertension
+P0429,60,Female,1.78,84.0,O-,Hypertension
+P0430,62,Female,1.62,61.4,O+,Asthma
+P0431,46,Male,1.79,85.5,O+,Hypertension
+P0432,31,Male,1.8,97.6,A-,COPD
+P0433,68,Male,1.72,71.9,B-,None
+P0434,81,Female,1.73,90.2,AB+,None
+P0435,95,Male,1.64,62.3,B+,Type 2 Diabetes|Hypertension|Atrial Fibrillation
+P0436,55,Female,1.72,87.7,B+,None
+P0437,46,Female,1.85,96.6,B-,None
+P0438,32,Female,1.54,64.2,AB-,None
+P0439,44,Female,1.84,101.1,AB+,Hypertension
+P0440,33,Male,1.78,88.4,O-,None
+P0441,50,Male,1.78,82.0,O-,COPD
+P0442,50,Female,1.69,86.1,AB-,COPD
+P0443,44,Male,1.82,100.0,B+,Heart Failure
+P0444,74,Female,1.78,114.8,AB-,Hypertension|Asthma
+P0445,51,Male,1.73,57.7,O-,Heart Failure
+P0446,55,Male,1.72,63.0,O-,None
+P0447,57,Male,1.83,128.5,O-,Type 2 Diabetes
+P0448,31,Female,1.58,87.9,B-,None
+P0449,32,Male,1.78,84.1,A+,None
+P0450,47,Female,1.78,72.3,B-,Type 2 Diabetes
+P0451,64,Male,1.73,56.2,O-,None
+P0452,52,Male,1.87,75.6,O+,Type 2 Diabetes
+P0453,18,Male,1.86,72.1,O-,Type 2 Diabetes
+P0454,76,Female,1.72,50.3,O+,None
+P0455,56,Male,1.76,91.3,O-,Hypertension
+P0456,49,Female,1.53,57.7,A-,None
+P0457,31,Female,1.73,94.9,AB+,None
+P0458,18,Male,1.68,103.9,B+,COPD
+P0459,79,Female,1.68,92.4,O+,None
+P0460,63,Male,1.81,100.3,AB-,COPD
+P0461,20,Female,1.72,97.4,A-,Hypertension
+P0462,78,Female,1.75,123.7,A+,Hypertension|Type 2 Diabetes
+P0463,35,Male,1.56,60.2,A-,Asthma
+P0464,94,Male,1.78,106.8,B+,None
+P0465,71,Female,1.7,98.6,B+,Heart Failure|Hypertension
+P0466,62,Male,1.96,98.3,O-,Type 2 Diabetes
+P0467,77,Female,1.68,48.0,O-,None
+P0468,18,Male,1.9,100.7,O-,Chronic Kidney Disease
+P0469,21,Male,1.8,86.9,A+,None
+P0470,55,Male,2.0,125.4,A+,Hypertension
+P0471,85,Female,1.66,46.8,AB+,None
+P0472,71,Male,1.7,75.4,A-,None
+P0473,85,Female,1.74,92.0,B-,Chronic Kidney Disease|Asthma
+P0474,18,Female,1.69,81.9,O-,Atrial Fibrillation
+P0475,86,Female,1.6,64.4,AB-,Hypertension|COPD|Type 2 Diabetes
+P0476,70,Male,1.69,73.6,O-,Hypertension|Atrial Fibrillation
+P0477,18,Male,1.82,77.4,A-,Asthma
+P0478,48,Female,1.74,57.6,AB+,Heart Failure
+P0479,41,Male,1.65,83.0,O+,Asthma
+P0480,18,Male,1.84,62.2,AB+,COPD
+P0481,29,Female,1.64,70.1,AB-,COPD
+P0482,44,Male,1.86,98.5,B-,Heart Failure
+P0483,66,Female,1.61,47.8,B+,None
+P0484,46,Female,1.49,53.8,O+,None
+P0485,87,Male,1.64,52.5,AB-,COPD|Type 2 Diabetes
+P0486,66,Female,1.49,38.5,A+,Type 2 Diabetes|Hypertension
+P0487,56,Female,1.77,118.9,B+,COPD
+P0488,92,Male,1.66,89.1,AB-,Asthma|Hypertension|Heart Failure
+P0489,33,Male,1.8,104.3,B-,Chronic Kidney Disease
+P0490,65,Female,1.6,79.0,B-,COPD
+P0491,46,Female,1.64,83.4,AB-,Hypertension
+P0492,45,Male,1.82,75.2,O-,Heart Failure
+P0493,74,Female,1.63,46.3,A-,None
+P0494,27,Female,1.57,64.6,AB-,None
+P0495,39,Male,1.72,73.1,AB+,Type 2 Diabetes
+P0496,54,Male,1.74,74.9,A+,Atrial Fibrillation
+P0497,34,Male,1.78,53.9,A-,Heart Failure
+P0498,48,Female,1.83,75.1,B-,Type 2 Diabetes
+P0499,51,Male,1.77,86.3,AB+,Type 2 Diabetes
+P0500,53,Female,1.75,71.5,AB-,Hypertension

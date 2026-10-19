@@ -1,0 +1,1201 @@
+encounter_id,patient_id,arrival_time,department,chief_complaint,triage_level,disposition,admission_time,discharge_time
+E00001,P0047,2026-08-19T23:32,Emergency Department,Weakness,3,Discharged,,2026-08-20T02:57
+E00002,P0109,2026-09-28T16:01,Emergency Department,Weakness,3,Admitted,2026-09-29T01:43,2026-10-07T04:18
+E00003,P0328,2026-08-30T13:36,Emergency Department,Palpitations,5,Discharged,,2026-08-30T18:38
+E00004,P0498,2026-08-03T12:00,Emergency Department,Shortness of breath,3,Discharged,,2026-08-03T18:45
+E00005,P0026,2026-07-24T23:41,Emergency Department,Headache,4,Discharged,,2026-07-25T03:40
+E00006,P0125,2026-08-01T18:04,Emergency Department,Abdominal pain,5,Discharged,,2026-08-02T02:36
+E00007,P0403,2026-07-19T17:27,Emergency Department,Palpitations,3,Discharged,,2026-07-19T21:48
+E00008,P0106,2026-09-12T10:17,Emergency Department,Chest pain,5,Discharged,,2026-09-12T16:50
+E00009,P0425,2026-08-09T13:24,Emergency Department,Vomiting,4,Discharged,,2026-08-09T16:42
+E00010,P0107,2026-08-11T06:36,Emergency Department,Palpitations,3,Discharged,,2026-08-11T11:08
+E00011,P0111,2026-08-17T16:29,Emergency Department,Fall,4,Discharged,,2026-08-18T00:09
+E00012,P0169,2026-08-20T16:49,Emergency Department,Abdominal pain,2,Discharged,,2026-08-21T05:20
+E00013,P0404,2026-09-20T16:34,Emergency Department,Palpitations,3,Discharged,,2026-09-20T23:00
+E00014,P0002,2026-09-28T22:04,Emergency Department,Fever,2,Discharged,,2026-09-29T04:25
+E00015,P0440,2026-07-22T21:27,Emergency Department,Abdominal pain,2,Admitted,2026-07-23T06:12,2026-07-27T02:52
+E00016,P0067,2026-07-24T15:17,Emergency Department,Vomiting,3,Discharged,,2026-07-24T22:18
+E00017,P0129,2026-07-07T17:59,Emergency Department,Abdominal pain,2,Discharged,,2026-07-07T21:04
+E00018,P0057,2026-07-19T05:23,Emergency Department,Weakness,5,Discharged,,2026-07-19T15:36
+E00019,P0444,2026-09-21T20:23,Emergency Department,Shortness of breath,3,Discharged,,2026-09-22T00:40
+E00020,P0068,2026-09-05T06:34,Emergency Department,Shortness of breath,3,Discharged,,2026-09-05T10:21
+E00021,P0184,2026-07-28T14:34,Emergency Department,Fall,3,Discharged,,2026-07-29T02:41
+E00022,P0302,2026-08-28T22:48,Emergency Department,Headache,5,Discharged,,2026-08-29T02:42
+E00023,P0009,2026-08-02T10:14,Emergency Department,Abdominal pain,4,Discharged,,2026-08-02T12:31
+E00024,P0136,2026-07-06T20:52,Emergency Department,Shortness of breath,2,Admitted,2026-07-07T06:46,2026-07-09T19:29
+E00025,P0065,2026-09-15T17:41,Emergency Department,Minor injury,3,Discharged,,2026-09-15T20:16
+E00026,P0216,2026-08-15T23:53,Emergency Department,Vomiting,5,Discharged,,2026-08-16T16:26
+E00027,P0059,2026-07-28T15:14,Emergency Department,Minor injury,1,Admitted,2026-07-28T20:31,2026-08-01T12:32
+E00028,P0033,2026-08-16T17:30,Emergency Department,Back pain,4,Discharged,,2026-08-16T21:08
+E00029,P0230,2026-09-14T15:47,Emergency Department,Headache,4,Discharged,,2026-09-14T20:19
+E00030,P0263,2026-07-18T22:33,Emergency Department,Palpitations,4,Discharged,,2026-07-19T02:28
+E00031,P0056,2026-07-24T17:42,Emergency Department,Back pain,5,Discharged,,2026-07-25T02:59
+E00032,P0258,2026-09-16T11:21,Emergency Department,Fall,4,Discharged,,2026-09-16T12:36
+E00033,P0485,2026-09-24T05:13,Emergency Department,Palpitations,1,Admitted,2026-09-24T10:23,2026-10-02T00:00
+E00034,P0023,2026-08-17T15:40,Emergency Department,Minor injury,3,Discharged,,2026-08-17T23:40
+E00035,P0402,2026-07-03T20:04,Emergency Department,Weakness,4,Discharged,,2026-07-04T01:59
+E00036,P0267,2026-07-26T14:09,Emergency Department,Fever,2,Admitted,2026-07-26T19:02,2026-07-29T11:26
+E00037,P0235,2026-07-10T15:15,Emergency Department,Weakness,4,Admitted,2026-07-10T20:24,2026-07-11T08:31
+E00038,P0494,2026-07-22T13:41,Emergency Department,Shortness of breath,1,Admitted,2026-07-23T03:25,2026-08-01T05:07
+E00039,P0032,2026-08-17T12:37,Emergency Department,Back pain,2,Discharged,,2026-08-18T06:25
+E00040,P0434,2026-08-24T18:03,Emergency Department,Dizziness,4,Discharged,,2026-08-25T02:32
+E00041,P0219,2026-09-10T12:11,Emergency Department,Weakness,5,Discharged,,2026-09-10T14:07
+E00042,P0056,2026-08-09T06:01,Emergency Department,Back pain,4,Discharged,,2026-08-09T07:58
+E00043,P0365,2026-09-06T18:17,Emergency Department,Back pain,5,Discharged,,2026-09-06T19:26
+E00044,P0038,2026-07-06T12:27,Emergency Department,Chest pain,2,Discharged,,2026-07-07T01:23
+E00045,P0165,2026-08-19T19:27,Emergency Department,Palpitations,3,Discharged,,2026-08-19T23:50
+E00046,P0076,2026-08-17T17:22,Emergency Department,Chest pain,2,Admitted,2026-08-17T20:07,2026-08-19T13:11
+E00047,P0065,2026-09-18T16:13,Emergency Department,Fever,2,Admitted,2026-09-18T21:09,2026-09-20T22:53
+E00048,P0320,2026-08-18T11:45,Emergency Department,Weakness,2,Admitted,2026-08-18T19:14,2026-08-21T05:48
+E00049,P0300,2026-08-17T13:06,Emergency Department,Vomiting,5,Discharged,,2026-08-17T15:09
+E00050,P0365,2026-07-21T23:02,Emergency Department,Headache,4,Admitted,2026-07-22T00:44,2026-07-24T06:15
+E00051,P0196,2026-07-30T15:31,Emergency Department,Palpitations,5,Discharged,,2026-07-30T22:41
+E00052,P0272,2026-08-12T07:32,Emergency Department,Fever,5,Discharged,,2026-08-12T09:30
+E00053,P0233,2026-07-18T23:08,Emergency Department,Vomiting,3,Discharged,,2026-07-19T16:58
+E00054,P0310,2026-08-05T19:58,Emergency Department,Dizziness,3,Discharged,,2026-08-06T00:30
+E00055,P0051,2026-07-28T20:08,Emergency Department,Minor injury,4,Discharged,,2026-07-29T04:59
+E00056,P0059,2026-08-06T11:55,Emergency Department,Weakness,2,Admitted,2026-08-06T15:25,2026-08-12T12:43
+E00057,P0334,2026-09-13T21:14,Emergency Department,Vomiting,5,Discharged,,2026-09-14T08:22
+E00058,P0370,2026-09-17T13:09,Emergency Department,Fall,5,Discharged,,2026-09-17T19:43
+E00059,P0221,2026-08-12T09:21,Emergency Department,Back pain,3,Admitted,2026-08-12T20:43,2026-08-17T09:35
+E00060,P0455,2026-09-05T09:19,Emergency Department,Fall,4,Admitted,2026-09-05T10:11,2026-09-07T08:12
+E00061,P0212,2026-08-29T16:17,Emergency Department,Headache,4,Discharged,,2026-08-30T01:21
+E00062,P0424,2026-09-22T17:09,Emergency Department,Back pain,5,Discharged,,2026-09-22T20:35
+E00063,P0205,2026-08-31T14:09,Emergency Department,Dizziness,4,Discharged,,2026-08-31T17:04
+E00064,P0374,2026-09-21T19:06,Emergency Department,Chest pain,4,Discharged,,2026-09-22T02:38
+E00065,P0161,2026-07-15T20:34,Emergency Department,Dizziness,3,Discharged,,2026-07-16T01:32
+E00066,P0161,2026-09-23T09:30,Emergency Department,Weakness,3,Discharged,,2026-09-23T23:02
+E00067,P0131,2026-07-16T16:36,Emergency Department,Headache,5,Discharged,,2026-07-17T05:17
+E00068,P0489,2026-08-14T11:03,Emergency Department,Abdominal pain,5,Discharged,,2026-08-14T13:45
+E00069,P0352,2026-07-13T19:18,Emergency Department,Back pain,3,Discharged,,2026-07-13T23:17
+E00070,P0035,2026-09-15T20:58,Emergency Department,Chest pain,2,Discharged,,2026-09-16T07:59
+E00071,P0426,2026-08-29T23:35,Emergency Department,Chest pain,4,Discharged,,2026-08-30T03:22
+E00072,P0048,2026-08-13T23:45,Emergency Department,Dizziness,4,Discharged,,2026-08-14T08:58
+E00073,P0050,2026-08-22T13:19,Emergency Department,Minor injury,3,Discharged,,2026-08-22T15:48
+E00074,P0379,2026-08-07T15:08,Emergency Department,Headache,2,Discharged,,2026-08-07T20:09
+E00075,P0416,2026-08-04T15:03,Emergency Department,Abdominal pain,4,Discharged,,2026-08-04T17:55
+E00076,P0285,2026-09-21T20:00,Emergency Department,Shortness of breath,3,Discharged,,2026-09-21T23:20
+E00077,P0301,2026-08-10T11:26,Emergency Department,Vomiting,3,Discharged,,2026-08-11T03:48
+E00078,P0288,2026-08-13T14:05,Emergency Department,Headache,2,Discharged,,2026-08-13T17:59
+E00079,P0344,2026-09-14T16:12,Emergency Department,Chest pain,3,Discharged,,2026-09-15T04:08
+E00080,P0211,2026-07-29T12:22,Emergency Department,Headache,4,Discharged,,2026-07-30T04:43
+E00081,P0448,2026-07-29T21:00,Emergency Department,Weakness,2,Discharged,,2026-07-29T22:59
+E00082,P0482,2026-08-29T05:20,Emergency Department,Dizziness,3,Admitted,2026-08-29T12:50,2026-08-31T18:52
+E00083,P0445,2026-09-12T19:45,Emergency Department,Minor injury,4,Discharged,,2026-09-13T04:25
+E00084,P0027,2026-08-05T12:52,Emergency Department,Fever,1,Discharged,,2026-08-06T00:35
+E00085,P0308,2026-07-24T14:05,Emergency Department,Fever,4,Discharged,,2026-07-24T21:19
+E00086,P0181,2026-07-05T16:57,Emergency Department,Chest pain,3,Discharged,,2026-07-05T19:06
+E00087,P0296,2026-08-09T17:11,Emergency Department,Vomiting,4,Discharged,,2026-08-09T19:45
+E00088,P0109,2026-07-01T14:27,Emergency Department,Abdominal pain,5,Discharged,,2026-07-01T19:26
+E00089,P0337,2026-08-28T17:09,Emergency Department,Back pain,4,Discharged,,2026-08-29T01:32
+E00090,P0115,2026-07-25T14:32,Emergency Department,Chest pain,2,Discharged,,2026-07-25T18:27
+E00091,P0180,2026-08-18T13:05,Emergency Department,Vomiting,3,Discharged,,2026-08-19T06:45
+E00092,P0189,2026-07-07T15:46,Emergency Department,Chest pain,4,Discharged,,2026-07-08T06:18
+E00093,P0391,2026-07-25T16:49,Emergency Department,Fever,2,Discharged,,2026-07-26T03:02
+E00094,P0294,2026-07-31T06:00,Emergency Department,Fall,4,Discharged,,2026-07-31T09:21
+E00095,P0414,2026-07-05T12:04,Emergency Department,Dizziness,1,Admitted,2026-07-05T14:49,2026-07-08T23:46
+E00096,P0433,2026-07-07T11:36,Emergency Department,Vomiting,5,Discharged,,2026-07-08T00:15
+E00097,P0499,2026-07-27T11:59,Emergency Department,Palpitations,3,Discharged,,2026-07-27T14:28
+E00098,P0315,2026-07-12T20:52,Emergency Department,Weakness,5,Discharged,,2026-07-13T03:57
+E00099,P0330,2026-09-12T10:29,Emergency Department,Vomiting,5,Discharged,,2026-09-12T21:51
+E00100,P0014,2026-07-13T18:08,Emergency Department,Palpitations,4,Admitted,2026-07-13T20:43,2026-07-17T16:58
+E00101,P0476,2026-07-24T17:33,Emergency Department,Weakness,5,Discharged,,2026-07-24T21:46
+E00102,P0425,2026-09-12T16:55,Emergency Department,Minor injury,2,Admitted,2026-09-12T22:10,2026-09-14T20:37
+E00103,P0137,2026-08-26T20:21,Emergency Department,Shortness of breath,2,Discharged,,2026-08-27T00:54
+E00104,P0093,2026-07-23T13:21,Emergency Department,Fever,4,Discharged,,2026-07-23T19:10
+E00105,P0360,2026-07-04T23:45,Emergency Department,Fever,5,Discharged,,2026-07-05T01:56
+E00106,P0472,2026-07-27T11:38,Emergency Department,Headache,4,Admitted,2026-07-27T15:29,2026-07-29T07:09
+E00107,P0180,2026-08-10T17:57,Emergency Department,Shortness of breath,4,Discharged,,2026-08-10T23:40
+E00108,P0093,2026-09-03T10:55,Emergency Department,Abdominal pain,4,Discharged,,2026-09-03T17:57
+E00109,P0290,2026-08-25T18:52,Emergency Department,Weakness,1,Admitted,2026-08-26T00:46,2026-08-30T00:07
+E00110,P0206,2026-07-08T11:06,Emergency Department,Chest pain,3,Admitted,2026-07-08T13:03,2026-07-10T03:47
+E00111,P0073,2026-09-14T07:20,Emergency Department,Minor injury,4,Discharged,,2026-09-14T09:18
+E00112,P0325,2026-09-23T08:57,Emergency Department,Shortness of breath,3,Discharged,,2026-09-23T12:40
+E00113,P0047,2026-07-17T13:29,Emergency Department,Minor injury,4,Discharged,,2026-07-17T17:08
+E00114,P0272,2026-07-04T20:16,Emergency Department,Fall,4,Discharged,,2026-07-05T00:41
+E00115,P0193,2026-07-04T20:05,Emergency Department,Dizziness,3,Discharged,,2026-07-05T05:44
+E00116,P0233,2026-07-22T22:29,Emergency Department,Headache,2,Admitted,2026-07-23T00:10,2026-07-24T19:56
+E00117,P0081,2026-08-10T18:15,Emergency Department,Headache,4,Admitted,2026-08-11T05:16,2026-08-16T17:29
+E00118,P0160,2026-08-17T20:32,Emergency Department,Minor injury,4,Admitted,2026-08-17T22:33,2026-08-19T08:42
+E00119,P0167,2026-07-30T17:00,Emergency Department,Palpitations,2,Discharged,,2026-07-30T19:14
+E00120,P0306,2026-09-22T20:24,Emergency Department,Chest pain,3,Admitted,2026-09-23T04:53,2026-09-27T01:42
+E00121,P0453,2026-08-10T10:22,Emergency Department,Shortness of breath,3,Discharged,,2026-08-10T12:44
+E00122,P0080,2026-07-17T12:20,Emergency Department,Abdominal pain,5,Discharged,,2026-07-17T16:34
+E00123,P0387,2026-09-13T20:47,Emergency Department,Palpitations,3,Discharged,,2026-09-14T00:36
+E00124,P0026,2026-09-19T19:02,Emergency Department,Weakness,3,Admitted,2026-09-19T22:48,2026-09-25T02:44
+E00125,P0042,2026-09-16T11:19,Emergency Department,Fever,3,Discharged,,2026-09-16T20:19
+E00126,P0227,2026-08-22T13:41,Emergency Department,Weakness,5,Discharged,,2026-08-22T19:56
+E00127,P0218,2026-09-17T17:51,Emergency Department,Back pain,3,Discharged,,2026-09-17T23:10
+E00128,P0311,2026-08-17T19:27,Emergency Department,Back pain,4,Discharged,,2026-08-18T01:48
+E00129,P0213,2026-08-16T09:12,Emergency Department,Fever,3,Discharged,,2026-08-16T16:19
+E00130,P0111,2026-09-18T20:08,Emergency Department,Vomiting,1,Admitted,2026-09-18T23:47,2026-09-24T04:08
+E00131,P0059,2026-07-07T15:41,Emergency Department,Headache,4,Discharged,,2026-07-07T21:12
+E00132,P0221,2026-07-05T11:52,Emergency Department,Chest pain,3,Admitted,2026-07-05T16:37,2026-07-07T20:38
+E00133,P0146,2026-08-18T13:30,Emergency Department,Weakness,4,Discharged,,2026-08-18T14:53
+E00134,P0348,2026-09-03T23:03,Emergency Department,Palpitations,2,Admitted,2026-09-04T03:29,2026-09-07T13:51
+E00135,P0250,2026-08-30T15:05,Emergency Department,Vomiting,1,Discharged,,2026-08-30T18:27
+E00136,P0342,2026-09-20T11:59,Emergency Department,Fever,3,Discharged,,2026-09-20T17:21
+E00137,P0024,2026-08-23T16:35,Emergency Department,Fall,4,Admitted,2026-08-23T18:24,2026-08-26T03:45
+E00138,P0203,2026-09-01T13:45,Emergency Department,Palpitations,2,Discharged,,2026-09-01T17:20
+E00139,P0029,2026-07-03T18:02,Emergency Department,Shortness of breath,2,Discharged,,2026-07-03T22:21
+E00140,P0105,2026-07-08T23:47,Emergency Department,Fever,2,Admitted,2026-07-09T06:18,2026-07-11T05:50
+E00141,P0485,2026-08-05T09:18,Emergency Department,Fall,1,Admitted,2026-08-05T12:14,2026-08-10T03:14
+E00142,P0393,2026-09-01T05:25,Emergency Department,Abdominal pain,2,Discharged,,2026-09-01T13:32
+E00143,P0392,2026-07-31T07:42,Emergency Department,Fever,3,Discharged,,2026-07-31T19:54
+E00144,P0149,2026-08-25T07:29,Emergency Department,Headache,5,Discharged,,2026-08-25T08:16
+E00145,P0062,2026-08-21T09:48,Emergency Department,Shortness of breath,3,Discharged,,2026-08-21T18:11
+E00146,P0255,2026-09-26T15:34,Emergency Department,Minor injury,3,Discharged,,2026-09-26T18:07
+E00147,P0221,2026-08-08T16:48,Emergency Department,Abdominal pain,4,Discharged,,2026-08-09T00:16
+E00148,P0067,2026-07-23T13:58,Emergency Department,Dizziness,3,Discharged,,2026-07-23T20:37
+E00149,P0273,2026-09-11T13:45,Emergency Department,Minor injury,2,Admitted,2026-09-11T18:59,2026-09-14T00:06
+E00150,P0118,2026-09-22T12:09,Emergency Department,Vomiting,3,Admitted,2026-09-22T16:53,2026-09-27T15:44
+E00151,P0287,2026-07-27T22:47,Emergency Department,Weakness,3,Admitted,2026-07-28T01:24,2026-08-02T05:37
+E00152,P0413,2026-08-10T08:13,Emergency Department,Headache,3,Discharged,,2026-08-10T22:55
+E00153,P0037,2026-07-22T22:51,Emergency Department,Dizziness,3,Discharged,,2026-07-23T02:51
+E00154,P0442,2026-07-04T08:47,Emergency Department,Minor injury,1,Admitted,2026-07-04T13:30,2026-07-07T14:32
+E00155,P0022,2026-09-18T19:11,Emergency Department,Dizziness,2,Discharged,,2026-09-19T04:28
+E00156,P0010,2026-07-21T15:18,Emergency Department,Back pain,5,Discharged,,2026-07-21T17:24
+E00157,P0472,2026-08-23T22:23,Emergency Department,Chest pain,4,Discharged,,2026-08-24T07:09
+E00158,P0442,2026-08-26T13:47,Emergency Department,Headache,2,Discharged,,2026-08-26T16:15
+E00159,P0295,2026-07-11T14:29,Emergency Department,Dizziness,4,Discharged,,2026-07-11T16:41
+E00160,P0294,2026-08-12T11:05,Emergency Department,Dizziness,1,Discharged,,2026-08-12T16:03
+E00161,P0364,2026-07-22T17:26,Emergency Department,Weakness,5,Discharged,,2026-07-23T00:05
+E00162,P0214,2026-09-08T13:00,Emergency Department,Fever,4,Discharged,,2026-09-09T00:21
+E00163,P0059,2026-08-05T07:19,Emergency Department,Dizziness,1,Admitted,2026-08-05T12:08,2026-08-09T09:36
+E00164,P0011,2026-07-26T19:57,Emergency Department,Headache,4,Discharged,,2026-07-26T22:33
+E00165,P0088,2026-07-31T14:33,Emergency Department,Palpitations,3,Discharged,,2026-07-31T17:44
+E00166,P0236,2026-09-06T11:57,Emergency Department,Minor injury,4,Discharged,,2026-09-06T13:55
+E00167,P0471,2026-07-07T19:12,Emergency Department,Headache,3,Admitted,2026-07-08T01:24,2026-07-09T12:27
+E00168,P0046,2026-08-30T08:45,Emergency Department,Dizziness,3,Admitted,2026-08-30T20:59,2026-08-31T20:54
+E00169,P0433,2026-08-18T18:12,Emergency Department,Chest pain,5,Discharged,,2026-08-18T22:20
+E00170,P0125,2026-07-20T16:12,Emergency Department,Dizziness,2,Discharged,,2026-07-20T18:27
+E00171,P0302,2026-07-31T15:12,Emergency Department,Dizziness,4,Discharged,,2026-08-01T05:26
+E00172,P0269,2026-09-05T11:17,Emergency Department,Chest pain,2,Discharged,,2026-09-05T21:55
+E00173,P0203,2026-07-27T13:16,Emergency Department,Fever,3,Admitted,2026-07-27T16:38,2026-08-04T05:56
+E00174,P0382,2026-08-23T08:20,Emergency Department,Headache,3,Discharged,,2026-08-23T16:07
+E00175,P0114,2026-08-26T18:05,Emergency Department,Headache,2,Admitted,2026-08-26T21:17,2026-08-28T22:24
+E00176,P0399,2026-09-06T05:53,Emergency Department,Abdominal pain,3,Discharged,,2026-09-06T08:58
+E00177,P0040,2026-08-29T16:19,Emergency Department,Vomiting,4,Discharged,,2026-08-30T00:58
+E00178,P0325,2026-09-25T15:59,Emergency Department,Chest pain,2,Discharged,,2026-09-25T23:17
+E00179,P0272,2026-09-11T11:56,Emergency Department,Vomiting,3,Discharged,,2026-09-11T14:00
+E00180,P0100,2026-09-04T16:49,Emergency Department,Headache,1,Admitted,2026-09-05T05:29,2026-09-06T23:04
+E00181,P0180,2026-08-10T22:34,Emergency Department,Minor injury,5,Discharged,,2026-08-11T03:04
+E00182,P0491,2026-09-25T19:47,Emergency Department,Weakness,4,Discharged,,2026-09-26T01:31
+E00183,P0418,2026-07-02T10:05,Emergency Department,Abdominal pain,4,Discharged,,2026-07-02T16:01
+E00184,P0121,2026-09-16T14:05,Emergency Department,Chest pain,3,Discharged,,2026-09-16T16:26
+E00185,P0075,2026-08-13T17:15,Emergency Department,Fever,2,Admitted,2026-08-13T18:51,2026-08-24T02:31
+E00186,P0102,2026-09-11T11:03,Emergency Department,Abdominal pain,3,Discharged,,2026-09-11T17:50
+E00187,P0309,2026-08-29T09:56,Emergency Department,Abdominal pain,2,Discharged,,2026-08-29T16:27
+E00188,P0390,2026-08-14T18:42,Emergency Department,Weakness,3,Discharged,,2026-08-14T20:43
+E00189,P0039,2026-07-26T11:55,Emergency Department,Abdominal pain,3,Discharged,,2026-07-26T14:04
+E00190,P0488,2026-09-22T11:20,Emergency Department,Weakness,4,Discharged,,2026-09-22T15:16
+E00191,P0253,2026-07-10T14:33,Emergency Department,Back pain,3,Discharged,,2026-07-10T21:45
+E00192,P0387,2026-07-12T11:00,Emergency Department,Palpitations,4,Discharged,,2026-07-12T17:05
+E00193,P0390,2026-08-10T15:39,Emergency Department,Palpitations,1,Discharged,,2026-08-11T00:23
+E00194,P0230,2026-09-18T16:33,Emergency Department,Weakness,4,Discharged,,2026-09-18T21:56
+E00195,P0474,2026-07-14T23:41,Emergency Department,Palpitations,3,Discharged,,2026-07-15T03:20
+E00196,P0330,2026-08-19T11:43,Emergency Department,Weakness,4,Discharged,,2026-08-19T14:26
+E00197,P0320,2026-08-25T23:28,Emergency Department,Headache,3,Discharged,,2026-08-26T07:39
+E00198,P0443,2026-09-03T13:41,Emergency Department,Weakness,2,Admitted,2026-09-03T21:30,2026-09-05T21:12
+E00199,P0162,2026-07-04T14:57,Emergency Department,Abdominal pain,3,Discharged,,2026-07-04T16:26
+E00200,P0226,2026-08-17T16:25,Emergency Department,Chest pain,4,Discharged,,2026-08-18T01:38
+E00201,P0241,2026-08-04T19:48,Emergency Department,Back pain,2,Admitted,2026-08-04T22:02,2026-08-09T08:59
+E00202,P0324,2026-07-20T10:56,Emergency Department,Fever,3,Admitted,2026-07-20T12:19,2026-07-21T00:19
+E00203,P0408,2026-07-15T23:06,Emergency Department,Fever,1,Admitted,2026-07-16T04:35,2026-07-18T04:26
+E00204,P0303,2026-08-02T13:43,Emergency Department,Shortness of breath,2,Admitted,2026-08-02T18:19,2026-08-03T22:03
+E00205,P0181,2026-08-07T13:15,Emergency Department,Vomiting,3,Discharged,,2026-08-07T19:04
+E00206,P0038,2026-09-24T10:37,Emergency Department,Fever,4,Discharged,,2026-09-24T16:33
+E00207,P0237,2026-09-05T12:48,Emergency Department,Back pain,3,Discharged,,2026-09-05T16:30
+E00208,P0020,2026-08-11T15:52,Emergency Department,Shortness of breath,2,Discharged,,2026-08-12T00:34
+E00209,P0189,2026-07-26T13:23,Emergency Department,Fever,4,Discharged,,2026-07-26T21:07
+E00210,P0040,2026-09-08T09:25,Emergency Department,Weakness,2,Admitted,2026-09-08T14:00,2026-09-16T06:56
+E00211,P0443,2026-09-06T14:49,Emergency Department,Chest pain,1,Admitted,2026-09-06T17:15,2026-09-10T11:03
+E00212,P0315,2026-07-07T03:15,Emergency Department,Palpitations,3,Discharged,,2026-07-07T11:17
+E00213,P0260,2026-09-22T11:11,Emergency Department,Dizziness,3,Admitted,2026-09-22T16:19,2026-09-23T17:22
+E00214,P0237,2026-09-16T16:17,Emergency Department,Palpitations,1,Discharged,,2026-09-16T19:00
+E00215,P0284,2026-07-05T09:35,Emergency Department,Minor injury,1,Admitted,2026-07-05T15:57,2026-07-08T16:56
+E00216,P0459,2026-09-28T08:16,Emergency Department,Shortness of breath,4,Discharged,,2026-09-28T11:46
+E00217,P0231,2026-07-07T08:08,Emergency Department,Palpitations,5,Discharged,,2026-07-07T18:20
+E00218,P0334,2026-08-26T11:12,Emergency Department,Fall,5,Discharged,,2026-08-26T14:26
+E00219,P0165,2026-08-23T08:26,Emergency Department,Palpitations,4,Discharged,,2026-08-23T10:36
+E00220,P0244,2026-07-13T08:28,Emergency Department,Vomiting,1,Discharged,,2026-07-13T14:51
+E00221,P0078,2026-09-14T07:19,Emergency Department,Shortness of breath,5,Admitted,2026-09-15T00:17,2026-09-16T04:14
+E00222,P0231,2026-07-25T21:21,Emergency Department,Chest pain,4,Discharged,,2026-07-25T23:07
+E00223,P0416,2026-09-10T13:09,Emergency Department,Headache,3,Admitted,2026-09-10T19:18,2026-09-13T03:04
+E00224,P0366,2026-07-23T15:32,Emergency Department,Chest pain,3,Admitted,2026-07-23T17:25,2026-07-25T06:58
+E00225,P0259,2026-08-08T16:54,Emergency Department,Weakness,1,Admitted,2026-08-08T22:54,2026-08-13T04:25
+E00226,P0089,2026-07-17T15:21,Emergency Department,Shortness of breath,3,Admitted,2026-07-17T20:49,2026-07-24T18:12
+E00227,P0127,2026-07-04T05:49,Emergency Department,Minor injury,3,Admitted,2026-07-04T08:51,2026-07-07T05:13
+E00228,P0225,2026-07-31T19:15,Emergency Department,Back pain,3,Discharged,,2026-08-01T03:49
+E00229,P0269,2026-08-14T21:26,Emergency Department,Vomiting,1,Admitted,2026-08-15T01:34,2026-08-16T13:23
+E00230,P0313,2026-09-05T11:42,Emergency Department,Abdominal pain,3,Admitted,2026-09-05T17:15,2026-09-14T15:51
+E00231,P0187,2026-09-18T16:10,Emergency Department,Headache,3,Discharged,,2026-09-18T23:49
+E00232,P0470,2026-09-12T13:24,Emergency Department,Fever,3,Admitted,2026-09-12T16:39,2026-09-16T20:05
+E00233,P0199,2026-07-10T16:18,Emergency Department,Dizziness,1,Admitted,2026-07-10T19:54,2026-07-12T12:18
+E00234,P0397,2026-09-06T11:45,Emergency Department,Headache,4,Discharged,,2026-09-06T19:40
+E00235,P0348,2026-07-14T22:37,Emergency Department,Palpitations,2,Admitted,2026-07-15T05:18,2026-07-21T19:54
+E00236,P0027,2026-08-30T18:05,Emergency Department,Weakness,2,Discharged,,2026-08-30T22:51
+E00237,P0332,2026-08-25T13:49,Emergency Department,Headache,3,Discharged,,2026-08-25T19:51
+E00238,P0034,2026-08-01T10:51,Emergency Department,Headache,3,Discharged,,2026-08-01T17:55
+E00239,P0049,2026-08-06T08:23,Emergency Department,Vomiting,5,Discharged,,2026-08-06T14:48
+E00240,P0348,2026-08-16T23:54,Emergency Department,Dizziness,3,Discharged,,2026-08-17T04:15
+E00241,P0146,2026-07-31T14:01,Emergency Department,Fever,2,Discharged,,2026-07-31T18:41
+E00242,P0371,2026-07-01T14:31,Emergency Department,Weakness,4,Discharged,,2026-07-01T18:49
+E00243,P0494,2026-07-09T17:41,Emergency Department,Palpitations,4,Discharged,,2026-07-09T21:13
+E00244,P0448,2026-08-12T17:28,Emergency Department,Abdominal pain,5,Discharged,,2026-08-13T01:55
+E00245,P0171,2026-07-21T15:12,Emergency Department,Chest pain,4,Discharged,,2026-07-21T19:35
+E00246,P0299,2026-07-03T13:14,Emergency Department,Weakness,4,Discharged,,2026-07-03T23:44
+E00247,P0073,2026-07-19T01:42,Emergency Department,Headache,4,Discharged,,2026-07-19T04:57
+E00248,P0159,2026-08-20T15:59,Emergency Department,Weakness,1,Admitted,2026-08-20T21:16,2026-08-21T09:42
+E00249,P0358,2026-09-26T23:48,Emergency Department,Weakness,5,Discharged,,2026-09-27T01:31
+E00250,P0201,2026-08-07T17:43,Emergency Department,Abdominal pain,2,Admitted,2026-08-07T22:11,2026-08-11T08:09
+E00251,P0305,2026-09-19T13:06,Emergency Department,Minor injury,2,Admitted,2026-09-19T23:21,2026-09-23T01:02
+E00252,P0481,2026-08-31T11:03,Emergency Department,Chest pain,4,Discharged,,2026-08-31T14:05
+E00253,P0159,2026-07-24T11:06,Emergency Department,Vomiting,4,Discharged,,2026-07-24T18:19
+E00254,P0193,2026-07-24T18:41,Emergency Department,Weakness,5,Discharged,,2026-07-24T22:11
+E00255,P0406,2026-08-20T20:52,Emergency Department,Headache,5,Discharged,,2026-08-21T01:00
+E00256,P0417,2026-09-01T21:01,Emergency Department,Abdominal pain,3,Admitted,2026-09-02T02:51,2026-09-04T07:39
+E00257,P0344,2026-07-13T15:28,Emergency Department,Minor injury,3,Admitted,2026-07-13T17:00,2026-07-21T12:24
+E00258,P0425,2026-07-25T11:20,Emergency Department,Minor injury,4,Discharged,,2026-07-25T21:25
+E00259,P0351,2026-09-14T08:01,Emergency Department,Vomiting,1,Admitted,2026-09-14T10:30,2026-09-18T04:50
+E00260,P0048,2026-09-22T14:41,Emergency Department,Weakness,3,Discharged,,2026-09-22T21:38
+E00261,P0344,2026-08-15T10:59,Emergency Department,Dizziness,2,Discharged,,2026-08-15T14:44
+E00262,P0261,2026-08-15T04:24,Emergency Department,Headache,4,Discharged,,2026-08-15T09:14
+E00263,P0010,2026-07-12T14:36,Emergency Department,Headache,2,Admitted,2026-07-12T18:41,2026-07-23T21:41
+E00264,P0159,2026-07-18T17:05,Emergency Department,Abdominal pain,4,Discharged,,2026-07-18T19:38
+E00265,P0487,2026-07-19T04:26,Emergency Department,Fall,3,Discharged,,2026-07-19T05:44
+E00266,P0175,2026-07-17T21:59,Emergency Department,Back pain,5,Admitted,2026-07-18T05:37,2026-07-20T12:07
+E00267,P0099,2026-07-03T17:31,Emergency Department,Fall,4,Discharged,,2026-07-03T22:16
+E00268,P0071,2026-08-09T17:56,Emergency Department,Abdominal pain,1,Admitted,2026-08-10T06:21,2026-08-22T06:21
+E00269,P0040,2026-09-12T17:12,Emergency Department,Fever,5,Discharged,,2026-09-12T19:51
+E00270,P0433,2026-09-23T18:06,Emergency Department,Chest pain,5,Discharged,,2026-09-24T03:22
+E00271,P0260,2026-07-24T16:01,Emergency Department,Vomiting,3,Discharged,,2026-07-24T20:58
+E00272,P0428,2026-08-31T10:34,Emergency Department,Minor injury,3,Discharged,,2026-08-31T16:07
+E00273,P0453,2026-09-04T17:31,Emergency Department,Vomiting,4,Admitted,2026-09-04T21:22,2026-09-09T03:45
+E00274,P0020,2026-09-16T19:57,Emergency Department,Weakness,3,Discharged,,2026-09-17T07:13
+E00275,P0173,2026-09-22T20:39,Emergency Department,Palpitations,3,Admitted,2026-09-23T04:42,2026-09-25T05:13
+E00276,P0068,2026-07-04T20:17,Emergency Department,Palpitations,3,Admitted,2026-07-04T22:40,2026-07-14T14:15
+E00277,P0193,2026-09-04T18:53,Emergency Department,Abdominal pain,3,Admitted,2026-09-04T21:28,2026-09-06T22:35
+E00278,P0084,2026-09-13T11:43,Emergency Department,Abdominal pain,4,Discharged,,2026-09-13T17:41
+E00279,P0426,2026-07-05T10:21,Emergency Department,Minor injury,4,Discharged,,2026-07-05T16:28
+E00280,P0395,2026-08-31T23:47,Emergency Department,Palpitations,5,Discharged,,2026-09-01T08:23
+E00281,P0415,2026-08-19T15:55,Emergency Department,Abdominal pain,2,Admitted,2026-08-20T07:03,2026-08-20T19:03
+E00282,P0370,2026-08-26T15:15,Emergency Department,Back pain,5,Admitted,2026-08-26T19:27,2026-08-28T17:15
+E00283,P0023,2026-07-22T11:13,Emergency Department,Dizziness,3,Admitted,2026-07-22T16:26,2026-07-24T18:28
+E00284,P0187,2026-09-11T17:54,Emergency Department,Weakness,3,Discharged,,2026-09-11T20:06
+E00285,P0369,2026-08-04T17:14,Emergency Department,Fall,4,Admitted,2026-08-04T20:34,2026-08-07T07:31
+E00286,P0497,2026-09-20T14:27,Emergency Department,Back pain,3,Discharged,,2026-09-20T20:28
+E00287,P0313,2026-08-21T17:58,Emergency Department,Fever,3,Discharged,,2026-08-21T20:14
+E00288,P0386,2026-08-30T09:35,Emergency Department,Minor injury,2,Admitted,2026-08-30T13:41,2026-09-09T18:59
+E00289,P0402,2026-09-16T13:09,Emergency Department,Back pain,3,Discharged,,2026-09-16T21:39
+E00290,P0120,2026-09-22T14:16,Emergency Department,Vomiting,5,Discharged,,2026-09-22T17:05
+E00291,P0123,2026-09-19T19:14,Emergency Department,Fever,1,Admitted,2026-09-20T00:12,2026-09-20T20:43
+E00292,P0495,2026-08-25T17:16,Emergency Department,Back pain,5,Discharged,,2026-08-25T20:34
+E00293,P0463,2026-09-17T06:51,Emergency Department,Fall,5,Discharged,,2026-09-17T16:23
+E00294,P0189,2026-07-03T09:29,Emergency Department,Weakness,3,Admitted,2026-07-03T13:05,2026-07-04T11:02
+E00295,P0485,2026-08-11T11:23,Emergency Department,Palpitations,4,Discharged,,2026-08-11T21:06
+E00296,P0226,2026-09-09T14:30,Emergency Department,Back pain,5,Discharged,,2026-09-09T18:27
+E00297,P0394,2026-09-16T14:17,Emergency Department,Fever,4,Admitted,2026-09-16T19:53,2026-09-24T05:18
+E00298,P0399,2026-07-03T07:33,Emergency Department,Dizziness,3,Admitted,2026-07-03T15:00,2026-07-04T09:57
+E00299,P0258,2026-09-16T14:28,Emergency Department,Vomiting,5,Discharged,,2026-09-16T20:04
+E00300,P0215,2026-09-21T12:02,Emergency Department,Abdominal pain,1,Admitted,2026-09-21T15:07,2026-09-22T03:07
+E00301,P0419,2026-07-12T15:43,Emergency Department,Fall,5,Discharged,,2026-07-12T20:07
+E00302,P0411,2026-08-01T11:15,Emergency Department,Palpitations,3,Discharged,,2026-08-01T17:27
+E00303,P0071,2026-08-28T11:59,Emergency Department,Fever,4,Discharged,,2026-08-28T17:15
+E00304,P0027,2026-09-27T20:45,Emergency Department,Weakness,3,Discharged,,2026-09-28T03:26
+E00305,P0247,2026-09-13T23:09,Emergency Department,Headache,2,Admitted,2026-09-14T02:23,2026-09-19T16:02
+E00306,P0284,2026-08-31T16:40,Emergency Department,Chest pain,1,Discharged,,2026-08-31T23:18
+E00307,P0365,2026-07-07T17:30,Emergency Department,Vomiting,3,Discharged,,2026-07-07T20:42
+E00308,P0436,2026-09-26T17:43,Emergency Department,Chest pain,4,Discharged,,2026-09-26T20:09
+E00309,P0146,2026-09-21T16:19,Emergency Department,Chest pain,3,Discharged,,2026-09-21T17:30
+E00310,P0391,2026-08-02T07:41,Emergency Department,Abdominal pain,1,Admitted,2026-08-02T15:55,2026-08-11T03:16
+E00311,P0140,2026-07-07T10:40,Emergency Department,Back pain,4,Discharged,,2026-07-07T14:47
+E00312,P0464,2026-08-20T15:26,Emergency Department,Vomiting,4,Discharged,,2026-08-20T19:34
+E00313,P0076,2026-08-15T09:06,Emergency Department,Dizziness,4,Discharged,,2026-08-15T13:56
+E00314,P0047,2026-08-26T13:19,Emergency Department,Fall,3,Admitted,2026-08-27T00:09,2026-08-30T17:34
+E00315,P0419,2026-08-19T14:12,Emergency Department,Back pain,3,Admitted,2026-08-19T20:01,2026-08-24T17:48
+E00316,P0453,2026-09-06T05:18,Emergency Department,Headache,2,Discharged,,2026-09-06T10:28
+E00317,P0477,2026-08-29T21:25,Emergency Department,Shortness of breath,2,Admitted,2026-08-30T06:17,2026-08-31T22:19
+E00318,P0213,2026-08-06T23:27,Emergency Department,Shortness of breath,3,Discharged,,2026-08-07T07:10
+E00319,P0203,2026-08-05T13:52,Emergency Department,Vomiting,5,Discharged,,2026-08-05T19:15
+E00320,P0192,2026-07-04T15:39,Emergency Department,Fall,5,Discharged,,2026-07-04T22:15
+E00321,P0198,2026-09-03T17:56,Emergency Department,Chest pain,3,Discharged,,2026-09-03T23:47
+E00322,P0192,2026-08-07T16:51,Emergency Department,Fall,3,Admitted,2026-08-07T20:25,2026-08-10T02:28
+E00323,P0015,2026-08-07T21:24,Emergency Department,Headache,3,Discharged,,2026-08-08T03:58
+E00324,P0477,2026-09-07T12:20,Emergency Department,Chest pain,4,Admitted,2026-09-07T17:42,2026-09-12T20:43
+E00325,P0430,2026-08-09T16:54,Emergency Department,Minor injury,4,Discharged,,2026-08-10T00:10
+E00326,P0333,2026-08-01T17:08,Emergency Department,Headache,3,Admitted,2026-08-01T19:33,2026-08-02T20:51
+E00327,P0406,2026-07-23T23:15,Emergency Department,Abdominal pain,4,Discharged,,2026-07-24T02:24
+E00328,P0071,2026-08-27T09:14,Emergency Department,Shortness of breath,2,Discharged,,2026-08-27T11:49
+E00329,P0147,2026-07-27T19:38,Emergency Department,Back pain,4,Discharged,,2026-07-27T22:49
+E00330,P0357,2026-07-21T09:02,Emergency Department,Abdominal pain,3,Discharged,,2026-07-21T11:44
+E00331,P0389,2026-07-23T09:31,Emergency Department,Minor injury,3,Discharged,,2026-07-23T13:06
+E00332,P0241,2026-08-26T11:59,Emergency Department,Back pain,1,Admitted,2026-08-26T17:12,2026-08-29T13:59
+E00333,P0316,2026-08-30T13:16,Emergency Department,Shortness of breath,3,Admitted,2026-08-30T19:32,2026-09-03T03:58
+E00334,P0464,2026-07-02T15:26,Emergency Department,Chest pain,4,Discharged,,2026-07-02T16:50
+E00335,P0010,2026-09-08T11:39,Emergency Department,Fever,1,Discharged,,2026-09-08T22:18
+E00336,P0111,2026-09-24T11:52,Emergency Department,Abdominal pain,3,Admitted,2026-09-24T15:31,2026-09-28T00:18
+E00337,P0281,2026-09-22T16:57,Emergency Department,Minor injury,4,Discharged,,2026-09-22T19:03
+E00338,P0312,2026-08-20T11:45,Emergency Department,Vomiting,4,Admitted,2026-08-20T14:34,2026-08-21T07:07
+E00339,P0217,2026-09-04T20:35,Emergency Department,Chest pain,3,Discharged,,2026-09-04T23:35
+E00340,P0398,2026-08-04T18:56,Emergency Department,Fever,5,Discharged,,2026-08-04T23:18
+E00341,P0122,2026-09-20T05:33,Emergency Department,Fever,4,Discharged,,2026-09-20T12:08
+E00342,P0063,2026-07-27T10:24,Emergency Department,Shortness of breath,3,Discharged,,2026-07-27T13:47
+E00343,P0123,2026-07-09T12:17,Emergency Department,Dizziness,3,Discharged,,2026-07-09T16:09
+E00344,P0328,2026-08-06T01:00,Emergency Department,Palpitations,5,Discharged,,2026-08-06T04:22
+E00345,P0235,2026-09-01T13:25,Emergency Department,Chest pain,4,Admitted,2026-09-01T17:07,2026-09-04T02:02
+E00346,P0057,2026-08-03T13:43,Emergency Department,Back pain,5,Discharged,,2026-08-03T21:24
+E00347,P0306,2026-08-31T13:37,Emergency Department,Vomiting,4,Discharged,,2026-08-31T17:59
+E00348,P0009,2026-09-23T18:46,Emergency Department,Weakness,5,Discharged,,2026-09-23T19:47
+E00349,P0264,2026-09-21T17:38,Emergency Department,Palpitations,4,Discharged,,2026-09-21T20:40
+E00350,P0124,2026-07-27T10:33,Emergency Department,Minor injury,3,Discharged,,2026-07-28T07:22
+E00351,P0074,2026-09-22T21:35,Emergency Department,Fever,4,Discharged,,2026-09-23T06:16
+E00352,P0220,2026-07-10T16:41,Emergency Department,Shortness of breath,1,Admitted,2026-07-10T21:05,2026-07-13T08:40
+E00353,P0315,2026-07-19T08:28,Emergency Department,Headache,3,Discharged,,2026-07-19T12:21
+E00354,P0124,2026-08-26T16:17,Emergency Department,Palpitations,2,Discharged,,2026-08-26T18:33
+E00355,P0214,2026-08-16T17:07,Emergency Department,Abdominal pain,4,Discharged,,2026-08-17T00:20
+E00356,P0341,2026-09-20T10:56,Emergency Department,Weakness,2,Discharged,,2026-09-20T17:33
+E00357,P0044,2026-07-10T15:24,Emergency Department,Vomiting,4,Discharged,,2026-07-10T23:41
+E00358,P0500,2026-09-15T23:12,Emergency Department,Headache,3,Discharged,,2026-09-16T03:51
+E00359,P0035,2026-08-29T14:47,Emergency Department,Vomiting,3,Admitted,2026-08-29T15:50,2026-09-01T07:56
+E00360,P0279,2026-08-05T12:51,Emergency Department,Vomiting,3,Discharged,,2026-08-05T16:11
+E00361,P0403,2026-07-05T12:35,Emergency Department,Vomiting,3,Discharged,,2026-07-05T13:58
+E00362,P0284,2026-08-25T09:14,Emergency Department,Shortness of breath,4,Discharged,,2026-08-25T12:00
+E00363,P0200,2026-07-08T21:21,Emergency Department,Back pain,5,Discharged,,2026-07-08T23:22
+E00364,P0023,2026-07-20T14:14,Emergency Department,Weakness,3,Admitted,2026-07-20T21:17,2026-07-23T22:40
+E00365,P0199,2026-07-16T23:19,Emergency Department,Headache,3,Discharged,,2026-07-17T08:59
+E00366,P0130,2026-09-08T12:48,Emergency Department,Minor injury,1,Admitted,2026-09-08T20:13,2026-09-13T04:27
+E00367,P0009,2026-08-24T10:37,Emergency Department,Headache,2,Admitted,2026-08-24T16:01,2026-08-28T02:33
+E00368,P0404,2026-08-29T09:35,Emergency Department,Chest pain,5,Discharged,,2026-08-29T15:56
+E00369,P0177,2026-07-31T12:13,Emergency Department,Fall,3,Admitted,2026-07-31T16:17,2026-08-02T22:32
+E00370,P0376,2026-09-14T14:42,Emergency Department,Weakness,4,Discharged,,2026-09-14T16:17
+E00371,P0322,2026-09-06T10:11,Emergency Department,Chest pain,3,Discharged,,2026-09-06T20:05
+E00372,P0396,2026-08-23T04:55,Emergency Department,Palpitations,2,Discharged,,2026-08-23T10:35
+E00373,P0377,2026-09-09T18:26,Emergency Department,Headache,3,Admitted,2026-09-09T23:00,2026-09-14T06:41
+E00374,P0069,2026-07-28T20:36,Emergency Department,Shortness of breath,2,Admitted,2026-07-29T01:33,2026-08-03T22:34
+E00375,P0181,2026-07-16T15:18,Emergency Department,Vomiting,4,Discharged,,2026-07-17T00:17
+E00376,P0174,2026-09-26T22:09,Emergency Department,Weakness,4,Discharged,,2026-09-27T00:34
+E00377,P0090,2026-08-18T13:49,Emergency Department,Weakness,3,Discharged,,2026-08-18T15:25
+E00378,P0238,2026-08-20T16:10,Emergency Department,Minor injury,4,Discharged,,2026-08-20T18:53
+E00379,P0246,2026-09-27T21:37,Emergency Department,Weakness,4,Discharged,,2026-09-28T05:19
+E00380,P0094,2026-07-21T14:27,Emergency Department,Abdominal pain,1,Admitted,2026-07-22T05:39,2026-07-22T17:39
+E00381,P0033,2026-09-14T11:10,Emergency Department,Minor injury,4,Admitted,2026-09-14T14:28,2026-09-17T21:43
+E00382,P0398,2026-09-06T13:56,Emergency Department,Back pain,4,Discharged,,2026-09-06T15:35
+E00383,P0019,2026-07-11T12:59,Emergency Department,Fever,3,Discharged,,2026-07-11T19:46
+E00384,P0104,2026-07-21T17:33,Emergency Department,Shortness of breath,5,Discharged,,2026-07-22T06:40
+E00385,P0406,2026-09-16T16:09,Emergency Department,Fall,3,Discharged,,2026-09-17T00:01
+E00386,P0454,2026-09-06T12:45,Emergency Department,Shortness of breath,4,Discharged,,2026-09-06T21:31
+E00387,P0162,2026-09-24T15:03,Emergency Department,Fever,3,Discharged,,2026-09-24T19:04
+E00388,P0264,2026-09-10T16:33,Emergency Department,Dizziness,4,Discharged,,2026-09-10T22:34
+E00389,P0418,2026-07-17T18:17,Emergency Department,Vomiting,4,Discharged,,2026-07-18T06:15
+E00390,P0243,2026-07-22T10:02,Emergency Department,Fever,1,Admitted,2026-07-22T18:39,2026-07-29T02:29
+E00391,P0019,2026-07-30T12:50,Emergency Department,Weakness,3,Discharged,,2026-07-30T17:11
+E00392,P0098,2026-07-14T20:05,Emergency Department,Fever,4,Admitted,2026-07-15T00:32,2026-07-15T17:42
+E00393,P0183,2026-07-08T06:18,Emergency Department,Shortness of breath,1,Admitted,2026-07-08T09:38,2026-07-08T21:38
+E00394,P0444,2026-07-27T19:44,Emergency Department,Weakness,3,Discharged,,2026-07-28T04:28
+E00395,P0170,2026-09-05T20:10,Emergency Department,Fever,4,Admitted,2026-09-06T00:43,2026-09-08T05:05
+E00396,P0064,2026-08-22T09:00,Emergency Department,Headache,5,Discharged,,2026-08-22T12:44
+E00397,P0224,2026-08-10T04:53,Emergency Department,Dizziness,3,Discharged,,2026-08-10T14:36
+E00398,P0381,2026-07-11T23:52,Emergency Department,Back pain,4,Discharged,,2026-07-12T04:35
+E00399,P0459,2026-09-28T19:15,Emergency Department,Dizziness,4,Discharged,,2026-09-28T22:13
+E00400,P0174,2026-09-27T18:03,Emergency Department,Abdominal pain,5,Discharged,,2026-09-27T20:34
+E00401,P0255,2026-07-13T16:57,Emergency Department,Minor injury,4,Discharged,,2026-07-13T21:33
+E00402,P0255,2026-07-31T20:17,Emergency Department,Headache,5,Discharged,,2026-07-31T22:16
+E00403,P0474,2026-08-08T20:28,Emergency Department,Vomiting,5,Admitted,2026-08-08T22:49,2026-08-11T03:38
+E00404,P0137,2026-07-19T14:24,Emergency Department,Chest pain,3,Discharged,,2026-07-19T22:08
+E00405,P0373,2026-09-02T19:26,Emergency Department,Dizziness,5,Discharged,,2026-09-03T02:05
+E00406,P0041,2026-09-27T13:27,Emergency Department,Dizziness,3,Admitted,2026-09-28T00:33,2026-10-05T11:30
+E00407,P0309,2026-08-05T10:15,Emergency Department,Abdominal pain,2,Discharged,,2026-08-05T12:27
+E00408,P0280,2026-09-13T17:25,Emergency Department,Fever,3,Discharged,,2026-09-13T23:51
+E00409,P0165,2026-09-14T12:22,Emergency Department,Chest pain,4,Discharged,,2026-09-14T17:19
+E00410,P0041,2026-08-12T15:57,Emergency Department,Headache,1,Discharged,,2026-08-12T21:03
+E00411,P0339,2026-09-21T18:34,Emergency Department,Fever,5,Discharged,,2026-09-22T00:35
+E00412,P0157,2026-09-26T14:59,Emergency Department,Back pain,4,Discharged,,2026-09-26T20:08
+E00413,P0309,2026-09-16T05:18,Emergency Department,Minor injury,4,Discharged,,2026-09-16T20:55
+E00414,P0219,2026-09-23T12:45,Emergency Department,Abdominal pain,1,Admitted,2026-09-23T17:33,2026-10-01T06:36
+E00415,P0354,2026-09-06T11:43,Emergency Department,Back pain,5,Discharged,,2026-09-07T09:16
+E00416,P0180,2026-09-25T18:16,Emergency Department,Back pain,4,Discharged,,2026-09-25T23:12
+E00417,P0022,2026-07-13T17:23,Emergency Department,Minor injury,2,Admitted,2026-07-14T04:22,2026-07-17T08:25
+E00418,P0446,2026-08-01T13:02,Emergency Department,Headache,5,Discharged,,2026-08-01T15:10
+E00419,P0315,2026-07-14T13:20,Emergency Department,Dizziness,3,Admitted,2026-07-14T17:06,2026-07-18T16:26
+E00420,P0141,2026-09-03T12:39,Emergency Department,Weakness,4,Discharged,,2026-09-03T15:19
+E00421,P0406,2026-09-02T18:34,Emergency Department,Shortness of breath,5,Discharged,,2026-09-03T04:29
+E00422,P0039,2026-09-07T16:12,Emergency Department,Weakness,3,Discharged,,2026-09-07T22:15
+E00423,P0327,2026-07-27T07:55,Emergency Department,Dizziness,4,Discharged,,2026-07-27T10:54
+E00424,P0187,2026-07-03T16:04,Emergency Department,Vomiting,1,Discharged,,2026-07-04T00:32
+E00425,P0411,2026-08-05T19:47,Emergency Department,Minor injury,4,Discharged,,2026-08-06T19:47
+E00426,P0348,2026-07-07T10:39,Emergency Department,Abdominal pain,4,Discharged,,2026-07-07T22:50
+E00427,P0488,2026-07-19T08:13,Emergency Department,Shortness of breath,2,Admitted,2026-07-19T10:16,2026-07-23T19:34
+E00428,P0074,2026-08-06T17:27,Emergency Department,Palpitations,3,Discharged,,2026-08-06T19:14
+E00429,P0348,2026-07-11T11:26,Emergency Department,Back pain,4,Discharged,,2026-07-11T14:26
+E00430,P0018,2026-08-16T05:40,Emergency Department,Abdominal pain,4,Discharged,,2026-08-16T09:05
+E00431,P0035,2026-08-15T16:21,Emergency Department,Fall,4,Discharged,,2026-08-15T21:55
+E00432,P0399,2026-08-31T11:19,Emergency Department,Weakness,3,Discharged,,2026-08-31T17:47
+E00433,P0188,2026-08-11T23:08,Emergency Department,Headache,3,Discharged,,2026-08-12T02:08
+E00434,P0197,2026-09-22T16:55,Emergency Department,Palpitations,1,Discharged,,2026-09-23T02:01
+E00435,P0017,2026-07-03T23:21,Emergency Department,Palpitations,3,Discharged,,2026-07-04T09:45
+E00436,P0079,2026-08-15T09:49,Emergency Department,Weakness,1,Admitted,2026-08-15T15:05,2026-08-20T18:15
+E00437,P0231,2026-07-26T16:57,Emergency Department,Headache,2,Admitted,2026-07-26T20:23,2026-07-29T21:36
+E00438,P0191,2026-08-16T10:44,Emergency Department,Back pain,1,Admitted,2026-08-16T17:22,2026-08-20T11:40
+E00439,P0391,2026-08-27T09:41,Emergency Department,Chest pain,4,Discharged,,2026-08-27T15:18
+E00440,P0294,2026-07-13T16:47,Emergency Department,Abdominal pain,3,Admitted,2026-07-13T21:24,2026-07-14T21:26
+E00441,P0272,2026-09-21T14:40,Emergency Department,Headache,4,Discharged,,2026-09-21T18:42
+E00442,P0204,2026-08-05T05:21,Emergency Department,Headache,2,Discharged,,2026-08-05T10:04
+E00443,P0333,2026-08-26T23:24,Emergency Department,Fever,4,Discharged,,2026-08-27T13:23
+E00444,P0128,2026-08-11T15:51,Emergency Department,Chest pain,1,Admitted,2026-08-11T22:12,2026-08-13T16:42
+E00445,P0014,2026-08-25T14:06,Emergency Department,Minor injury,1,Admitted,2026-08-25T18:34,2026-08-31T17:19
+E00446,P0096,2026-08-10T11:06,Emergency Department,Back pain,3,Discharged,,2026-08-10T20:27
+E00447,P0266,2026-08-25T10:10,Emergency Department,Dizziness,5,Discharged,,2026-08-25T11:33
+E00448,P0468,2026-07-20T10:25,Emergency Department,Vomiting,4,Discharged,,2026-07-20T16:29
+E00449,P0061,2026-07-12T20:57,Emergency Department,Fever,4,Discharged,,2026-07-13T00:41
+E00450,P0397,2026-08-07T15:50,Emergency Department,Fever,4,Discharged,,2026-08-07T17:16
+E00451,P0361,2026-07-09T17:57,Emergency Department,Back pain,3,Discharged,,2026-07-09T21:23
+E00452,P0110,2026-07-05T06:58,Emergency Department,Palpitations,2,Admitted,2026-07-05T11:20,2026-07-11T05:46
+E00453,P0147,2026-07-21T14:39,Emergency Department,Minor injury,4,Discharged,,2026-07-21T17:31
+E00454,P0470,2026-07-24T23:55,Emergency Department,Back pain,5,Discharged,,2026-07-25T01:47
+E00455,P0103,2026-08-25T11:39,Emergency Department,Chest pain,4,Discharged,,2026-08-25T17:18
+E00456,P0070,2026-08-31T08:30,Emergency Department,Chest pain,4,Discharged,,2026-08-31T17:40
+E00457,P0232,2026-07-21T14:51,Emergency Department,Abdominal pain,3,Discharged,,2026-07-21T19:08
+E00458,P0461,2026-09-05T09:43,Emergency Department,Minor injury,3,Discharged,,2026-09-05T11:08
+E00459,P0228,2026-08-07T19:25,Emergency Department,Chest pain,3,Admitted,2026-08-07T21:50,2026-08-09T03:59
+E00460,P0415,2026-07-17T22:34,Emergency Department,Weakness,3,Admitted,2026-07-18T02:35,2026-07-22T08:22
+E00461,P0496,2026-07-07T09:03,Emergency Department,Headache,4,Discharged,,2026-07-07T16:56
+E00462,P0342,2026-09-09T12:17,Emergency Department,Headache,3,Admitted,2026-09-09T20:04,2026-09-19T19:37
+E00463,P0364,2026-08-26T11:26,Emergency Department,Chest pain,3,Discharged,,2026-08-26T15:41
+E00464,P0282,2026-07-31T16:44,Emergency Department,Vomiting,5,Discharged,,2026-07-31T23:40
+E00465,P0149,2026-09-26T03:25,Emergency Department,Fever,4,Discharged,,2026-09-26T08:15
+E00466,P0436,2026-08-14T08:02,Emergency Department,Abdominal pain,4,Discharged,,2026-08-14T13:58
+E00467,P0365,2026-07-25T21:37,Emergency Department,Minor injury,3,Admitted,2026-07-26T01:22,2026-07-29T05:37
+E00468,P0475,2026-09-05T10:35,Emergency Department,Minor injury,4,Discharged,,2026-09-05T13:12
+E00469,P0327,2026-07-15T07:07,Emergency Department,Abdominal pain,4,Admitted,2026-07-15T11:04,2026-07-17T01:57
+E00470,P0407,2026-09-24T15:15,Emergency Department,Headache,3,Discharged,,2026-09-24T17:57
+E00471,P0261,2026-08-31T08:21,Emergency Department,Fall,3,Discharged,,2026-08-31T15:17
+E00472,P0063,2026-07-26T23:45,Emergency Department,Fall,1,Admitted,2026-07-27T06:12,2026-08-01T06:10
+E00473,P0406,2026-09-07T11:04,Emergency Department,Abdominal pain,3,Discharged,,2026-09-07T16:42
+E00474,P0122,2026-07-22T08:32,Emergency Department,Back pain,3,Discharged,,2026-07-22T10:33
+E00475,P0014,2026-08-01T21:49,Emergency Department,Headache,4,Discharged,,2026-08-02T03:02
+E00476,P0284,2026-09-11T07:54,Emergency Department,Palpitations,5,Discharged,,2026-09-11T12:00
+E00477,P0189,2026-07-29T10:58,Emergency Department,Back pain,5,Discharged,,2026-07-29T16:58
+E00478,P0412,2026-07-12T12:05,Emergency Department,Vomiting,3,Admitted,2026-07-12T19:46,2026-07-14T01:23
+E00479,P0067,2026-09-08T19:39,Emergency Department,Palpitations,2,Admitted,2026-09-09T01:47,2026-09-10T16:47
+E00480,P0453,2026-09-06T23:09,Emergency Department,Chest pain,3,Discharged,,2026-09-07T05:15
+E00481,P0034,2026-07-22T13:43,Emergency Department,Fever,2,Discharged,,2026-07-22T20:24
+E00482,P0204,2026-07-01T11:10,Emergency Department,Minor injury,1,Discharged,,2026-07-01T15:27
+E00483,P0369,2026-07-27T15:45,Emergency Department,Back pain,5,Discharged,,2026-07-27T20:42
+E00484,P0270,2026-08-08T12:14,Emergency Department,Dizziness,5,Discharged,,2026-08-08T18:58
+E00485,P0394,2026-09-14T22:36,Emergency Department,Dizziness,3,Discharged,,2026-09-15T03:25
+E00486,P0422,2026-09-27T20:31,Emergency Department,Palpitations,5,Discharged,,2026-09-27T23:45
+E00487,P0038,2026-09-17T23:05,Emergency Department,Abdominal pain,1,Admitted,2026-09-18T01:21,2026-09-18T16:03
+E00488,P0498,2026-09-26T07:48,Emergency Department,Headache,3,Discharged,,2026-09-26T11:13
+E00489,P0329,2026-07-16T13:06,Emergency Department,Chest pain,3,Discharged,,2026-07-16T19:12
+E00490,P0231,2026-08-21T16:23,Emergency Department,Back pain,3,Discharged,,2026-08-21T22:16
+E00491,P0349,2026-07-31T17:43,Emergency Department,Vomiting,2,Admitted,2026-07-31T22:54,2026-08-03T06:06
+E00492,P0177,2026-08-15T16:42,Emergency Department,Abdominal pain,2,Admitted,2026-08-15T20:24,2026-08-18T01:14
+E00493,P0450,2026-07-28T06:50,Emergency Department,Vomiting,5,Discharged,,2026-07-28T13:16
+E00494,P0328,2026-09-04T13:14,Emergency Department,Palpitations,2,Discharged,,2026-09-04T20:39
+E00495,P0094,2026-07-31T13:39,Emergency Department,Abdominal pain,4,Discharged,,2026-07-31T17:28
+E00496,P0222,2026-07-07T15:11,Emergency Department,Vomiting,4,Discharged,,2026-07-07T23:38
+E00497,P0467,2026-07-10T11:53,Emergency Department,Shortness of breath,4,Admitted,2026-07-10T17:45,2026-07-11T10:08
+E00498,P0426,2026-09-25T12:15,Emergency Department,Chest pain,1,Admitted,2026-09-25T18:04,2026-09-28T19:01
+E00499,P0266,2026-08-21T15:01,Emergency Department,Abdominal pain,3,Discharged,,2026-08-22T00:22
+E00500,P0156,2026-08-12T15:42,Emergency Department,Abdominal pain,4,Discharged,,2026-08-12T19:22
+E00501,P0083,2026-08-12T18:09,Emergency Department,Headache,3,Discharged,,2026-08-13T01:45
+E00502,P0479,2026-09-27T18:16,Emergency Department,Minor injury,4,Discharged,,2026-09-27T19:28
+E00503,P0116,2026-08-04T14:02,Emergency Department,Headache,5,Discharged,,2026-08-04T22:44
+E00504,P0486,2026-09-15T16:35,Emergency Department,Vomiting,2,Admitted,2026-09-15T22:44,2026-09-27T22:44
+E00505,P0459,2026-09-25T23:03,Emergency Department,Fever,5,Admitted,2026-09-26T02:06,2026-09-28T20:24
+E00506,P0434,2026-07-13T17:37,Emergency Department,Chest pain,4,Discharged,,2026-07-14T11:33
+E00507,P0129,2026-08-19T15:16,Emergency Department,Fall,3,Discharged,,2026-08-19T19:20
+E00508,P0326,2026-07-22T12:17,Emergency Department,Vomiting,5,Discharged,,2026-07-22T18:28
+E00509,P0141,2026-08-12T21:10,Emergency Department,Abdominal pain,2,Discharged,,2026-08-13T01:04
+E00510,P0321,2026-08-27T16:14,Emergency Department,Fever,4,Discharged,,2026-08-27T21:29
+E00511,P0315,2026-08-21T12:23,Emergency Department,Vomiting,2,Discharged,,2026-08-21T21:50
+E00512,P0048,2026-08-03T10:48,Emergency Department,Vomiting,4,Admitted,2026-08-03T13:03,2026-08-07T18:19
+E00513,P0329,2026-07-22T18:27,Emergency Department,Abdominal pain,5,Discharged,,2026-07-22T22:02
+E00514,P0304,2026-07-08T13:04,Emergency Department,Palpitations,4,Admitted,2026-07-08T17:05,2026-07-13T01:16
+E00515,P0079,2026-07-21T13:14,Emergency Department,Abdominal pain,4,Discharged,,2026-07-21T18:29
+E00516,P0338,2026-08-04T14:02,Emergency Department,Palpitations,1,Discharged,,2026-08-04T17:28
+E00517,P0369,2026-08-02T12:20,Emergency Department,Palpitations,3,Discharged,,2026-08-02T18:48
+E00518,P0173,2026-08-25T19:20,Emergency Department,Palpitations,4,Admitted,2026-08-25T23:49,2026-09-01T05:47
+E00519,P0022,2026-08-13T10:41,Emergency Department,Shortness of breath,2,Discharged,,2026-08-13T15:43
+E00520,P0042,2026-09-23T20:48,Emergency Department,Shortness of breath,2,Admitted,2026-09-24T03:32,2026-09-24T17:09
+E00521,P0486,2026-09-27T17:51,Emergency Department,Weakness,2,Discharged,,2026-09-28T11:34
+E00522,P0395,2026-07-16T08:37,Emergency Department,Palpitations,5,Discharged,,2026-07-16T11:19
+E00523,P0136,2026-09-02T20:56,Emergency Department,Weakness,2,Admitted,2026-09-03T01:51,2026-09-11T07:54
+E00524,P0108,2026-09-04T19:07,Emergency Department,Palpitations,5,Discharged,,2026-09-05T07:01
+E00525,P0214,2026-07-25T20:01,Emergency Department,Palpitations,2,Discharged,,2026-07-26T03:06
+E00526,P0328,2026-09-13T17:25,Emergency Department,Shortness of breath,5,Discharged,,2026-09-13T21:18
+E00527,P0255,2026-08-21T13:05,Emergency Department,Weakness,3,Discharged,,2026-08-21T20:29
+E00528,P0280,2026-09-08T16:13,Emergency Department,Fever,5,Discharged,,2026-09-08T22:22
+E00529,P0329,2026-07-10T15:53,Emergency Department,Fever,4,Discharged,,2026-07-10T19:48
+E00530,P0248,2026-09-24T08:52,Emergency Department,Fall,4,Discharged,,2026-09-24T13:10
+E00531,P0413,2026-07-07T15:03,Emergency Department,Weakness,4,Discharged,,2026-07-07T18:57
+E00532,P0208,2026-08-28T09:21,Emergency Department,Fever,2,Admitted,2026-08-28T15:14,2026-08-29T03:14
+E00533,P0233,2026-08-31T01:48,Emergency Department,Chest pain,4,Discharged,,2026-08-31T09:29
+E00534,P0353,2026-07-05T23:06,Emergency Department,Shortness of breath,3,Discharged,,2026-07-06T00:34
+E00535,P0081,2026-07-03T15:38,Emergency Department,Back pain,3,Admitted,2026-07-03T17:29,2026-07-05T20:59
+E00536,P0213,2026-07-22T14:58,Emergency Department,Back pain,3,Discharged,,2026-07-22T17:51
+E00537,P0238,2026-08-13T22:15,Emergency Department,Fall,4,Discharged,,2026-08-14T02:17
+E00538,P0175,2026-08-17T15:51,Emergency Department,Palpitations,5,Discharged,,2026-08-17T18:45
+E00539,P0074,2026-09-27T22:03,Emergency Department,Headache,4,Admitted,2026-09-28T05:09,2026-10-02T17:43
+E00540,P0442,2026-07-29T15:43,Emergency Department,Minor injury,4,Discharged,,2026-07-29T23:45
+E00541,P0164,2026-09-17T10:10,Emergency Department,Minor injury,4,Admitted,2026-09-17T21:46,2026-09-18T16:55
+E00542,P0441,2026-08-05T19:46,Emergency Department,Headache,1,Admitted,2026-08-06T02:59,2026-08-06T21:14
+E00543,P0500,2026-09-14T06:25,Emergency Department,Dizziness,4,Admitted,2026-09-14T11:09,2026-09-15T17:11
+E00544,P0067,2026-09-21T20:20,Emergency Department,Headache,2,Discharged,,2026-09-21T22:08
+E00545,P0264,2026-09-26T18:20,Emergency Department,Vomiting,1,Admitted,2026-09-26T23:57,2026-10-02T10:55
+E00546,P0055,2026-08-17T23:42,Emergency Department,Headache,4,Discharged,,2026-08-18T03:27
+E00547,P0124,2026-08-04T17:48,Emergency Department,Back pain,4,Discharged,,2026-08-05T08:44
+E00548,P0063,2026-09-02T08:37,Emergency Department,Fever,1,Admitted,2026-09-02T17:12,2026-09-08T02:10
+E00549,P0231,2026-08-12T12:47,Emergency Department,Fall,4,Discharged,,2026-08-12T17:06
+E00550,P0073,2026-07-28T18:33,Emergency Department,Chest pain,5,Discharged,,2026-07-28T22:14
+E00551,P0026,2026-09-22T10:01,Emergency Department,Fever,5,Discharged,,2026-09-22T14:39
+E00552,P0485,2026-09-20T16:14,Emergency Department,Dizziness,3,Discharged,,2026-09-20T18:30
+E00553,P0443,2026-08-06T08:26,Emergency Department,Palpitations,3,Admitted,2026-08-06T13:32,2026-08-17T07:46
+E00554,P0215,2026-07-21T07:27,Emergency Department,Fall,2,Admitted,2026-07-21T13:44,2026-07-22T16:56
+E00555,P0493,2026-08-26T18:25,Emergency Department,Abdominal pain,2,Admitted,2026-08-27T00:13,2026-08-29T07:06
+E00556,P0417,2026-07-13T20:10,Emergency Department,Headache,1,Discharged,,2026-07-14T05:18
+E00557,P0479,2026-07-16T11:49,Emergency Department,Palpitations,4,Discharged,,2026-07-16T17:25
+E00558,P0370,2026-09-27T23:39,Emergency Department,Headache,3,Admitted,2026-09-28T03:44,2026-10-01T12:11
+E00559,P0098,2026-09-03T22:27,Emergency Department,Abdominal pain,5,Discharged,,2026-09-04T01:31
+E00560,P0256,2026-09-12T20:27,Emergency Department,Vomiting,3,Admitted,2026-09-13T00:30,2026-09-18T05:29
+E00561,P0240,2026-07-18T17:44,Emergency Department,Back pain,3,Admitted,2026-07-18T23:07,2026-07-19T16:18
+E00562,P0451,2026-09-09T09:30,Emergency Department,Fever,4,Discharged,,2026-09-09T20:10
+E00563,P0255,2026-09-16T23:54,Emergency Department,Shortness of breath,5,Discharged,,2026-09-17T03:02
+E00564,P0047,2026-09-07T04:16,Emergency Department,Dizziness,4,Discharged,,2026-09-07T08:02
+E00565,P0259,2026-07-31T09:43,Emergency Department,Back pain,3,Discharged,,2026-08-01T00:37
+E00566,P0495,2026-09-16T09:09,Emergency Department,Fall,1,Admitted,2026-09-16T12:52,2026-09-18T13:23
+E00567,P0111,2026-09-18T18:29,Emergency Department,Palpitations,4,Discharged,,2026-09-19T09:04
+E00568,P0181,2026-08-24T13:35,Emergency Department,Shortness of breath,2,Discharged,,2026-08-24T19:28
+E00569,P0026,2026-08-10T11:26,Emergency Department,Fever,3,Discharged,,2026-08-10T13:48
+E00570,P0254,2026-07-24T05:25,Emergency Department,Palpitations,5,Discharged,,2026-07-24T06:46
+E00571,P0452,2026-07-09T23:52,Emergency Department,Weakness,4,Discharged,,2026-07-10T07:36
+E00572,P0345,2026-08-15T17:29,Emergency Department,Back pain,3,Discharged,,2026-08-15T21:56
+E00573,P0147,2026-09-09T11:16,Emergency Department,Vomiting,3,Discharged,,2026-09-09T14:05
+E00574,P0005,2026-09-21T14:31,Emergency Department,Chest pain,2,Admitted,2026-09-21T17:42,2026-09-23T12:18
+E00575,P0221,2026-08-11T11:52,Emergency Department,Abdominal pain,1,Admitted,2026-08-11T17:52,2026-08-14T02:57
+E00576,P0452,2026-07-23T19:17,Emergency Department,Fever,3,Discharged,,2026-07-23T23:15
+E00577,P0373,2026-08-25T15:10,Emergency Department,Headache,4,Admitted,2026-08-25T23:05,2026-08-28T16:16
+E00578,P0392,2026-09-27T14:19,Emergency Department,Dizziness,3,Discharged,,2026-09-27T18:29
+E00579,P0188,2026-07-02T09:33,Emergency Department,Shortness of breath,4,Discharged,,2026-07-02T14:03
+E00580,P0206,2026-07-14T22:11,Emergency Department,Shortness of breath,1,Admitted,2026-07-15T02:13,2026-07-18T16:31
+E00581,P0292,2026-08-17T20:26,Emergency Department,Vomiting,3,Admitted,2026-08-18T04:45,2026-08-21T05:26
+E00582,P0100,2026-07-11T12:20,Emergency Department,Headache,3,Discharged,,2026-07-11T15:31
+E00583,P0284,2026-07-26T17:06,Emergency Department,Fever,3,Admitted,2026-07-26T21:22,2026-08-07T21:22
+E00584,P0038,2026-07-11T18:30,Emergency Department,Dizziness,2,Discharged,,2026-07-12T13:12
+E00585,P0259,2026-09-15T16:13,Emergency Department,Back pain,3,Discharged,,2026-09-15T18:49
+E00586,P0392,2026-07-11T12:17,Emergency Department,Vomiting,3,Admitted,2026-07-11T15:40,2026-07-12T03:40
+E00587,P0144,2026-09-11T19:30,Emergency Department,Palpitations,4,Discharged,,2026-09-11T22:18
+E00588,P0349,2026-07-04T19:33,Emergency Department,Palpitations,4,Discharged,,2026-07-05T10:14
+E00589,P0061,2026-09-10T21:24,Emergency Department,Abdominal pain,1,Admitted,2026-09-11T07:37,2026-09-15T01:27
+E00590,P0500,2026-08-13T23:14,Emergency Department,Chest pain,3,Discharged,,2026-08-14T01:53
+E00591,P0202,2026-07-01T13:58,Emergency Department,Headache,4,Discharged,,2026-07-01T19:28
+E00592,P0407,2026-08-02T12:15,Emergency Department,Headache,1,Admitted,2026-08-02T23:37,2026-08-05T10:38
+E00593,P0286,2026-07-17T05:22,Emergency Department,Headache,1,Admitted,2026-07-17T15:46,2026-07-20T02:59
+E00594,P0387,2026-09-19T10:56,Emergency Department,Abdominal pain,3,Discharged,,2026-09-19T16:57
+E00595,P0102,2026-09-09T15:10,Emergency Department,Palpitations,4,Discharged,,2026-09-10T05:40
+E00596,P0261,2026-09-07T14:12,Emergency Department,Dizziness,1,Admitted,2026-09-08T00:03,2026-09-11T21:14
+E00597,P0257,2026-07-02T12:30,Emergency Department,Shortness of breath,4,Discharged,,2026-07-02T14:46
+E00598,P0024,2026-08-15T18:26,Emergency Department,Shortness of breath,5,Discharged,,2026-08-15T23:10
+E00599,P0071,2026-07-25T06:53,Emergency Department,Minor injury,1,Admitted,2026-07-25T12:04,2026-07-26T20:48
+E00600,P0171,2026-07-04T17:43,Emergency Department,Back pain,1,Admitted,2026-07-04T20:00,2026-07-08T22:09
+E00601,P0266,2026-08-09T16:51,Emergency Department,Back pain,2,Admitted,2026-08-09T21:14,2026-08-10T19:10
+E00602,P0077,2026-08-23T20:26,Emergency Department,Palpitations,3,Discharged,,2026-08-23T22:22
+E00603,P0458,2026-07-27T12:41,Emergency Department,Vomiting,3,Discharged,,2026-07-27T15:52
+E00604,P0072,2026-07-18T15:26,Emergency Department,Headache,1,Discharged,,2026-07-18T17:37
+E00605,P0477,2026-08-24T14:44,Emergency Department,Palpitations,3,Admitted,2026-08-24T19:28,2026-08-27T16:47
+E00606,P0164,2026-08-06T09:26,Emergency Department,Abdominal pain,1,Admitted,2026-08-06T19:46,2026-08-08T04:11
+E00607,P0202,2026-08-19T22:01,Emergency Department,Palpitations,4,Admitted,2026-08-20T05:58,2026-08-25T11:06
+E00608,P0379,2026-08-19T15:06,Emergency Department,Fever,3,Admitted,2026-08-19T20:03,2026-08-28T09:40
+E00609,P0304,2026-07-28T22:24,Emergency Department,Headache,4,Discharged,,2026-07-29T02:06
+E00610,P0260,2026-07-23T11:00,Emergency Department,Vomiting,5,Discharged,,2026-07-23T14:19
+E00611,P0273,2026-08-03T19:12,Emergency Department,Back pain,3,Admitted,2026-08-04T00:17,2026-08-08T20:42
+E00612,P0363,2026-08-14T22:07,Emergency Department,Palpitations,2,Admitted,2026-08-15T03:44,2026-08-15T15:46
+E00613,P0154,2026-09-05T04:37,Emergency Department,Back pain,5,Admitted,2026-09-05T08:21,2026-09-07T14:56
+E00614,P0418,2026-08-26T12:40,Emergency Department,Shortness of breath,3,Discharged,,2026-08-26T15:37
+E00615,P0189,2026-08-18T12:47,Emergency Department,Headache,4,Discharged,,2026-08-18T17:45
+E00616,P0345,2026-09-23T19:15,Emergency Department,Chest pain,2,Admitted,2026-09-24T05:22,2026-10-06T05:22
+E00617,P0214,2026-08-27T19:30,Emergency Department,Palpitations,3,Admitted,2026-08-27T22:42,2026-08-29T16:07
+E00618,P0158,2026-08-22T14:39,Emergency Department,Minor injury,3,Discharged,,2026-08-22T16:56
+E00619,P0447,2026-07-03T16:56,Emergency Department,Minor injury,3,Discharged,,2026-07-04T01:55
+E00620,P0323,2026-07-18T20:53,Emergency Department,Shortness of breath,4,Discharged,,2026-07-19T06:37
+E00621,P0306,2026-08-14T13:43,Emergency Department,Back pain,4,Discharged,,2026-08-14T15:19
+E00622,P0136,2026-07-31T09:27,Emergency Department,Weakness,5,Discharged,,2026-07-31T10:40
+E00623,P0401,2026-07-14T20:09,Emergency Department,Palpitations,4,Discharged,,2026-07-15T00:39
+E00624,P0296,2026-08-26T10:44,Emergency Department,Fall,3,Discharged,,2026-08-26T14:51
+E00625,P0370,2026-08-05T15:25,Emergency Department,Shortness of breath,4,Discharged,,2026-08-05T18:48
+E00626,P0299,2026-07-13T06:45,Emergency Department,Back pain,2,Discharged,,2026-07-13T16:56
+E00627,P0088,2026-08-11T09:05,Emergency Department,Vomiting,5,Discharged,,2026-08-11T11:39
+E00628,P0323,2026-07-27T09:35,Emergency Department,Minor injury,5,Admitted,2026-07-27T15:57,2026-07-28T06:27
+E00629,P0318,2026-09-08T12:27,Emergency Department,Dizziness,5,Discharged,,2026-09-08T16:23
+E00630,P0076,2026-08-13T16:26,Emergency Department,Weakness,2,Discharged,,2026-08-13T22:48
+E00631,P0125,2026-09-26T21:02,Emergency Department,Shortness of breath,2,Discharged,,2026-09-27T01:28
+E00632,P0294,2026-07-03T21:49,Emergency Department,Minor injury,2,Admitted,2026-07-04T05:10,2026-07-09T05:14
+E00633,P0057,2026-07-05T14:30,Emergency Department,Fall,4,Discharged,,2026-07-05T18:55
+E00634,P0010,2026-08-22T17:37,Emergency Department,Back pain,3,Discharged,,2026-08-23T02:45
+E00635,P0161,2026-09-03T09:45,Emergency Department,Dizziness,3,Discharged,,2026-09-03T15:54
+E00636,P0078,2026-07-13T17:37,Emergency Department,Dizziness,2,Admitted,2026-07-13T21:03,2026-07-16T02:52
+E00637,P0354,2026-07-27T15:29,Emergency Department,Fall,2,Discharged,,2026-07-27T21:13
+E00638,P0211,2026-08-31T17:25,Emergency Department,Vomiting,5,Discharged,,2026-08-31T19:22
+E00639,P0397,2026-09-04T11:30,Emergency Department,Palpitations,3,Admitted,2026-09-04T15:05,2026-09-05T17:41
+E00640,P0472,2026-09-08T12:34,Emergency Department,Back pain,5,Discharged,,2026-09-08T13:31
+E00641,P0447,2026-09-06T01:29,Emergency Department,Minor injury,4,Discharged,,2026-09-06T05:20
+E00642,P0373,2026-07-24T14:03,Emergency Department,Shortness of breath,1,Discharged,,2026-07-24T21:09
+E00643,P0362,2026-07-09T23:43,Emergency Department,Abdominal pain,3,Admitted,2026-07-10T17:05,2026-07-15T04:11
+E00644,P0266,2026-08-01T07:59,Emergency Department,Fall,3,Discharged,,2026-08-01T12:05
+E00645,P0288,2026-09-10T09:14,Emergency Department,Headache,4,Discharged,,2026-09-10T13:08
+E00646,P0340,2026-08-03T18:05,Emergency Department,Back pain,3,Discharged,,2026-08-03T22:07
+E00647,P0270,2026-08-13T19:38,Emergency Department,Dizziness,3,Discharged,,2026-08-13T21:39
+E00648,P0161,2026-07-13T14:13,Emergency Department,Abdominal pain,5,Discharged,,2026-07-13T21:29
+E00649,P0236,2026-09-26T12:03,Emergency Department,Vomiting,4,Discharged,,2026-09-26T14:20
+E00650,P0176,2026-09-18T16:25,Emergency Department,Vomiting,3,Discharged,,2026-09-19T03:43
+E00651,P0182,2026-09-26T08:03,Emergency Department,Weakness,5,Discharged,,2026-09-26T16:43
+E00652,P0396,2026-09-16T06:36,Emergency Department,Minor injury,4,Discharged,,2026-09-16T10:17
+E00653,P0349,2026-07-07T18:28,Emergency Department,Weakness,3,Discharged,,2026-07-07T21:47
+E00654,P0412,2026-08-09T22:44,Emergency Department,Minor injury,3,Discharged,,2026-08-10T05:22
+E00655,P0136,2026-07-09T18:16,Emergency Department,Palpitations,3,Discharged,,2026-07-10T01:35
+E00656,P0248,2026-08-19T17:20,Emergency Department,Fall,4,Discharged,,2026-08-19T20:43
+E00657,P0491,2026-09-02T22:14,Emergency Department,Fall,3,Discharged,,2026-09-03T02:15
+E00658,P0143,2026-07-02T11:54,Emergency Department,Vomiting,5,Discharged,,2026-07-03T00:11
+E00659,P0153,2026-08-15T23:32,Emergency Department,Fall,4,Discharged,,2026-08-16T01:32
+E00660,P0483,2026-09-26T14:42,Emergency Department,Fever,3,Discharged,,2026-09-27T00:05
+E00661,P0395,2026-08-08T22:43,Emergency Department,Fever,4,Discharged,,2026-08-08T23:58
+E00662,P0361,2026-07-27T11:21,Emergency Department,Fall,3,Discharged,,2026-07-27T17:22
+E00663,P0354,2026-07-21T12:32,Emergency Department,Minor injury,3,Discharged,,2026-07-21T18:39
+E00664,P0251,2026-09-02T12:14,Emergency Department,Headache,3,Admitted,2026-09-02T19:12,2026-09-04T20:48
+E00665,P0246,2026-08-26T18:58,Emergency Department,Headache,4,Discharged,,2026-08-26T22:20
+E00666,P0287,2026-07-18T16:35,Emergency Department,Minor injury,5,Discharged,,2026-07-18T20:46
+E00667,P0141,2026-09-07T14:54,Emergency Department,Fever,2,Discharged,,2026-09-08T00:05
+E00668,P0063,2026-09-19T05:51,Emergency Department,Palpitations,2,Discharged,,2026-09-19T08:03
+E00669,P0347,2026-07-01T19:53,Emergency Department,Vomiting,2,Admitted,2026-07-02T01:02,2026-07-03T23:45
+E00670,P0195,2026-08-23T23:00,Emergency Department,Dizziness,4,Discharged,,2026-08-24T03:25
+E00671,P0420,2026-08-17T13:01,Emergency Department,Headache,1,Discharged,,2026-08-17T23:30
+E00672,P0489,2026-08-23T13:06,Emergency Department,Abdominal pain,3,Admitted,2026-08-23T15:10,2026-08-26T15:48
+E00673,P0149,2026-07-25T23:12,Emergency Department,Shortness of breath,4,Discharged,,2026-07-26T01:00
+E00674,P0148,2026-07-24T13:53,Emergency Department,Minor injury,3,Admitted,2026-07-24T19:11,2026-07-31T02:26
+E00675,P0041,2026-07-30T13:19,Emergency Department,Headache,4,Discharged,,2026-07-30T20:39
+E00676,P0474,2026-09-27T15:25,Emergency Department,Back pain,4,Discharged,,2026-09-27T19:22
+E00677,P0336,2026-07-28T13:24,Emergency Department,Fever,5,Discharged,,2026-07-28T15:22
+E00678,P0383,2026-07-12T09:48,Emergency Department,Back pain,1,Admitted,2026-07-12T18:41,2026-07-14T04:54
+E00679,P0110,2026-08-05T08:31,Emergency Department,Fall,3,Admitted,2026-08-05T10:55,2026-08-07T01:17
+E00680,P0424,2026-07-23T18:50,Emergency Department,Vomiting,4,Discharged,,2026-07-23T23:36
+E00681,P0139,2026-07-20T12:16,Emergency Department,Vomiting,4,Discharged,,2026-07-20T13:39
+E00682,P0357,2026-08-14T12:46,Emergency Department,Fever,4,Discharged,,2026-08-14T23:12
+E00683,P0071,2026-09-09T20:00,Emergency Department,Chest pain,4,Discharged,,2026-09-09T21:44
+E00684,P0316,2026-08-02T16:02,Emergency Department,Minor injury,3,Discharged,,2026-08-02T21:14
+E00685,P0301,2026-08-20T12:35,Emergency Department,Fall,3,Discharged,,2026-08-20T16:53
+E00686,P0125,2026-08-09T04:41,Emergency Department,Shortness of breath,3,Discharged,,2026-08-09T09:57
+E00687,P0343,2026-08-21T18:52,Emergency Department,Vomiting,1,Admitted,2026-08-22T07:48,2026-08-28T02:56
+E00688,P0116,2026-08-08T14:39,Emergency Department,Weakness,4,Discharged,,2026-08-08T17:26
+E00689,P0120,2026-08-13T23:13,Emergency Department,Shortness of breath,4,Discharged,,2026-08-14T09:56
+E00690,P0052,2026-08-06T08:05,Emergency Department,Dizziness,3,Discharged,,2026-08-06T13:36
+E00691,P0170,2026-07-28T13:36,Emergency Department,Minor injury,2,Discharged,,2026-07-28T20:37
+E00692,P0242,2026-07-13T07:44,Emergency Department,Chest pain,1,Admitted,2026-07-13T11:53,2026-07-14T14:39
+E00693,P0349,2026-08-08T18:47,Emergency Department,Abdominal pain,4,Discharged,,2026-08-08T21:59
+E00694,P0003,2026-08-11T15:01,Emergency Department,Vomiting,3,Discharged,,2026-08-11T19:00
+E00695,P0476,2026-07-13T17:00,Emergency Department,Abdominal pain,1,Discharged,,2026-07-13T20:33
+E00696,P0209,2026-09-14T18:26,Emergency Department,Weakness,4,Admitted,2026-09-14T22:06,2026-09-15T15:38
+E00697,P0479,2026-08-20T13:39,Emergency Department,Back pain,4,Discharged,,2026-08-21T00:29
+E00698,P0245,2026-07-28T15:57,Emergency Department,Weakness,2,Discharged,,2026-07-28T19:30
+E00699,P0103,2026-08-01T15:20,Emergency Department,Fever,1,Admitted,2026-08-01T21:18,2026-08-06T05:25
+E00700,P0165,2026-08-01T15:37,Emergency Department,Fever,2,Discharged,,2026-08-01T18:02
+E00701,P0331,2026-09-17T20:04,Emergency Department,Shortness of breath,2,Admitted,2026-09-18T05:41,2026-09-28T19:05
+E00702,P0465,2026-09-10T17:08,Emergency Department,Chest pain,4,Admitted,2026-09-11T01:31,2026-09-20T07:08
+E00703,P0334,2026-07-09T19:13,Emergency Department,Palpitations,4,Discharged,,2026-07-09T22:19
+E00704,P0119,2026-08-17T20:37,Emergency Department,Vomiting,2,Discharged,,2026-08-18T01:00
+E00705,P0379,2026-08-30T19:49,Emergency Department,Minor injury,1,Discharged,,2026-08-31T02:32
+E00706,P0436,2026-09-26T13:36,Emergency Department,Shortness of breath,3,Discharged,,2026-09-26T14:42
+E00707,P0468,2026-08-25T10:02,Emergency Department,Abdominal pain,2,Discharged,,2026-08-25T19:07
+E00708,P0214,2026-08-14T19:49,Emergency Department,Abdominal pain,5,Discharged,,2026-08-14T22:32
+E00709,P0479,2026-07-30T09:37,Emergency Department,Shortness of breath,4,Discharged,,2026-07-30T12:47
+E00710,P0429,2026-09-19T08:14,Emergency Department,Dizziness,3,Discharged,,2026-09-19T14:20
+E00711,P0404,2026-08-12T17:44,Emergency Department,Back pain,5,Discharged,,2026-08-12T21:41
+E00712,P0096,2026-07-16T17:54,Emergency Department,Minor injury,4,Discharged,,2026-07-17T02:15
+E00713,P0493,2026-07-19T07:16,Emergency Department,Fever,5,Discharged,,2026-07-19T09:03
+E00714,P0449,2026-07-03T18:04,Emergency Department,Shortness of breath,3,Discharged,,2026-07-04T00:04
+E00715,P0005,2026-09-22T13:28,Emergency Department,Fever,4,Admitted,2026-09-22T16:39,2026-09-26T01:13
+E00716,P0291,2026-08-20T13:16,Emergency Department,Palpitations,3,Admitted,2026-08-20T16:39,2026-08-24T18:47
+E00717,P0055,2026-08-30T10:19,Emergency Department,Headache,5,Discharged,,2026-08-30T13:29
+E00718,P0146,2026-08-18T19:20,Emergency Department,Back pain,4,Discharged,,2026-08-19T02:03
+E00719,P0329,2026-07-08T23:53,Emergency Department,Vomiting,3,Discharged,,2026-07-09T05:32
+E00720,P0269,2026-09-26T14:29,Emergency Department,Back pain,1,Admitted,2026-09-26T20:56,2026-10-02T01:17
+E00721,P0456,2026-09-04T08:32,Emergency Department,Abdominal pain,3,Admitted,2026-09-04T13:09,2026-09-06T13:12
+E00722,P0436,2026-09-01T17:34,Emergency Department,Vomiting,4,Discharged,,2026-09-01T22:23
+E00723,P0240,2026-07-30T12:39,Emergency Department,Fever,3,Discharged,,2026-07-30T19:35
+E00724,P0099,2026-07-14T10:05,Emergency Department,Chest pain,2,Discharged,,2026-07-14T12:44
+E00725,P0170,2026-07-04T11:50,Emergency Department,Abdominal pain,1,Admitted,2026-07-04T16:39,2026-07-10T01:48
+E00726,P0375,2026-08-06T17:21,Emergency Department,Back pain,3,Discharged,,2026-08-06T20:12
+E00727,P0332,2026-07-21T11:47,Emergency Department,Fever,5,Admitted,2026-07-21T13:35,2026-07-23T16:49
+E00728,P0368,2026-07-21T07:44,Emergency Department,Abdominal pain,2,Admitted,2026-07-21T13:13,2026-07-24T09:37
+E00729,P0008,2026-09-06T11:30,Emergency Department,Minor injury,5,Discharged,,2026-09-06T17:42
+E00730,P0173,2026-08-16T13:12,Emergency Department,Fever,3,Admitted,2026-08-16T16:20,2026-08-23T07:20
+E00731,P0291,2026-07-11T23:52,Emergency Department,Weakness,4,Admitted,2026-07-12T02:14,2026-07-16T07:31
+E00732,P0388,2026-08-18T19:09,Emergency Department,Fall,1,Admitted,2026-08-18T23:14,2026-08-21T17:44
+E00733,P0090,2026-08-08T23:26,Emergency Department,Palpitations,4,Discharged,,2026-08-09T01:38
+E00734,P0439,2026-09-05T20:49,Emergency Department,Weakness,5,Discharged,,2026-09-06T02:34
+E00735,P0460,2026-08-03T11:22,Emergency Department,Dizziness,3,Admitted,2026-08-03T17:48,2026-08-08T14:10
+E00736,P0424,2026-07-26T09:32,Emergency Department,Dizziness,2,Admitted,2026-07-26T13:55,2026-08-02T03:13
+E00737,P0264,2026-08-23T21:54,Emergency Department,Headache,5,Discharged,,2026-08-24T04:07
+E00738,P0045,2026-07-25T11:35,Emergency Department,Dizziness,1,Admitted,2026-07-25T14:52,2026-07-29T14:47
+E00739,P0343,2026-08-09T13:16,Emergency Department,Chest pain,2,Discharged,,2026-08-09T18:35
+E00740,P0095,2026-08-04T12:17,Emergency Department,Abdominal pain,4,Admitted,2026-08-04T15:42,2026-08-08T00:03
+E00741,P0245,2026-07-02T10:53,Emergency Department,Headache,4,Discharged,,2026-07-02T16:02
+E00742,P0480,2026-07-07T08:30,Emergency Department,Fall,4,Discharged,,2026-07-07T12:19
+E00743,P0004,2026-08-02T22:57,Emergency Department,Fever,3,Discharged,,2026-08-03T09:32
+E00744,P0197,2026-07-28T09:03,Emergency Department,Fall,3,Discharged,,2026-07-29T02:53
+E00745,P0229,2026-09-20T14:21,Emergency Department,Fever,5,Discharged,,2026-09-20T16:20
+E00746,P0489,2026-07-27T08:11,Emergency Department,Headache,2,Discharged,,2026-07-27T13:26
+E00747,P0155,2026-09-01T21:06,Emergency Department,Palpitations,3,Admitted,2026-09-02T04:07,2026-09-04T22:25
+E00748,P0371,2026-07-10T16:07,Emergency Department,Palpitations,1,Admitted,2026-07-10T20:28,2026-07-15T16:47
+E00749,P0006,2026-08-12T12:31,Emergency Department,Fever,5,Admitted,2026-08-12T17:06,2026-08-16T22:08
+E00750,P0335,2026-08-27T18:40,Emergency Department,Headache,4,Discharged,,2026-08-27T21:09
+E00751,P0355,2026-09-18T09:54,Emergency Department,Fall,4,Discharged,,2026-09-18T13:46
+E00752,P0032,2026-09-23T15:02,Emergency Department,Weakness,1,Discharged,,2026-09-23T19:55
+E00753,P0061,2026-08-24T07:04,Emergency Department,Back pain,5,Discharged,,2026-08-24T11:06
+E00754,P0158,2026-09-03T08:01,Emergency Department,Abdominal pain,4,Discharged,,2026-09-03T14:35
+E00755,P0208,2026-08-06T15:33,Emergency Department,Weakness,5,Discharged,,2026-08-06T16:52
+E00756,P0258,2026-07-04T13:22,Emergency Department,Minor injury,2,Discharged,,2026-07-04T21:25
+E00757,P0395,2026-08-16T19:24,Emergency Department,Fever,1,Discharged,,2026-08-17T00:06
+E00758,P0354,2026-08-09T08:53,Emergency Department,Chest pain,3,Admitted,2026-08-09T15:37,2026-08-13T03:46
+E00759,P0328,2026-07-09T13:40,Emergency Department,Fever,4,Discharged,,2026-07-09T16:28
+E00760,P0189,2026-07-17T18:43,Emergency Department,Palpitations,4,Discharged,,2026-07-18T03:29
+E00761,P0114,2026-09-27T20:25,Emergency Department,Fall,1,Discharged,,2026-09-28T03:33
+E00762,P0491,2026-08-14T20:30,Emergency Department,Abdominal pain,2,Discharged,,2026-08-15T06:02
+E00763,P0245,2026-09-01T09:29,Emergency Department,Abdominal pain,3,Discharged,,2026-09-01T13:26
+E00764,P0233,2026-07-05T12:19,Emergency Department,Minor injury,2,Admitted,2026-07-05T18:34,2026-07-11T22:22
+E00765,P0311,2026-09-01T07:49,Emergency Department,Headache,3,Admitted,2026-09-01T15:44,2026-09-06T21:18
+E00766,P0213,2026-07-16T11:08,Emergency Department,Minor injury,3,Discharged,,2026-07-16T18:12
+E00767,P0282,2026-08-12T03:08,Emergency Department,Back pain,3,Discharged,,2026-08-12T07:37
+E00768,P0388,2026-08-17T13:59,Emergency Department,Vomiting,1,Admitted,2026-08-17T22:57,2026-08-20T14:06
+E00769,P0411,2026-07-19T08:54,Emergency Department,Weakness,1,Admitted,2026-07-19T20:39,2026-07-23T09:38
+E00770,P0423,2026-09-05T19:29,Emergency Department,Fall,4,Discharged,,2026-09-05T23:55
+E00771,P0391,2026-09-24T05:13,Emergency Department,Fall,3,Admitted,2026-09-24T08:09,2026-09-25T07:28
+E00772,P0349,2026-07-04T19:31,Emergency Department,Palpitations,3,Discharged,,2026-07-04T23:52
+E00773,P0448,2026-08-29T01:27,Emergency Department,Chest pain,3,Discharged,,2026-08-29T07:54
+E00774,P0270,2026-07-24T12:14,Emergency Department,Back pain,5,Discharged,,2026-07-25T00:13
+E00775,P0271,2026-08-11T07:26,Emergency Department,Minor injury,2,Admitted,2026-08-11T14:03,2026-08-15T09:44
+E00776,P0186,2026-08-03T10:15,Emergency Department,Chest pain,4,Discharged,,2026-08-03T13:19
+E00777,P0470,2026-08-25T16:14,Emergency Department,Palpitations,4,Discharged,,2026-08-25T22:25
+E00778,P0058,2026-07-04T15:26,Emergency Department,Shortness of breath,4,Discharged,,2026-07-04T20:32
+E00779,P0425,2026-09-01T12:34,Emergency Department,Vomiting,3,Discharged,,2026-09-01T15:51
+E00780,P0463,2026-09-10T12:16,Emergency Department,Vomiting,2,Admitted,2026-09-10T18:13,2026-09-15T05:46
+E00781,P0104,2026-08-10T12:33,Emergency Department,Palpitations,1,Admitted,2026-08-10T17:21,2026-08-13T16:06
+E00782,P0275,2026-07-12T20:22,Emergency Department,Abdominal pain,3,Admitted,2026-07-12T21:51,2026-07-14T23:12
+E00783,P0085,2026-09-18T09:25,Emergency Department,Headache,2,Admitted,2026-09-18T19:01,2026-09-20T22:02
+E00784,P0438,2026-09-21T14:13,Emergency Department,Vomiting,1,Admitted,2026-09-21T23:01,2026-09-22T15:57
+E00785,P0227,2026-07-02T12:30,Emergency Department,Chest pain,4,Discharged,,2026-07-02T14:30
+E00786,P0349,2026-09-18T14:52,Emergency Department,Fall,4,Discharged,,2026-09-18T18:05
+E00787,P0368,2026-09-01T21:29,Emergency Department,Palpitations,3,Discharged,,2026-09-02T08:00
+E00788,P0251,2026-09-26T14:01,Emergency Department,Chest pain,3,Discharged,,2026-09-26T18:53
+E00789,P0461,2026-08-19T14:19,Emergency Department,Vomiting,3,Discharged,,2026-08-19T15:44
+E00790,P0229,2026-08-25T19:34,Emergency Department,Shortness of breath,4,Discharged,,2026-08-26T02:30
+E00791,P0233,2026-08-09T13:08,Emergency Department,Abdominal pain,4,Discharged,,2026-08-09T15:43
+E00792,P0263,2026-08-07T03:41,Emergency Department,Dizziness,4,Discharged,,2026-08-07T04:49
+E00793,P0234,2026-07-28T14:19,Emergency Department,Palpitations,4,Admitted,2026-07-28T17:28,2026-07-30T20:48
+E00794,P0030,2026-09-21T11:17,Emergency Department,Vomiting,3,Discharged,,2026-09-21T14:02
+E00795,P0237,2026-09-20T14:29,Emergency Department,Weakness,2,Admitted,2026-09-21T05:59,2026-09-28T03:02
+E00796,P0414,2026-09-17T15:02,Emergency Department,Fever,3,Discharged,,2026-09-17T17:06
+E00797,P0371,2026-09-20T12:11,Emergency Department,Shortness of breath,3,Admitted,2026-09-20T18:51,2026-09-21T06:51
+E00798,P0203,2026-09-24T16:07,Emergency Department,Fever,3,Discharged,,2026-09-24T19:01
+E00799,P0419,2026-08-10T09:01,Emergency Department,Shortness of breath,3,Admitted,2026-08-10T17:26,2026-08-17T09:16
+E00800,P0382,2026-08-12T12:39,Emergency Department,Fall,2,Admitted,2026-08-12T16:54,2026-08-14T20:22
+E00801,P0297,2026-07-17T12:04,Emergency Department,Chest pain,4,Discharged,,2026-07-17T20:37
+E00802,P0024,2026-08-05T11:39,Emergency Department,Dizziness,4,Discharged,,2026-08-05T20:37
+E00803,P0177,2026-07-15T08:21,Emergency Department,Minor injury,5,Discharged,,2026-07-15T19:44
+E00804,P0033,2026-08-18T18:03,Emergency Department,Vomiting,4,Discharged,,2026-08-18T22:16
+E00805,P0031,2026-09-23T22:34,Emergency Department,Chest pain,4,Discharged,,2026-09-24T01:59
+E00806,P0479,2026-07-20T12:41,Emergency Department,Back pain,3,Admitted,2026-07-20T19:00,2026-07-23T07:05
+E00807,P0017,2026-09-08T08:13,Emergency Department,Fever,3,Admitted,2026-09-08T13:39,2026-09-11T12:55
+E00808,P0210,2026-07-02T17:24,Emergency Department,Abdominal pain,2,Discharged,,2026-07-02T19:00
+E00809,P0394,2026-07-04T12:03,Emergency Department,Abdominal pain,3,Discharged,,2026-07-04T16:47
+E00810,P0393,2026-07-29T16:56,Emergency Department,Weakness,4,Discharged,,2026-07-29T20:07
+E00811,P0374,2026-07-13T14:48,Emergency Department,Weakness,2,Admitted,2026-07-13T17:26,2026-07-17T14:33
+E00812,P0494,2026-09-03T14:00,Emergency Department,Dizziness,2,Discharged,,2026-09-04T05:33
+E00813,P0192,2026-08-05T13:26,Emergency Department,Dizziness,2,Discharged,,2026-08-05T15:25
+E00814,P0230,2026-09-06T20:12,Emergency Department,Dizziness,1,Admitted,2026-09-06T23:24,2026-09-08T08:59
+E00815,P0193,2026-07-11T14:20,Emergency Department,Chest pain,3,Admitted,2026-07-11T22:21,2026-07-15T22:30
+E00816,P0350,2026-08-06T17:01,Emergency Department,Weakness,3,Discharged,,2026-08-07T00:25
+E00817,P0448,2026-07-14T18:35,Emergency Department,Vomiting,3,Discharged,,2026-07-15T05:12
+E00818,P0069,2026-08-22T15:14,Emergency Department,Weakness,3,Discharged,,2026-08-22T20:03
+E00819,P0441,2026-08-22T20:15,Emergency Department,Headache,3,Admitted,2026-08-23T11:21,2026-08-27T22:47
+E00820,P0061,2026-09-16T08:35,Emergency Department,Abdominal pain,4,Discharged,,2026-09-16T12:32
+E00821,P0276,2026-09-02T14:51,Emergency Department,Dizziness,3,Admitted,2026-09-02T23:28,2026-09-06T23:51
+E00822,P0271,2026-09-18T18:27,Emergency Department,Abdominal pain,4,Discharged,,2026-09-18T19:46
+E00823,P0373,2026-08-14T15:41,Emergency Department,Fall,3,Discharged,,2026-08-15T00:28
+E00824,P0428,2026-07-01T09:35,Emergency Department,Shortness of breath,4,Discharged,,2026-07-01T14:02
+E00825,P0388,2026-07-15T19:13,Emergency Department,Shortness of breath,2,Discharged,,2026-07-15T23:45
+E00826,P0153,2026-08-10T14:24,Emergency Department,Back pain,1,Admitted,2026-08-10T21:31,2026-08-16T00:41
+E00827,P0345,2026-07-09T15:29,Emergency Department,Minor injury,4,Discharged,,2026-07-09T17:03
+E00828,P0279,2026-09-01T08:36,Emergency Department,Dizziness,3,Admitted,2026-09-01T12:10,2026-09-03T07:44
+E00829,P0273,2026-07-22T08:06,Emergency Department,Dizziness,5,Discharged,,2026-07-22T22:08
+E00830,P0422,2026-07-02T20:51,Emergency Department,Fall,3,Discharged,,2026-07-03T04:21
+E00831,P0127,2026-09-05T09:10,Emergency Department,Back pain,3,Discharged,,2026-09-05T13:17
+E00832,P0178,2026-09-24T09:50,Emergency Department,Abdominal pain,3,Admitted,2026-09-24T15:03,2026-10-06T14:17
+E00833,P0142,2026-09-05T10:56,Emergency Department,Fall,4,Discharged,,2026-09-05T12:21
+E00834,P0480,2026-09-24T05:34,Emergency Department,Minor injury,4,Discharged,,2026-09-24T06:57
+E00835,P0392,2026-09-09T20:41,Emergency Department,Chest pain,4,Discharged,,2026-09-10T02:24
+E00836,P0017,2026-07-18T14:49,Emergency Department,Weakness,3,Discharged,,2026-07-18T20:18
+E00837,P0215,2026-07-29T17:19,Emergency Department,Palpitations,4,Discharged,,2026-07-30T03:05
+E00838,P0393,2026-08-27T14:35,Emergency Department,Shortness of breath,4,Discharged,,2026-08-27T15:56
+E00839,P0124,2026-07-20T18:31,Emergency Department,Fall,2,Discharged,,2026-07-20T20:30
+E00840,P0035,2026-08-26T22:12,Emergency Department,Chest pain,4,Discharged,,2026-08-27T04:59
+E00841,P0305,2026-07-28T15:13,Emergency Department,Shortness of breath,3,Discharged,,2026-07-28T22:23
+E00842,P0229,2026-07-15T23:23,Emergency Department,Palpitations,3,Discharged,,2026-07-16T05:53
+E00843,P0345,2026-09-26T15:53,Emergency Department,Minor injury,3,Discharged,,2026-09-26T21:11
+E00844,P0447,2026-09-25T14:45,Emergency Department,Shortness of breath,5,Discharged,,2026-09-25T17:27
+E00845,P0126,2026-08-30T07:24,Emergency Department,Minor injury,2,Discharged,,2026-08-30T22:11
+E00846,P0023,2026-08-26T16:55,Emergency Department,Dizziness,3,Discharged,,2026-08-26T21:06
+E00847,P0225,2026-09-23T15:12,Emergency Department,Fall,1,Admitted,2026-09-23T18:36,2026-09-24T07:34
+E00848,P0277,2026-08-30T15:20,Emergency Department,Fall,1,Admitted,2026-08-31T01:13,2026-09-06T14:13
+E00849,P0387,2026-07-08T22:03,Emergency Department,Shortness of breath,3,Discharged,,2026-07-09T01:35
+E00850,P0072,2026-09-24T19:47,Emergency Department,Vomiting,2,Admitted,2026-09-25T01:17,2026-09-28T19:36
+E00851,P0149,2026-08-09T19:39,Emergency Department,Fall,4,Discharged,,2026-08-09T21:20
+E00852,P0418,2026-07-01T12:06,Emergency Department,Minor injury,3,Discharged,,2026-07-01T13:20
+E00853,P0295,2026-07-03T00:57,Emergency Department,Headache,3,Discharged,,2026-07-03T09:37
+E00854,P0296,2026-09-10T16:04,Emergency Department,Palpitations,5,Discharged,,2026-09-10T20:46
+E00855,P0396,2026-08-24T22:50,Emergency Department,Weakness,4,Discharged,,2026-08-25T01:11
+E00856,P0420,2026-07-04T16:05,Emergency Department,Headache,1,Admitted,2026-07-04T18:57,2026-07-12T06:29
+E00857,P0122,2026-09-12T08:20,Emergency Department,Fever,5,Discharged,,2026-09-12T10:35
+E00858,P0449,2026-08-29T18:22,Emergency Department,Abdominal pain,3,Discharged,,2026-08-29T20:54
+E00859,P0339,2026-07-06T14:35,Emergency Department,Vomiting,3,Admitted,2026-07-06T21:34,2026-07-09T01:23
+E00860,P0114,2026-09-05T20:14,Emergency Department,Dizziness,1,Admitted,2026-09-06T01:53,2026-09-07T19:52
+E00861,P0154,2026-07-05T14:16,Emergency Department,Fever,4,Discharged,,2026-07-05T18:24
+E00862,P0032,2026-08-21T14:27,Emergency Department,Vomiting,4,Discharged,,2026-08-21T22:58
+E00863,P0486,2026-07-10T14:58,Emergency Department,Palpitations,4,Admitted,2026-07-10T17:32,2026-07-12T18:27
+E00864,P0451,2026-07-09T08:52,Emergency Department,Minor injury,4,Admitted,2026-07-09T16:55,2026-07-11T05:03
+E00865,P0467,2026-09-07T21:12,Emergency Department,Abdominal pain,3,Discharged,,2026-09-08T00:19
+E00866,P0321,2026-07-09T08:38,Emergency Department,Weakness,3,Admitted,2026-07-09T15:46,2026-07-14T12:26
+E00867,P0219,2026-08-06T17:44,Emergency Department,Vomiting,3,Discharged,,2026-08-07T02:17
+E00868,P0254,2026-07-19T14:30,Emergency Department,Shortness of breath,5,Admitted,2026-07-19T21:04,2026-07-22T11:38
+E00869,P0498,2026-09-05T16:11,Emergency Department,Headache,2,Discharged,,2026-09-05T17:57
+E00870,P0483,2026-07-03T14:09,Emergency Department,Weakness,2,Admitted,2026-07-03T16:40,2026-07-15T04:26
+E00871,P0344,2026-07-28T09:45,Emergency Department,Dizziness,5,Discharged,,2026-07-28T12:22
+E00872,P0403,2026-09-18T14:24,Emergency Department,Vomiting,3,Discharged,,2026-09-18T17:31
+E00873,P0164,2026-08-04T23:25,Emergency Department,Minor injury,3,Admitted,2026-08-05T05:39,2026-08-07T22:54
+E00874,P0214,2026-07-29T09:34,Emergency Department,Dizziness,3,Discharged,,2026-07-29T16:30
+E00875,P0077,2026-07-07T12:42,Emergency Department,Fever,3,Discharged,,2026-07-07T18:04
+E00876,P0193,2026-09-18T15:47,Emergency Department,Abdominal pain,4,Discharged,,2026-09-18T22:04
+E00877,P0387,2026-09-26T13:49,Emergency Department,Vomiting,3,Discharged,,2026-09-26T16:29
+E00878,P0243,2026-07-13T14:30,Emergency Department,Fall,4,Admitted,2026-07-13T16:19,2026-07-14T18:45
+E00879,P0435,2026-07-06T17:05,Emergency Department,Fall,1,Admitted,2026-07-06T20:16,2026-07-12T11:32
+E00880,P0154,2026-08-20T08:14,Emergency Department,Minor injury,3,Admitted,2026-08-20T14:36,2026-08-24T05:20
+E00881,P0074,2026-08-28T13:47,Emergency Department,Back pain,2,Discharged,,2026-08-28T20:15
+E00882,P0469,2026-08-31T10:18,Emergency Department,Shortness of breath,4,Discharged,,2026-08-31T15:22
+E00883,P0288,2026-08-25T09:40,Emergency Department,Dizziness,5,Discharged,,2026-08-25T12:19
+E00884,P0496,2026-08-15T21:04,Emergency Department,Dizziness,2,Discharged,,2026-08-16T04:09
+E00885,P0286,2026-08-12T16:39,Emergency Department,Vomiting,1,Admitted,2026-08-12T21:52,2026-08-15T23:52
+E00886,P0069,2026-09-07T09:21,Emergency Department,Dizziness,2,Admitted,2026-09-07T16:04,2026-09-19T16:04
+E00887,P0125,2026-08-11T13:26,Emergency Department,Fever,2,Admitted,2026-08-11T21:04,2026-08-15T21:59
+E00888,P0105,2026-09-01T14:50,Emergency Department,Headache,5,Discharged,,2026-09-01T16:50
+E00889,P0332,2026-08-18T17:55,Emergency Department,Chest pain,2,Discharged,,2026-08-18T21:53
+E00890,P0473,2026-07-13T10:54,Emergency Department,Back pain,5,Admitted,2026-07-13T13:53,2026-07-19T23:25
+E00891,P0434,2026-07-31T16:16,Emergency Department,Headache,4,Discharged,,2026-07-31T17:55
+E00892,P0048,2026-07-26T15:31,Emergency Department,Vomiting,1,Admitted,2026-07-27T00:20,2026-07-28T19:30
+E00893,P0371,2026-07-03T02:06,Emergency Department,Fall,4,Discharged,,2026-07-03T09:10
+E00894,P0027,2026-07-05T18:50,Emergency Department,Fever,2,Discharged,,2026-07-05T23:16
+E00895,P0194,2026-08-08T11:02,Emergency Department,Weakness,1,Admitted,2026-08-09T03:30,2026-08-17T18:21
+E00896,P0310,2026-07-13T20:15,Emergency Department,Palpitations,5,Discharged,,2026-07-14T06:59
+E00897,P0021,2026-08-17T08:30,Emergency Department,Chest pain,3,Discharged,,2026-08-17T16:54
+E00898,P0097,2026-08-02T10:38,Emergency Department,Palpitations,3,Discharged,,2026-08-02T14:33
+E00899,P0371,2026-09-17T11:44,Emergency Department,Weakness,2,Admitted,2026-09-18T02:49,2026-09-19T13:57
+E00900,P0287,2026-09-21T12:27,Emergency Department,Fall,2,Discharged,,2026-09-21T16:04
+E00901,P0246,2026-08-15T10:24,Emergency Department,Fall,3,Admitted,2026-08-15T15:39,2026-08-18T06:40
+E00902,P0446,2026-07-10T12:21,Emergency Department,Headache,5,Discharged,,2026-07-10T13:11
+E00903,P0156,2026-07-22T11:26,Emergency Department,Shortness of breath,3,Discharged,,2026-07-22T16:52
+E00904,P0109,2026-08-02T21:27,Emergency Department,Fall,3,Discharged,,2026-08-03T01:39
+E00905,P0493,2026-07-06T13:24,Emergency Department,Minor injury,5,Discharged,,2026-07-06T15:11
+E00906,P0061,2026-08-28T20:25,Emergency Department,Minor injury,3,Admitted,2026-08-29T03:28,2026-09-03T05:26
+E00907,P0387,2026-09-16T20:04,Emergency Department,Back pain,3,Discharged,,2026-09-17T03:22
+E00908,P0469,2026-09-17T18:43,Emergency Department,Fall,3,Admitted,2026-09-17T23:03,2026-09-22T01:20
+E00909,P0357,2026-08-25T16:54,Emergency Department,Palpitations,1,Admitted,2026-08-26T00:04,2026-08-29T07:14
+E00910,P0361,2026-07-07T15:28,Emergency Department,Fall,4,Discharged,,2026-07-07T19:34
+E00911,P0204,2026-08-16T18:59,Emergency Department,Fall,4,Discharged,,2026-08-16T23:19
+E00912,P0283,2026-07-12T22:14,Emergency Department,Headache,3,Discharged,,2026-07-13T05:51
+E00913,P0398,2026-08-07T08:07,Emergency Department,Fever,4,Discharged,,2026-08-07T11:22
+E00914,P0195,2026-09-14T13:25,Emergency Department,Back pain,4,Discharged,,2026-09-14T16:32
+E00915,P0274,2026-08-14T12:39,Emergency Department,Weakness,3,Discharged,,2026-08-14T16:47
+E00916,P0184,2026-07-04T11:20,Emergency Department,Fever,4,Discharged,,2026-07-04T17:52
+E00917,P0134,2026-07-21T16:40,Emergency Department,Headache,3,Admitted,2026-07-21T18:18,2026-08-01T11:02
+E00918,P0263,2026-09-05T13:07,Emergency Department,Back pain,4,Admitted,2026-09-05T22:11,2026-09-12T23:29
+E00919,P0239,2026-08-30T11:02,Emergency Department,Chest pain,3,Admitted,2026-08-31T01:40,2026-09-04T23:10
+E00920,P0412,2026-07-21T19:32,Emergency Department,Minor injury,4,Discharged,,2026-07-22T03:04
+E00921,P0241,2026-08-20T11:02,Emergency Department,Headache,3,Discharged,,2026-08-20T16:02
+E00922,P0469,2026-07-09T14:42,Emergency Department,Fall,5,Discharged,,2026-07-09T18:02
+E00923,P0190,2026-09-28T19:02,Emergency Department,Headache,3,Discharged,,2026-09-28T23:53
+E00924,P0212,2026-08-09T12:55,Emergency Department,Shortness of breath,4,Discharged,,2026-08-09T16:20
+E00925,P0289,2026-07-02T14:31,Emergency Department,Fall,3,Discharged,,2026-07-02T21:16
+E00926,P0380,2026-09-06T16:20,Emergency Department,Abdominal pain,3,Admitted,2026-09-06T19:41,2026-09-17T10:26
+E00927,P0009,2026-09-04T19:24,Emergency Department,Fever,2,Discharged,,2026-09-05T04:03
+E00928,P0284,2026-08-10T12:24,Emergency Department,Palpitations,1,Admitted,2026-08-11T02:02,2026-08-14T16:39
+E00929,P0297,2026-07-20T21:11,Emergency Department,Minor injury,5,Discharged,,2026-07-21T04:57
+E00930,P0214,2026-09-05T20:25,Emergency Department,Fever,1,Admitted,2026-09-06T02:26,2026-09-07T11:09
+E00931,P0079,2026-08-14T10:45,Emergency Department,Fall,5,Discharged,,2026-08-14T16:37
+E00932,P0169,2026-07-02T05:14,Emergency Department,Fall,5,Discharged,,2026-07-02T09:41
+E00933,P0195,2026-07-13T05:13,Emergency Department,Palpitations,3,Discharged,,2026-07-13T07:25
+E00934,P0427,2026-07-22T17:51,Emergency Department,Fall,3,Discharged,,2026-07-22T18:58
+E00935,P0256,2026-08-22T15:36,Emergency Department,Vomiting,4,Discharged,,2026-08-22T19:42
+E00936,P0336,2026-09-26T15:12,Emergency Department,Weakness,3,Admitted,2026-09-26T23:04,2026-09-29T19:48
+E00937,P0173,2026-08-04T23:59,Emergency Department,Fever,1,Discharged,,2026-08-05T03:05
+E00938,P0391,2026-08-19T12:47,Emergency Department,Back pain,1,Admitted,2026-08-19T17:13,2026-08-22T18:13
+E00939,P0495,2026-08-16T14:57,Emergency Department,Minor injury,1,Admitted,2026-08-16T23:04,2026-08-17T23:08
+E00940,P0329,2026-08-01T15:04,Emergency Department,Minor injury,3,Admitted,2026-08-01T23:56,2026-08-05T13:15
+E00941,P0252,2026-09-19T16:35,Emergency Department,Back pain,3,Discharged,,2026-09-20T05:09
+E00942,P0087,2026-07-16T17:58,Emergency Department,Minor injury,4,Admitted,2026-07-17T00:28,2026-07-19T10:30
+E00943,P0408,2026-07-02T15:57,Emergency Department,Headache,4,Discharged,,2026-07-02T20:59
+E00944,P0087,2026-08-06T18:35,Emergency Department,Abdominal pain,3,Admitted,2026-08-07T00:23,2026-08-11T15:28
+E00945,P0369,2026-07-15T14:52,Emergency Department,Vomiting,3,Admitted,2026-07-15T18:36,2026-07-20T21:06
+E00946,P0251,2026-07-31T22:29,Emergency Department,Abdominal pain,1,Admitted,2026-08-01T03:16,2026-08-05T21:45
+E00947,P0470,2026-07-24T16:35,Emergency Department,Vomiting,5,Discharged,,2026-07-25T02:43
+E00948,P0329,2026-07-20T16:14,Emergency Department,Shortness of breath,5,Discharged,,2026-07-20T19:34
+E00949,P0269,2026-09-17T13:10,Emergency Department,Shortness of breath,1,Admitted,2026-09-17T21:28,2026-09-24T12:06
+E00950,P0430,2026-07-08T08:48,Emergency Department,Chest pain,4,Discharged,,2026-07-08T13:26
+E00951,P0484,2026-09-06T12:24,Emergency Department,Weakness,4,Discharged,,2026-09-06T15:43
+E00952,P0025,2026-09-20T12:44,Emergency Department,Shortness of breath,2,Admitted,2026-09-20T15:59,2026-09-22T12:02
+E00953,P0212,2026-09-04T15:57,Emergency Department,Abdominal pain,4,Discharged,,2026-09-04T21:50
+E00954,P0432,2026-08-17T18:57,Emergency Department,Weakness,1,Admitted,2026-08-18T01:20,2026-08-22T21:15
+E00955,P0119,2026-07-13T16:07,Emergency Department,Chest pain,3,Discharged,,2026-07-13T18:52
+E00956,P0363,2026-09-20T12:43,Emergency Department,Abdominal pain,4,Discharged,,2026-09-20T17:20
+E00957,P0005,2026-07-16T11:58,Emergency Department,Fall,4,Discharged,,2026-07-16T17:46
+E00958,P0259,2026-08-27T05:37,Emergency Department,Back pain,4,Discharged,,2026-08-27T08:27
+E00959,P0192,2026-07-14T15:10,Emergency Department,Shortness of breath,4,Discharged,,2026-07-14T18:01
+E00960,P0317,2026-09-16T20:23,Emergency Department,Weakness,5,Discharged,,2026-09-17T01:37
+E00961,P0342,2026-07-18T12:55,Emergency Department,Palpitations,3,Discharged,,2026-07-18T21:23
+E00962,P0468,2026-09-23T06:49,Emergency Department,Back pain,3,Discharged,,2026-09-23T09:05
+E00963,P0338,2026-07-11T14:23,Emergency Department,Back pain,4,Discharged,,2026-07-11T15:05
+E00964,P0009,2026-09-13T23:56,Emergency Department,Shortness of breath,3,Discharged,,2026-09-14T03:49
+E00965,P0273,2026-07-13T20:14,Emergency Department,Vomiting,5,Admitted,2026-07-14T06:17,2026-07-20T20:06
+E00966,P0211,2026-08-29T18:01,Emergency Department,Shortness of breath,3,Discharged,,2026-08-29T21:54
+E00967,P0009,2026-07-14T11:50,Emergency Department,Vomiting,4,Discharged,,2026-07-14T18:04
+E00968,P0370,2026-07-24T17:59,Emergency Department,Fever,3,Discharged,,2026-07-24T21:37
+E00969,P0275,2026-07-03T14:49,Emergency Department,Fever,5,Discharged,,2026-07-03T20:34
+E00970,P0009,2026-07-09T18:53,Emergency Department,Vomiting,4,Discharged,,2026-07-10T01:58
+E00971,P0417,2026-07-27T06:02,Emergency Department,Minor injury,5,Discharged,,2026-07-27T16:22
+E00972,P0346,2026-07-01T15:03,Emergency Department,Dizziness,3,Discharged,,2026-07-01T21:41
+E00973,P0413,2026-08-04T12:34,Emergency Department,Abdominal pain,2,Discharged,,2026-08-04T21:57
+E00974,P0055,2026-07-19T16:59,Emergency Department,Chest pain,2,Discharged,,2026-07-19T23:38
+E00975,P0269,2026-07-17T23:47,Emergency Department,Abdominal pain,3,Admitted,2026-07-18T08:10,2026-07-19T08:19
+E00976,P0124,2026-07-07T13:19,Emergency Department,Fall,3,Discharged,,2026-07-07T18:06
+E00977,P0318,2026-08-08T12:41,Emergency Department,Vomiting,4,Discharged,,2026-08-08T23:26
+E00978,P0130,2026-09-19T14:12,Emergency Department,Headache,4,Discharged,,2026-09-19T15:56
+E00979,P0137,2026-09-05T12:25,Emergency Department,Dizziness,3,Admitted,2026-09-05T14:54,2026-09-09T22:04
+E00980,P0041,2026-07-11T12:23,Emergency Department,Headache,1,Admitted,2026-07-11T17:13,2026-07-12T15:54
+E00981,P0492,2026-09-23T21:43,Emergency Department,Dizziness,3,Discharged,,2026-09-24T02:15
+E00982,P0236,2026-07-02T07:21,Emergency Department,Palpitations,3,Discharged,,2026-07-02T19:16
+E00983,P0125,2026-07-13T05:34,Emergency Department,Minor injury,2,Discharged,,2026-07-13T13:29
+E00984,P0116,2026-09-27T17:20,Emergency Department,Fever,1,Admitted,2026-09-28T00:39,2026-09-30T13:17
+E00985,P0351,2026-07-04T18:44,Emergency Department,Chest pain,3,Admitted,2026-07-04T20:59,2026-07-07T20:54
+E00986,P0335,2026-09-23T11:08,Emergency Department,Weakness,1,Admitted,2026-09-23T14:10,2026-10-02T02:52
+E00987,P0389,2026-07-25T21:27,Emergency Department,Shortness of breath,5,Discharged,,2026-07-25T22:09
+E00988,P0048,2026-07-18T22:58,Emergency Department,Dizziness,1,Admitted,2026-07-19T00:36,2026-07-21T03:45
+E00989,P0195,2026-09-17T19:51,Emergency Department,Dizziness,3,Discharged,,2026-09-18T02:26
+E00990,P0283,2026-08-08T11:07,Emergency Department,Back pain,4,Discharged,,2026-08-08T12:56
+E00991,P0029,2026-07-24T14:09,Emergency Department,Weakness,1,Admitted,2026-07-24T23:19,2026-07-27T08:05
+E00992,P0005,2026-08-26T16:05,Emergency Department,Minor injury,1,Admitted,2026-08-26T18:50,2026-09-04T11:08
+E00993,P0088,2026-08-12T04:39,Emergency Department,Chest pain,4,Discharged,,2026-08-12T09:52
+E00994,P0256,2026-07-20T16:08,Emergency Department,Dizziness,4,Discharged,,2026-07-20T17:00
+E00995,P0331,2026-08-19T18:57,Emergency Department,Headache,3,Admitted,2026-08-20T05:45,2026-08-25T20:12
+E00996,P0290,2026-07-22T22:44,Emergency Department,Chest pain,3,Admitted,2026-07-23T01:03,2026-07-24T02:11
+E00997,P0459,2026-09-25T17:59,Emergency Department,Vomiting,4,Discharged,,2026-09-25T19:19
+E00998,P0471,2026-07-01T13:41,Emergency Department,Shortness of breath,1,Discharged,,2026-07-01T18:28
+E00999,P0118,2026-07-24T11:23,Emergency Department,Fall,2,Discharged,,2026-07-24T17:04
+E01000,P0462,2026-07-23T20:18,Emergency Department,Minor injury,2,Discharged,,2026-07-23T23:35
+E01001,P0455,2026-09-19T15:29,Emergency Department,Palpitations,4,Discharged,,2026-09-20T00:44
+E01002,P0244,2026-08-05T07:37,Emergency Department,Fever,4,Discharged,,2026-08-05T10:44
+E01003,P0024,2026-07-29T09:49,Emergency Department,Chest pain,3,Discharged,,2026-07-29T14:08
+E01004,P0351,2026-08-06T17:59,Emergency Department,Fever,2,Discharged,,2026-08-06T22:11
+E01005,P0461,2026-07-20T17:28,Emergency Department,Vomiting,2,Discharged,,2026-07-20T20:44
+E01006,P0289,2026-09-22T19:55,Emergency Department,Weakness,3,Admitted,2026-09-23T04:48,2026-09-28T21:06
+E01007,P0017,2026-08-20T06:56,Emergency Department,Abdominal pain,3,Admitted,2026-08-20T07:51,2026-08-26T12:37
+E01008,P0476,2026-09-25T09:24,Emergency Department,Headache,4,Discharged,,2026-09-25T12:16
+E01009,P0009,2026-07-20T13:09,Emergency Department,Fall,5,Discharged,,2026-07-20T18:37
+E01010,P0301,2026-07-27T06:47,Emergency Department,Abdominal pain,4,Discharged,,2026-07-27T11:58
+E01011,P0386,2026-08-19T12:50,Emergency Department,Minor injury,4,Discharged,,2026-08-19T21:35
+E01012,P0421,2026-07-10T22:15,Emergency Department,Dizziness,5,Discharged,,2026-07-11T03:06
+E01013,P0476,2026-09-24T17:46,Emergency Department,Chest pain,3,Discharged,,2026-09-24T22:16
+E01014,P0154,2026-09-26T17:28,Emergency Department,Abdominal pain,3,Admitted,2026-09-26T20:13,2026-09-28T07:25
+E01015,P0289,2026-07-15T11:49,Emergency Department,Fall,3,Discharged,,2026-07-15T18:01
+E01016,P0291,2026-09-15T17:00,Emergency Department,Dizziness,4,Discharged,,2026-09-15T19:36
+E01017,P0347,2026-07-28T09:50,Emergency Department,Vomiting,5,Discharged,,2026-07-28T13:53
+E01018,P0170,2026-08-31T17:43,Emergency Department,Dizziness,4,Discharged,,2026-08-31T23:32
+E01019,P0387,2026-09-09T12:04,Emergency Department,Minor injury,4,Discharged,,2026-09-09T17:27
+E01020,P0072,2026-07-04T09:15,Emergency Department,Minor injury,2,Discharged,,2026-07-04T14:59
+E01021,P0371,2026-09-27T11:05,Emergency Department,Chest pain,1,Admitted,2026-09-27T15:37,2026-10-01T21:04
+E01022,P0257,2026-08-02T20:25,Emergency Department,Minor injury,1,Admitted,2026-08-03T01:22,2026-08-05T00:36
+E01023,P0499,2026-09-26T14:00,Emergency Department,Headache,2,Discharged,,2026-09-26T22:56
+E01024,P0028,2026-07-19T20:40,Emergency Department,Chest pain,2,Discharged,,2026-07-19T23:38
+E01025,P0224,2026-08-27T13:39,Emergency Department,Fall,3,Discharged,,2026-08-27T14:58
+E01026,P0430,2026-09-03T05:07,Emergency Department,Chest pain,3,Discharged,,2026-09-03T17:08
+E01027,P0175,2026-08-25T09:57,Emergency Department,Palpitations,3,Discharged,,2026-08-25T12:32
+E01028,P0394,2026-08-08T12:58,Emergency Department,Palpitations,5,Discharged,,2026-08-08T21:49
+E01029,P0489,2026-09-24T14:46,Emergency Department,Palpitations,4,Discharged,,2026-09-25T00:08
+E01030,P0204,2026-09-03T07:12,Emergency Department,Headache,4,Discharged,,2026-09-03T10:28
+E01031,P0016,2026-08-18T16:45,Emergency Department,Weakness,5,Discharged,,2026-08-18T19:11
+E01032,P0140,2026-08-05T09:17,Emergency Department,Back pain,4,Discharged,,2026-08-05T14:15
+E01033,P0252,2026-08-03T17:20,Emergency Department,Fall,4,Discharged,,2026-08-04T00:29
+E01034,P0183,2026-07-06T11:08,Emergency Department,Vomiting,4,Discharged,,2026-07-06T18:32
+E01035,P0482,2026-08-01T13:01,Emergency Department,Dizziness,4,Discharged,,2026-08-02T13:01
+E01036,P0222,2026-09-13T18:37,Emergency Department,Abdominal pain,4,Discharged,,2026-09-13T20:28
+E01037,P0349,2026-09-10T06:04,Emergency Department,Palpitations,1,Admitted,2026-09-10T11:33,2026-09-11T06:02
+E01038,P0339,2026-08-19T04:21,Emergency Department,Dizziness,3,Discharged,,2026-08-19T09:05
+E01039,P0044,2026-07-08T10:30,Emergency Department,Palpitations,2,Admitted,2026-07-08T19:53,2026-07-10T02:23
+E01040,P0152,2026-07-14T08:09,Emergency Department,Fall,4,Discharged,,2026-07-14T09:23
+E01041,P0366,2026-09-04T14:38,Emergency Department,Chest pain,4,Discharged,,2026-09-04T19:13
+E01042,P0043,2026-09-01T06:11,Emergency Department,Fever,5,Discharged,,2026-09-01T11:40
+E01043,P0079,2026-07-02T10:48,Emergency Department,Dizziness,1,Discharged,,2026-07-02T13:55
+E01044,P0365,2026-09-21T11:08,Emergency Department,Weakness,3,Admitted,2026-09-21T15:32,2026-09-22T12:32
+E01045,P0079,2026-07-04T09:04,Emergency Department,Minor injury,4,Discharged,,2026-07-04T14:15
+E01046,P0200,2026-07-28T18:29,Emergency Department,Headache,4,Discharged,,2026-07-28T19:38
+E01047,P0185,2026-07-19T23:05,Emergency Department,Chest pain,1,Admitted,2026-07-20T05:36,2026-07-23T14:42
+E01048,P0047,2026-09-19T15:41,Emergency Department,Shortness of breath,5,Discharged,,2026-09-19T16:32
+E01049,P0483,2026-07-03T12:06,Emergency Department,Fever,5,Discharged,,2026-07-03T16:58
+E01050,P0228,2026-08-13T12:40,Emergency Department,Headache,4,Admitted,2026-08-13T17:17,2026-08-15T12:18
+E01051,P0390,2026-08-30T13:48,Emergency Department,Fever,3,Admitted,2026-08-30T17:28,2026-08-31T15:55
+E01052,P0053,2026-07-09T13:33,Emergency Department,Abdominal pain,3,Admitted,2026-07-09T16:43,2026-07-10T07:16
+E01053,P0045,2026-08-16T11:49,Emergency Department,Abdominal pain,1,Admitted,2026-08-16T16:37,2026-08-20T03:11
+E01054,P0221,2026-08-11T11:05,Emergency Department,Back pain,3,Discharged,,2026-08-11T16:44
+E01055,P0286,2026-08-31T16:43,Emergency Department,Vomiting,3,Admitted,2026-09-01T00:08,2026-09-02T15:57
+E01056,P0263,2026-08-09T13:30,Emergency Department,Dizziness,1,Admitted,2026-08-09T22:27,2026-08-13T06:01
+E01057,P0053,2026-07-26T11:03,Emergency Department,Shortness of breath,5,Discharged,,2026-07-26T13:21
+E01058,P0046,2026-07-03T18:10,Emergency Department,Headache,1,Admitted,2026-07-03T22:52,2026-07-12T01:04
+E01059,P0284,2026-07-25T17:56,Emergency Department,Chest pain,2,Discharged,,2026-07-26T08:43
+E01060,P0306,2026-07-30T13:38,Emergency Department,Palpitations,3,Discharged,,2026-07-30T21:00
+E01061,P0402,2026-09-13T13:43,Emergency Department,Headache,2,Admitted,2026-09-13T16:13,2026-09-15T05:38
+E01062,P0443,2026-07-22T08:12,Emergency Department,Dizziness,1,Discharged,,2026-07-22T12:25
+E01063,P0007,2026-07-02T10:51,Emergency Department,Fever,4,Admitted,2026-07-02T13:18,2026-07-08T12:05
+E01064,P0212,2026-08-23T07:15,Emergency Department,Dizziness,5,Discharged,,2026-08-23T12:22
+E01065,P0399,2026-08-19T10:16,Emergency Department,Chest pain,2,Discharged,,2026-08-19T14:34
+E01066,P0372,2026-07-15T21:35,Emergency Department,Vomiting,4,Discharged,,2026-07-16T04:15
+E01067,P0464,2026-09-23T17:57,Emergency Department,Fall,4,Admitted,2026-09-24T06:19,2026-10-03T21:12
+E01068,P0293,2026-07-06T11:26,Emergency Department,Vomiting,3,Admitted,2026-07-06T13:53,2026-07-13T01:28
+E01069,P0087,2026-07-07T08:09,Emergency Department,Weakness,4,Admitted,2026-07-07T15:34,2026-07-09T10:33
+E01070,P0195,2026-08-08T12:45,Emergency Department,Abdominal pain,2,Discharged,,2026-08-08T15:35
+E01071,P0072,2026-07-07T18:51,Emergency Department,Fever,5,Discharged,,2026-07-07T23:32
+E01072,P0155,2026-08-24T13:50,Emergency Department,Fever,2,Discharged,,2026-08-24T16:30
+E01073,P0253,2026-07-28T08:36,Emergency Department,Abdominal pain,4,Discharged,,2026-07-28T16:41
+E01074,P0033,2026-09-02T14:17,Emergency Department,Abdominal pain,1,Admitted,2026-09-02T17:12,2026-09-05T02:05
+E01075,P0223,2026-07-31T18:37,Emergency Department,Fever,3,Discharged,,2026-07-31T22:22
+E01076,P0216,2026-09-06T17:48,Emergency Department,Fever,3,Discharged,,2026-09-07T02:13
+E01077,P0248,2026-07-22T15:57,Emergency Department,Chest pain,4,Admitted,2026-07-22T17:26,2026-07-23T05:26
+E01078,P0185,2026-09-05T14:14,Emergency Department,Fever,5,Discharged,,2026-09-05T19:55
+E01079,P0484,2026-07-06T15:31,Emergency Department,Fall,3,Discharged,,2026-07-07T00:06
+E01080,P0370,2026-08-20T10:44,Emergency Department,Weakness,3,Discharged,,2026-08-20T20:04
+E01081,P0254,2026-07-22T12:39,Emergency Department,Palpitations,2,Admitted,2026-07-22T17:20,2026-07-23T05:20
+E01082,P0316,2026-07-05T21:38,Emergency Department,Fall,4,Discharged,,2026-07-06T01:30
+E01083,P0235,2026-09-14T18:07,Emergency Department,Chest pain,5,Discharged,,2026-09-14T18:56
+E01084,P0070,2026-07-15T19:17,Emergency Department,Fever,4,Admitted,2026-07-16T06:29,2026-07-23T13:33
+E01085,P0004,2026-07-18T18:52,Emergency Department,Dizziness,5,Discharged,,2026-07-18T23:32
+E01086,P0171,2026-08-09T15:22,Emergency Department,Palpitations,5,Discharged,,2026-08-09T17:56
+E01087,P0195,2026-09-09T12:00,Emergency Department,Headache,2,Discharged,,2026-09-09T15:54
+E01088,P0226,2026-09-01T14:26,Emergency Department,Headache,5,Discharged,,2026-09-01T19:07
+E01089,P0221,2026-07-18T20:13,Emergency Department,Weakness,3,Discharged,,2026-07-19T00:35
+E01090,P0499,2026-08-07T18:28,Emergency Department,Palpitations,1,Admitted,2026-08-08T08:53,2026-08-11T22:24
+E01091,P0070,2026-08-21T12:33,Emergency Department,Fever,4,Discharged,,2026-08-21T18:44
+E01092,P0165,2026-08-07T01:41,Emergency Department,Palpitations,5,Discharged,,2026-08-07T14:36
+E01093,P0486,2026-07-23T15:36,Emergency Department,Minor injury,3,Admitted,2026-07-23T20:26,2026-07-25T19:21
+E01094,P0103,2026-09-23T15:25,Emergency Department,Back pain,2,Admitted,2026-09-23T19:03,2026-09-28T03:03
+E01095,P0161,2026-07-24T07:14,Emergency Department,Abdominal pain,3,Discharged,,2026-07-24T09:11
+E01096,P0494,2026-07-26T23:21,Emergency Department,Dizziness,5,Discharged,,2026-07-27T06:20
+E01097,P0496,2026-08-23T03:51,Emergency Department,Headache,3,Admitted,2026-08-23T07:46,2026-08-26T05:36
+E01098,P0150,2026-08-30T12:53,Emergency Department,Minor injury,2,Discharged,,2026-08-30T16:04
+E01099,P0356,2026-07-30T20:55,Emergency Department,Weakness,4,Discharged,,2026-07-31T01:30
+E01100,P0252,2026-07-01T12:42,Emergency Department,Palpitations,2,Admitted,2026-07-01T14:54,2026-07-04T05:58
+E01101,P0401,2026-07-21T20:15,Emergency Department,Fall,4,Discharged,,2026-07-22T01:54
+E01102,P0167,2026-09-09T20:53,Emergency Department,Dizziness,3,Discharged,,2026-09-10T03:54
+E01103,P0144,2026-07-14T16:58,Emergency Department,Dizziness,5,Discharged,,2026-07-14T21:08
+E01104,P0187,2026-09-10T22:40,Emergency Department,Chest pain,4,Discharged,,2026-09-11T05:07
+E01105,P0478,2026-07-01T13:16,Emergency Department,Palpitations,2,Discharged,,2026-07-01T15:06
+E01106,P0103,2026-07-28T13:34,Emergency Department,Palpitations,5,Discharged,,2026-07-28T14:33
+E01107,P0280,2026-07-18T15:32,Emergency Department,Abdominal pain,1,Discharged,,2026-07-18T17:17
+E01108,P0350,2026-08-25T06:28,Emergency Department,Vomiting,5,Discharged,,2026-08-25T08:04
+E01109,P0014,2026-09-08T15:27,Emergency Department,Minor injury,1,Admitted,2026-09-08T20:25,2026-09-20T20:25
+E01110,P0237,2026-07-18T19:31,Emergency Department,Minor injury,5,Discharged,,2026-07-18T21:13
+E01111,P0108,2026-09-22T19:06,Emergency Department,Back pain,2,Admitted,2026-09-23T00:11,2026-09-25T10:36
+E01112,P0409,2026-08-03T18:35,Emergency Department,Fever,1,Discharged,,2026-08-03T21:58
+E01113,P0426,2026-08-20T17:20,Emergency Department,Minor injury,3,Discharged,,2026-08-20T21:37
+E01114,P0036,2026-09-25T08:26,Emergency Department,Dizziness,5,Discharged,,2026-09-25T14:09
+E01115,P0345,2026-07-20T20:42,Emergency Department,Back pain,5,Discharged,,2026-07-21T00:26
+E01116,P0072,2026-07-21T18:58,Emergency Department,Weakness,4,Discharged,,2026-07-21T23:13
+E01117,P0156,2026-07-09T11:09,Emergency Department,Fall,5,Discharged,,2026-07-09T16:14
+E01118,P0130,2026-08-17T17:43,Emergency Department,Weakness,4,Discharged,,2026-08-17T18:55
+E01119,P0079,2026-07-01T14:07,Emergency Department,Minor injury,5,Discharged,,2026-07-01T20:28
+E01120,P0217,2026-07-29T08:45,Emergency Department,Dizziness,5,Discharged,,2026-07-29T16:24
+E01121,P0038,2026-09-23T13:37,Emergency Department,Back pain,3,Admitted,2026-09-23T15:14,2026-09-24T07:46
+E01122,P0307,2026-09-03T17:38,Emergency Department,Back pain,1,Admitted,2026-09-03T22:57,2026-09-05T02:09
+E01123,P0299,2026-09-11T10:50,Emergency Department,Dizziness,5,Discharged,,2026-09-11T14:49
+E01124,P0274,2026-09-24T13:48,Emergency Department,Vomiting,3,Discharged,,2026-09-24T18:06
+E01125,P0473,2026-07-15T11:13,Emergency Department,Minor injury,3,Discharged,,2026-07-15T17:59
+E01126,P0215,2026-08-17T06:10,Emergency Department,Vomiting,3,Admitted,2026-08-17T13:42,2026-08-20T03:43
+E01127,P0019,2026-08-28T16:07,Emergency Department,Headache,3,Discharged,,2026-08-28T22:54
+E01128,P0360,2026-09-03T06:09,Emergency Department,Vomiting,3,Admitted,2026-09-03T11:41,2026-09-03T23:41
+E01129,P0305,2026-09-06T18:02,Emergency Department,Weakness,5,Discharged,,2026-09-07T03:32
+E01130,P0469,2026-08-07T11:56,Emergency Department,Chest pain,3,Discharged,,2026-08-07T15:29
+E01131,P0056,2026-08-13T09:51,Emergency Department,Fall,4,Discharged,,2026-08-13T20:51
+E01132,P0337,2026-08-09T11:00,Emergency Department,Weakness,1,Admitted,2026-08-09T13:13,2026-08-17T06:33
+E01133,P0182,2026-07-30T15:05,Emergency Department,Abdominal pain,5,Discharged,,2026-07-30T19:40
+E01134,P0332,2026-08-30T14:07,Emergency Department,Palpitations,2,Admitted,2026-08-30T17:47,2026-09-03T08:39
+E01135,P0023,2026-07-29T14:44,Emergency Department,Palpitations,5,Admitted,2026-07-30T00:01,2026-08-01T11:13
+E01136,P0331,2026-07-19T16:55,Emergency Department,Weakness,5,Discharged,,2026-07-19T18:58
+E01137,P0332,2026-09-09T12:53,Emergency Department,Dizziness,4,Discharged,,2026-09-10T02:51
+E01138,P0496,2026-07-08T19:47,Emergency Department,Headache,3,Admitted,2026-07-09T05:48,2026-07-12T13:11
+E01139,P0495,2026-09-10T13:57,Emergency Department,Dizziness,2,Discharged,,2026-09-10T19:37
+E01140,P0055,2026-09-25T14:19,Emergency Department,Shortness of breath,4,Discharged,,2026-09-25T16:56
+E01141,P0051,2026-08-16T16:43,Emergency Department,Fever,3,Discharged,,2026-08-16T20:31
+E01142,P0114,2026-07-26T14:02,Emergency Department,Vomiting,4,Discharged,,2026-07-26T22:32
+E01143,P0383,2026-08-18T18:13,Emergency Department,Vomiting,4,Discharged,,2026-08-18T19:28
+E01144,P0286,2026-08-01T18:55,Emergency Department,Palpitations,2,Discharged,,2026-08-01T23:20
+E01145,P0353,2026-09-19T13:46,Emergency Department,Palpitations,3,Discharged,,2026-09-19T22:49
+E01146,P0114,2026-08-07T14:12,Emergency Department,Back pain,3,Admitted,2026-08-07T17:21,2026-08-08T21:33
+E01147,P0192,2026-07-26T10:33,Emergency Department,Dizziness,5,Discharged,,2026-07-26T18:18
+E01148,P0238,2026-07-24T18:43,Emergency Department,Weakness,3,Discharged,,2026-07-24T20:09
+E01149,P0302,2026-08-24T11:04,Emergency Department,Minor injury,4,Discharged,,2026-08-24T15:56
+E01150,P0257,2026-09-03T15:16,Emergency Department,Abdominal pain,4,Discharged,,2026-09-03T23:12
+E01151,P0177,2026-09-02T19:24,Emergency Department,Shortness of breath,5,Discharged,,2026-09-02T20:36
+E01152,P0248,2026-08-20T19:47,Emergency Department,Chest pain,4,Admitted,2026-08-21T03:03,2026-08-22T18:23
+E01153,P0152,2026-09-19T09:18,Emergency Department,Dizziness,4,Discharged,,2026-09-19T15:17
+E01154,P0472,2026-09-09T21:54,Emergency Department,Chest pain,1,Admitted,2026-09-10T00:05,2026-09-14T08:52
+E01155,P0060,2026-07-21T17:17,Emergency Department,Minor injury,4,Discharged,,2026-07-21T18:41
+E01156,P0073,2026-07-27T10:21,Emergency Department,Headache,5,Discharged,,2026-07-27T21:17
+E01157,P0160,2026-09-13T13:59,Emergency Department,Headache,1,Admitted,2026-09-13T15:55,2026-09-18T00:59
+E01158,P0234,2026-07-18T09:53,Emergency Department,Fall,4,Discharged,,2026-07-18T14:33
+E01159,P0267,2026-09-16T10:20,Emergency Department,Back pain,3,Discharged,,2026-09-16T16:55
+E01160,P0179,2026-09-17T17:59,Emergency Department,Back pain,3,Discharged,,2026-09-17T20:57
+E01161,P0050,2026-07-13T23:30,Emergency Department,Back pain,3,Admitted,2026-07-14T05:31,2026-07-23T07:30
+E01162,P0370,2026-08-02T15:20,Emergency Department,Minor injury,1,Admitted,2026-08-03T04:46,2026-08-05T01:39
+E01163,P0232,2026-08-01T14:13,Emergency Department,Headache,4,Discharged,,2026-08-01T16:03
+E01164,P0035,2026-09-07T12:23,Emergency Department,Fever,3,Admitted,2026-09-07T21:19,2026-09-09T05:47
+E01165,P0023,2026-08-10T06:46,Emergency Department,Minor injury,5,Discharged,,2026-08-10T11:37
+E01166,P0059,2026-08-12T18:32,Emergency Department,Shortness of breath,3,Discharged,,2026-08-12T22:57
+E01167,P0435,2026-07-24T11:33,Emergency Department,Headache,3,Discharged,,2026-07-25T03:33
+E01168,P0332,2026-07-12T13:40,Emergency Department,Chest pain,4,Discharged,,2026-07-12T15:03
+E01169,P0347,2026-09-19T18:47,Emergency Department,Abdominal pain,3,Discharged,,2026-09-20T01:26
+E01170,P0477,2026-08-19T09:06,Emergency Department,Minor injury,3,Discharged,,2026-08-19T11:36
+E01171,P0125,2026-09-24T16:31,Emergency Department,Vomiting,3,Discharged,,2026-09-24T21:59
+E01172,P0090,2026-08-07T12:45,Emergency Department,Vomiting,3,Discharged,,2026-08-07T18:10
+E01173,P0082,2026-08-17T20:40,Emergency Department,Headache,3,Discharged,,2026-08-18T02:12
+E01174,P0287,2026-07-18T16:03,Emergency Department,Dizziness,1,Discharged,,2026-07-18T19:14
+E01175,P0491,2026-08-27T06:30,Emergency Department,Back pain,4,Discharged,,2026-08-27T09:47
+E01176,P0119,2026-09-28T13:38,Emergency Department,Dizziness,3,Admitted,2026-09-28T18:17,2026-09-30T20:07
+E01177,P0323,2026-09-28T04:28,Emergency Department,Abdominal pain,5,Discharged,,2026-09-28T10:12
+E01178,P0096,2026-07-05T14:25,Emergency Department,Weakness,3,Discharged,,2026-07-05T16:38
+E01179,P0337,2026-08-07T08:25,Emergency Department,Dizziness,5,Discharged,,2026-08-07T11:43
+E01180,P0203,2026-09-07T17:17,Emergency Department,Shortness of breath,2,Discharged,,2026-09-08T01:36
+E01181,P0378,2026-08-18T10:22,Emergency Department,Palpitations,3,Discharged,,2026-08-18T13:46
+E01182,P0453,2026-09-21T10:05,Emergency Department,Fall,4,Discharged,,2026-09-21T14:16
+E01183,P0231,2026-07-27T06:11,Emergency Department,Palpitations,2,Discharged,,2026-07-27T12:16
+E01184,P0220,2026-09-07T05:37,Emergency Department,Dizziness,2,Admitted,2026-09-07T19:58,2026-09-09T03:09
+E01185,P0003,2026-09-24T17:11,Emergency Department,Minor injury,4,Discharged,,2026-09-24T18:34
+E01186,P0110,2026-08-30T15:50,Emergency Department,Fall,4,Discharged,,2026-08-30T21:17
+E01187,P0143,2026-09-19T21:53,Emergency Department,Minor injury,5,Discharged,,2026-09-20T01:00
+E01188,P0415,2026-09-18T14:38,Emergency Department,Chest pain,5,Discharged,,2026-09-18T19:04
+E01189,P0296,2026-09-01T18:27,Emergency Department,Chest pain,4,Discharged,,2026-09-02T07:29
+E01190,P0410,2026-07-21T16:41,Emergency Department,Vomiting,3,Discharged,,2026-07-22T00:27
+E01191,P0096,2026-09-09T17:36,Emergency Department,Headache,2,Discharged,,2026-09-10T00:08
+E01192,P0167,2026-08-18T17:46,Emergency Department,Fall,2,Admitted,2026-08-18T21:33,2026-08-20T19:45
+E01193,P0235,2026-08-01T21:39,Emergency Department,Chest pain,1,Discharged,,2026-08-02T02:03
+E01194,P0135,2026-09-04T12:57,Emergency Department,Weakness,4,Discharged,,2026-09-04T22:44
+E01195,P0442,2026-09-13T13:20,Emergency Department,Back pain,4,Discharged,,2026-09-13T21:43
+E01196,P0271,2026-07-07T17:31,Emergency Department,Weakness,2,Admitted,2026-07-07T20:38,2026-07-12T16:15
+E01197,P0161,2026-07-27T12:35,Emergency Department,Palpitations,3,Discharged,,2026-07-27T16:02
+E01198,P0199,2026-07-20T17:55,Emergency Department,Palpitations,2,Discharged,,2026-07-20T22:17
+E01199,P0201,2026-09-21T10:48,Emergency Department,Palpitations,4,Discharged,,2026-09-21T17:45
+E01200,P0059,2026-08-30T13:37,Emergency Department,Headache,4,Discharged,,2026-08-30T22:25
